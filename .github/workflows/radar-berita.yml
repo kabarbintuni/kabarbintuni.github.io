@@ -1,0 +1,58 @@
+name: Radar Bank Berita Kabar Bintuni
+
+on:
+  schedule:
+    # Pagi 06.00 WIT = 21:00 UTC (sebelum jam tayang puncak pagi 06.30-07.30 WIT)
+    - cron: '0 21 * * *'
+    # Sore 17.30 WIT = 08:30 UTC (sebelum jam tayang puncak malam 18.30-20.00 WIT)
+    - cron: '30 8 * * *'
+  workflow_dispatch:
+
+# Prinsip hak akses minimal: tutup semua izin di level atas
+permissions: {}
+
+concurrency:
+  group: radar-bank-berita
+  cancel-in-progress: false
+
+jobs:
+  update-bank-berita:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repositori
+        uses: actions/checkout@v4
+
+      - name: Siapkan Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Jalankan Radar Berita Kabar Bintuni
+        run: python3 scripts/radar_berita.py
+
+      - name: Validasi integritas JSON sebelum commit
+        run: |
+          python3 -c "
+          import json, pathlib
+          d = json.loads(pathlib.Path('bank-berita/data/bank-berita.json').read_text(encoding='utf-8'))
+          assert isinstance(d.get('items'), list) and len(d['items']) > 0, 'Data berita kosong'
+          for it in d['items']:
+              assert it['link'].startswith(('https://', 'http://')), 'URL tidak aman'
+          print('VALIDASI KEAMANAN JSON OK:', len(d['items']), 'berita')
+          "
+
+      - name: Simpan hasil Bank Berita jika ada perubahan
+        run: |
+          git config user.name "Kaka Kabar Bot"
+          git config user.email "kabarbintuni@gmail.com"
+          git add bank-berita/data/bank-berita.json bank-berita/data/RINGKASAN-HARIAN.md
+          if git diff --cached --quiet; then
+            echo "Tidak ada perubahan data berita."
+          else
+            STAMP=$(TZ="Asia/Jayapura" date "+%Y-%m-%d %H:%M WIT")
+            git commit -m "chore(radar): perbarui Bank Berita Kabar Bintuni ($STAMP)"
+            git push
+          fi

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /bank-berita/
+Disallow: /editor/
+Disallow: /scripts/

@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'none';">
+<meta name="theme-color" content="#FED132">
+<title>Bank Berita &amp; Radar Redaksi — Kabar Bintuni</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Rubik:wght@600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --yellow: #FED132;
+    --yellow-soft: #FFF6CC;
+    --green: #158F5C;
+    --green-dark: #0F6E46;
+    --cyan: #22B7CF;
+    --mint: #95E5E3;
+    --orange: #F97316;
+    --red: #E11D48;
+    --ink: #1E1B18;
+    --cream: #FFFDF5;
+    --muted: #57534E;
+    --border: 3px solid var(--ink);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  html, body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--yellow-soft);
+    background-image: radial-gradient(rgba(30,27,24,0.08) 1.5px, transparent 1.5px);
+    background-size: 22px 22px;
+    color: var(--ink);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Header Bar */
+  .topbar {
+    background: var(--yellow);
+    border-bottom: 3px solid var(--ink);
+    padding: 12px 18px;
+    position: sticky;
+    top: 0;
+    z-index: 40;
+  }
+  .topbar-inner {
+    max-width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .brand-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .brand-head img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2.5px solid var(--ink);
+    background: #fff;
+    flex-shrink: 0;
+  }
+  .brand-head h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.15;
+  }
+  .brand-head span {
+    display: block;
+    font-size: 11.5px;
+    font-weight: 700;
+    color: #36302A;
+  }
+  .top-actions {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .nav-pill {
+    font-family: 'Rubik', sans-serif;
+    background: var(--cream);
+    color: var(--ink);
+    border: 2.5px solid var(--ink);
+    box-shadow: 3px 3px 0 var(--ink);
+    border-radius: 999px;
+    padding: 7px 14px;
+    font-size: 12px;
+    font-weight: 800;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: transform 0.1s;
+  }
+  .nav-pill.primary { background: var(--green); color: #FFFDF5; }
+  .nav-pill:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--ink); }
+
+  /* Container */
+  .wrap {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 20px 16px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  /* Summary KPI Strip */
+  .kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+  }
+  .kpi {
+    background: var(--cream);
+    border: var(--border);
+    box-shadow: 5px 5px 0 var(--ink);
+    border-radius: 16px;
+    padding: 13px 14px;
+  }
+  .kpi.k-green { background: var(--green); color: #FFFDF5; }
+  .kpi.k-mint { background: #E3F9FC; }
+  .kpi.k-yellow { background: var(--yellow); }
+  .kpi.k-red { background: #FFE4E6; }
+  .kpi .k-num {
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.1;
+  }
+  .kpi.k-green .k-num { color: var(--yellow); }
+  .kpi .k-lbl {
+    font-size: 11.5px;
+    font-weight: 800;
+    margin-top: 3px;
+    opacity: 0.92;
+  }
+
+  /* Panel */
+  .panel {
+    background: var(--cream);
+    border: var(--border);
+    box-shadow: 6px 6px 0 var(--ink);
+    border-radius: 20px;
+    padding: 18px;
+  }
+  .panel-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+  }
+  .sec-badge {
+    font-family: 'Rubik', sans-serif;
+    font-size: 11.5px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    background: var(--ink);
+    color: var(--yellow);
+    padding: 5px 11px;
+    border-radius: 8px;
+    display: inline-block;
+  }
+  .meta-stamp {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--muted);
+  }
+
+  /* Social Watchlist + Quick Paste */
+  .social-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+  .sw-card {
+    background: #FFF9E6;
+    border: 2.5px solid var(--ink);
+    box-shadow: 4px 4px 0 var(--ink);
+    border-radius: 14px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  .sw-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+  }
+  .sw-plat {
+    font-family: 'Rubik', sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 999px;
+    border: 2px solid var(--ink);
+    background: #FFF0E5;
+  }
+  .sw-plat.fb { background: #DBEAFE; }
+  .sw-card strong {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    display: block;
+    margin-top: 4px;
+  }
+  .sw-card p {
+    font-size: 11.5px;
+    font-weight: 600;
+    color: var(--muted);
+    line-height: 1.4;
+  }
+  .sw-links {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .sw-btn {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 11.5px;
+    font-weight: 800;
+    padding: 7px 9px;
+    border-radius: 10px;
+    border: 2px solid var(--ink);
+    background: #fff;
+    color: var(--ink);
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .sw-btn.green { background: var(--green); color: #FFFDF5; }
+
+  /* Quick Paste Box */
+  details.paste-box {
+    border: 2.5px solid var(--ink);
+    border-radius: 14px;
+    background: #E3F9FC;
+    overflow: hidden;
+  }
+  details.paste-box summary {
+    padding: 12px 15px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13.5px;
+    font-weight: 800;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  details.paste-box summary::-webkit-details-marker { display: none; }
+  .paste-body {
+    padding: 12px 15px 15px;
+    border-top: 2px dashed rgba(30,27,24,0.22);
+    background: var(--cream);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .paste-full { grid-column: 1 / -1; }
+  label.lbl {
+    display: block;
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  input[type="text"], input[type="search"], select, textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 2.5px solid var(--ink);
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    background: #fff;
+    color: var(--ink);
+    outline: none;
+  }
+  textarea { min-height: 92px; resize: vertical; line-height: 1.45; }
+
+  /* Filter Toolbar */
+  .toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+  }
+  .tab-btn {
+    font-family: 'Rubik', sans-serif;
+    border: 2.5px solid var(--ink);
+    border-radius: 999px;
+    padding: 7px 13px;
+    font-size: 12px;
+    font-weight: 800;
+    background: #fff;
+    color: var(--ink);
+    cursor: pointer;
+    transition: transform 0.1s;
+  }
+  .tab-btn.active {
+    background: var(--ink);
+    color: var(--yellow);
+    box-shadow: 3px 3px 0 var(--green);
+    transform: translate(-1px, -1px);
+  }
+  .filter-right {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .filter-right input[type="search"] { width: 220px; padding: 8px 12px; font-size: 13px; }
+  .filter-right select { width: auto; padding: 8px 10px; font-size: 13px; }
+
+  /* News Cards Grid */
+  .news-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  .ncard {
+    background: var(--cream);
+    border: var(--border);
+    box-shadow: 6px 6px 0 var(--ink);
+    border-radius: 18px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 11px;
+    position: relative;
+  }
+  .ncard.used {
+    opacity: 0.72;
+    background: #F5F5F4;
+  }
+  .ncard-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+  }
+  .badge-group { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .pill {
+    font-family: 'Rubik', sans-serif;
+    font-size: 10.5px;
+    font-weight: 800;
+    padding: 4px 9px;
+    border-radius: 999px;
+    border: 2px solid var(--ink);
+    white-space: nowrap;
+  }
+  .pill-wilayah { background: #FFF6CC; color: var(--ink); }
+  .pill-tier1 { background: #DCFCE7; color: #14532D; }
+  .pill-tier2 { background: #E0F2FE; color: #075985; }
+  .pill-tier3 { background: #FEF3C7; color: #92400E; }
+  .score-box {
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    background: var(--ink);
+    color: var(--yellow);
+    padding: 4px 10px;
+    border-radius: 10px;
+    white-space: nowrap;
+  }
+  .ncard h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16.5px;
+    font-weight: 800;
+    line-height: 1.3;
+    color: var(--ink);
+  }
+  .ncard p.sub {
+    font-size: 13px;
+    font-weight: 600;
+    color: #44403C;
+    line-height: 1.45;
+  }
+  .meta-line {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--muted);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+  }
+  .rec-strip {
+    background: #FFF9E6;
+    border: 2px dashed var(--ink);
+    border-radius: 12px;
+    padding: 8px 10px;
+    font-size: 11.5px;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  .rec-strip strong { color: var(--green-dark); }
+  .action-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 7px;
+  }
+  .act-btn {
+    font-family: 'Rubik', sans-serif;
+    font-size: 11.5px;
+    font-weight: 800;
+    padding: 9px 8px;
+    border-radius: 11px;
+    border: 2.5px solid var(--ink);
+    box-shadow: 3px 3px 0 var(--ink);
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: var(--ink);
+    background: #fff;
+    transition: transform 0.1s;
+  }
+  .act-btn:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--ink); }
+  .act-btn.b-green { background: var(--green); color: #FFFDF5; }
+  .act-btn.b-yellow { background: var(--yellow); color: var(--ink); }
+  .act-btn.b-cyan { background: var(--cyan); color: var(--ink); }
+  .action-sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    padding-top: 4px;
+    border-top: 2px dashed #E5E0D5;
+  }
+  .mini-link {
+    font-size: 11.5px;
+    font-weight: 800;
+    color: var(--ink);
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 2px 0;
+  }
+
+  /* Blocked Audit List */
+  .audit-item {
+    background: #FFF1F2;
+    border: 2px solid var(--ink);
+    border-radius: 12px;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+    font-size: 12.5px;
+  }
+  .audit-reason {
+    display: inline-block;
+    background: var(--red);
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 10.5px;
+    font-weight: 800;
+    padding: 2px 8px;
+    border-radius: 999px;
+    margin-right: 6px;
+  }
+
+  .empty-state {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 36px 20px;
+    background: var(--cream);
+    border: var(--border);
+    border-radius: 18px;
+    font-weight: 700;
+  }
+
+  .toast {
+    position: fixed;
+    left: 50%;
+    bottom: 22px;
+    transform: translateX(-50%) translateY(90px);
+    background: var(--ink);
+    color: var(--yellow);
+    border: 2.5px solid var(--yellow);
+    border-radius: 999px;
+    padding: 10px 18px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    z-index: 200;
+    transition: transform 0.22s ease;
+    max-width: 92vw;
+    text-align: center;
+  }
+  .toast.show { transform: translateX(-50%) translateY(0); }
+
+  @media (max-width: 960px) {
+    .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+    .social-grid { grid-template-columns: repeat(2, 1fr); }
+    .news-grid { grid-template-columns: 1fr; }
+    .paste-body { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 560px) {
+    .social-grid { grid-template-columns: 1fr; }
+    .action-row { grid-template-columns: 1fr; }
+    .filter-right input[type="search"] { width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand-head">
+      <img src="../logo.png" alt="Logo Kabar Bintuni" onerror="this.style.display='none'">
+      <div>
+        <h1>Bank Berita &amp; Radar Redaksi</h1>
+        <span>Kabar Bintuni • Auto-Update 06.00 &amp; 17.30 WIT • Siap 1-Klik ke Editor</span>
+      </div>
+    </div>
+    <div class="top-actions">
+      <a class="nav-pill primary" href="../editor/">🎨 Buka Editor Template</a>
+      <a class="nav-pill" href="https://github.com/kabarbintuni/kabarbintuni.github.io/actions/workflows/radar-berita.yml" target="_blank" rel="noopener">⚡ Tarik Berita Sekarang</a>
+      <a class="nav-pill" href="../">🔗 Link Bio</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- KPI Strip -->
+  <section class="kpi-grid" aria-label="Ringkasan Radar Berita">
+    <div class="kpi k-green">
+      <div class="k-num" id="kpiTotal">—</div>
+      <div class="k-lbl">Berita Layak Siap Olah</div>
+    </div>
+    <div class="kpi k-yellow">
+      <div class="k-num" id="kpiBintuni">—</div>
+      <div class="k-lbl">Teluk Bintuni (Target 60%)</div>
+    </div>
+    <div class="kpi k-mint">
+      <div class="k-num" id="kpiPabar">—</div>
+      <div class="k-lbl">Papua Barat &amp; PBD (25%)</div>
+    </div>
+    <div class="kpi">
+      <div class="k-num" id="kpiPapua">—</div>
+      <div class="k-lbl">Papua Positif (15%)</div>
+    </div>
+    <div class="kpi k-red">
+      <div class="k-num" id="kpiBlocked">—</div>
+      <div class="k-lbl">Sensitif / Politik Diblokir</div>
+    </div>
+  </section>
+
+  <!-- Panel Pantau Cepat IG & Facebook Lokal + Paste Parser -->
+  <section class="panel" aria-label="Pantau Akun IG dan Facebook Lokal">
+    <div class="panel-head">
+      <span class="sec-badge">📡 Pantau Cepat IG &amp; Facebook Lokal Pilihan Redaksi</span>
+      <span class="meta-stamp">IG &amp; FB dibatasi anti-bot → pantau 1-klik lalu tempel teksnya di bawah</span>
+    </div>
+
+    <div class="social-grid" id="socialGrid"></div>
+
+    <details class="paste-box" id="pasteBox">
+      <summary>✨ Tempel Info dari IG / Facebook / WA Warga → Auto-Rapikan ke Kartu Berita 1-Klik ▾</summary>
+      <div class="paste-body">
+        <div>
+          <label class="lbl" for="pasteSource">Pilih Sumber Asli</label>
+          <select id="pasteSource">
+            <option value="@explorebintuni|EVENT &amp; WARGA|Teluk Bintuni, Papua Barat">IG @explorebintuni (Explore Bintuni)</option>
+            <option value="@bps_telukbintuni|BEDAH FAKTA|Teluk Bintuni, Papua Barat">IG @bps_telukbintuni (BPS Teluk Bintuni)</option>
+            <option value="@info.pabar.pbd|KABAR TERKINI|Papua Barat &amp; PBD">IG @info.pabar.pbd (Info Pabar &amp; PBD)</option>
+            <option value="DisTransnaker Kab. Teluk Bintuni|KULINER &amp; UMKM|Bintuni Kota, Papua Barat">FB DisTransnaker Kab. Teluk Bintuni (Loker/Pelatihan)</option>
+            <option value="Laporan Warga / Redaksi|KABAR TERKINI|Bintuni Kota, Papua Barat">WA Warga / Liputan Sendiri</option>
+          </select>
+        </div>
+        <div>
+          <label class="lbl" for="pasteMode">Tujuan Format Editor</label>
+          <select id="pasteMode">
+            <option value="4x5">Kartu Berita Feed IG 4:5</option>
+            <option value="story">IG Story 9:16</option>
+            <option value="9x16">Video Cepat Reels / TikTok 9:16</option>
+          </select>
+        </div>
+        <div class="paste-full">
+          <label class="lbl" for="pasteText">Tempel Caption / Pengumuman / Info Loker Mentah di Sini</label>
+          <textarea id="pasteText" placeholder="Contoh: LOWONGAN KERJA! DisTransnaker Kab. Teluk Bintuni membuka pendaftaran pelatihan operator alat berat untuk warga OAP &amp; lokal Bintuni hingga 30 November 2026 di Kantor DisTransnaker SP5..."></textarea>
+        </div>
+        <div class="paste-full" style="display:flex; gap:10px; flex-wrap:wrap;">
+          <button type="button" class="act-btn b-green" id="pasteGoBtn" style="flex:2; padding:12px;">✨ Rapikan &amp; Buka di Editor Template</button>
+          <button type="button" class="act-btn b-yellow" id="pasteCopyCaptionBtn" style="flex:1; padding:12px;">📋 Salin Caption SEO</button>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- Filter & Daftar Bank Berita -->
+  <section class="panel" aria-label="Filter Bank Berita">
+    <div class="panel-head">
+      <span class="sec-badge">🗂️ Bank Berita Terkurasi (Siap Edit)</span>
+      <span class="meta-stamp" id="updatedStamp">Memuat data bank-berita.json...</span>
+    </div>
+
+    <div class="toolbar">
+      <div class="tabs" id="wilayahTabs">
+        <button type="button" class="tab-btn active" data-wilayah="all">Semua</button>
+        <button type="button" class="tab-btn" data-wilayah="bintuni">📍 Teluk Bintuni</button>
+        <button type="button" class="tab-btn" data-wilayah="papua_barat">🗺️ Papua Barat &amp; PBD</button>
+        <button type="button" class="tab-btn" data-wilayah="papua">🌴 Papua Positif</button>
+        <button type="button" class="tab-btn" data-wilayah="blocked">🛡️ Audit Diblokir</button>
+      </div>
+      <div class="filter-right">
+        <select id="catFilter" aria-label="Filter kategori">
+          <option value="all">Semua Kategori</option>
+          <option value="0">Kabar Terkini</option>
+          <option value="1">Breaking News</option>
+          <option value="2">Kuliner &amp; UMKM / Loker</option>
+          <option value="3">Bedah Fakta</option>
+          <option value="4">Event &amp; Warga</option>
+        </select>
+        <input type="search" id="searchInput" placeholder="Cari topik (bbm, loker, bps...)">
+      </div>
+    </div>
+  </section>
+
+  <!-- Container Kartu Berita -->
+  <section class="news-grid" id="newsGrid" aria-live="polite"></section>
+</main>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function() {
+  'use strict';
+
+  const CAT_STYLES = [
+    { label: 'KABAR TERKINI', bg: '#158F5C', fg: '#FFFDF5' },
+    { label: 'BREAKING NEWS', bg: '#E11D48', fg: '#FFFDF5' },
+    { label: 'KULINER & UMKM', bg: '#FED132', fg: '#1E1B18' },
+    { label: 'BEDAH FAKTA', bg: '#22B7CF', fg: '#1E1B18' },
+    { label: 'EVENT & WARGA', bg: '#F97316', fg: '#FFFDF5' }
+  ];
+
+  const HANDOFF_KEY = 'kb_editor_handoff_v1';
+  const USED_KEY = 'kb_bank_used_ids_v1';
+
+  let bankData = null;
+  let activeWilayah = 'all';
+  let usedIds = new Set();
+  let toastTimer = null;
+
+  try {
+    const rawUsed = JSON.parse(localStorage.getItem(USED_KEY) || '[]');
+    if (Array.isArray(rawUsed)) usedIds = new Set(rawUsed);
+  } catch (_) {}
+
+  const el = id => document.getElementById(id);
+
+  function showToast(msg) {
+    const t = el('toast');
+    t.textContent = msg;
+    t.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => t.classList.remove('show'), 2800);
+  }
+
+  function escHtml(str) {
+    return String(str || '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
+  function safeUrl(raw) {
+    try {
+      const u = new URL(String(raw || ''));
+      if (u.protocol === 'https:' || u.protocol === 'http:') return u.href;
+    } catch (_) {}
+    return '#';
+  }
+
+  function saveUsed() {
+    try { localStorage.setItem(USED_KEY, JSON.stringify(Array.from(usedIds).slice(-200))); } catch (_) {}
+  }
+
+  function copyText(text, label) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(
+        () => showToast('✅ ' + label + ' disalin!'),
+        () => fallbackCopy(text, label)
+      );
+    } else {
+      fallbackCopy(text, label);
+    }
+  }
+
+  function fallbackCopy(text, label) {
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    try { document.execCommand('copy'); showToast('✅ ' + label + ' disalin!'); }
+    catch (_) { showToast('Gagal menyalin otomatis.'); }
+    document.body.removeChild(ta);
+  }
+
+  function sendToEditor(payload, mode) {
+    const data = Object.assign({}, payload, { format: mode || '4x5', ts: Date.now() });
+    try { localStorage.setItem(HANDOFF_KEY, JSON.stringify(data)); } catch (_) {}
+    if (payload.id) {
+      usedIds.add(payload.id);
+      saveUsed();
+    }
+    const url = '../editor/?from=bank&mode=' + encodeURIComponent(mode || '4x5');
+    window.location.href = url;
+  }
+
+  function renderWatchlist(list) {
+    const grid = el('socialGrid');
+    grid.innerHTML = (list || []).map(sw => {
+      const isFb = sw.platform.toLowerCase().includes('face');
+      return `
+        <div class="sw-card">
+          <div>
+            <div class="sw-top">
+              <span class="sw-plat ${isFb ? 'fb' : ''}">${escHtml(sw.platform)}</span>
+              <span style="font-size:11px;font-weight:800;color:#57534E;">${escHtml(sw.handle)}</span>
+            </div>
+            <strong>${escHtml(sw.nama)}</strong>
+            <p>${escHtml(sw.fokus)}</p>
+          </div>
+          <div class="sw-links">
+            <a class="sw-btn green" href="${escHtml(safeUrl(sw.url))}" target="_blank" rel="noopener noreferrer">↗ Buka Akun</a>
+            ${sw.web_resmi ? `<a class="sw-btn" href="${escHtml(safeUrl(sw.web_resmi))}" target="_blank" rel="noopener noreferrer">🌐 Web Resmi</a>` : ''}
+          </div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  function renderNews() {
+    const grid = el('newsGrid');
+    if (!bankData) {
+      grid.innerHTML = '<div class="empty-state">⏳ Sedang memuat data bank berita...</div>';
+      return;
+    }
+
+    if (activeWilayah === 'blocked') {
+      const list = bankData.blocked_audit || [];
+      if (!list.length) {
+        grid.innerHTML = '<div class="empty-state">✅ Tidak ada berita sensitif yang diblokir pada pembaruan terakhir.</div>';
+        return;
+      }
+      grid.innerHTML = `<div class="panel paste-full" style="grid-column:1/-1;">
+        <div class="panel-head">
+          <span class="sec-badge" style="background:#E11D48;color:#fff;">🛡️ Audit Saringan Red-Flag Otomatis (${list.length} Ditahan)</span>
+          <span class="meta-stamp">Berita di bawah otomatis tidak masuk antrean tayang demi menjaga keamanan akun &amp; klien</span>
+        </div>
+        ${list.map(b => `
+          <div class="audit-item">
+            <span class="audit-reason">${escHtml(b.alasan_blokir)}</span>
+            <strong>${escHtml(b.title)}</strong>
+            <div style="margin-top:4px;font-size:11.5px;color:#57534E;">
+              Sumber: ${escHtml(b.source)} · ${escHtml(b.tanggal_wit)} ·
+              <a href="${escHtml(safeUrl(b.link))}" target="_blank" rel="noopener noreferrer" style="color:#1E1B18;font-weight:800;">Lihat tautan asli</a>
+            </div>
+          </div>
+        `).join('')}
+      </div>`;
+      return;
+    }
+
+    const q = (el('searchInput').value || '').trim().toLowerCase();
+    const catVal = el('catFilter').value;
+
+    const filtered = (bankData.items || []).filter(it => {
+      if (activeWilayah !== 'all' && it.wilayah !== activeWilayah) return false;
+      if (catVal !== 'all' && String(it.cat_idx) !== catVal) return false;
+      if (q) {
+        const hay = `${it.title} ${it.subline} ${it.lokasi} ${it.sumber_display} ${it.cat_label}`.toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      return true;
+    });
+
+    if (!filtered.length) {
+      grid.innerHTML = '<div class="empty-state">Tidak ada berita yang cocok dengan filter saat ini. Coba ganti kategori atau kata kunci.</div>';
+      return;
+    }
+
+    grid.innerHTML = filtered.map(it => {
+      const cs = CAT_STYLES[it.cat_idx] || CAT_STYLES[0];
+      const tierCls = it.tier === 1 ? 'pill-tier1' : (it.tier === 2 ? 'pill-tier2' : 'pill-tier3');
+      const isUsed = usedIds.has(it.id);
+      return `
+        <article class="ncard ${isUsed ? 'used' : ''}" data-id="${escHtml(it.id)}">
+          <div>
+            <div class="ncard-top">
+              <div class="badge-group">
+                <span class="pill" style="background:${cs.bg};color:${cs.fg};">${escHtml(it.cat_label)}</span>
+                <span class="pill pill-wilayah">${escHtml(it.wilayah_label)}</span>
+                <span class="pill ${tierCls}">${escHtml(it.verifikasi_label)}</span>
+              </div>
+              <span class="score-box">Skor ${it.score}</span>
+            </div>
+
+            <h3 style="margin-top:10px;">${escHtml(it.title)}</h3>
+            <p class="sub" style="margin-top:6px;">${escHtml(it.subline)}</p>
+
+            <div class="meta-line" style="margin-top:9px;">
+              <span>📍 ${escHtml(it.lokasi)}</span>
+              <span>📰 ${escHtml(it.sumber_display)}</span>
+              <span>🗓️ ${escHtml(it.tanggal_wit)}</span>
+            </div>
+
+            <div class="rec-strip" style="margin-top:10px;">
+              <strong>Saran Format: ${escHtml(it.rekomendasi_format.label)}</strong> — ${escHtml(it.rekomendasi_format.catatan)}
+            </div>
+          </div>
+
+          <div>
+            <div class="action-row">
+              <button type="button" class="act-btn b-green js-edit" data-id="${escHtml(it.id)}" data-mode="4x5">🎨 Feed IG 4:5</button>
+              <button type="button" class="act-btn b-yellow js-edit" data-id="${escHtml(it.id)}" data-mode="story">📱 IG Story</button>
+              <button type="button" class="act-btn b-cyan js-edit" data-id="${escHtml(it.id)}" data-mode="9x16">🎬 Video 9:16</button>
+            </div>
+
+            <div class="action-sub" style="margin-top:9px;">
+              <button type="button" class="mini-link js-copy" data-id="${escHtml(it.id)}">📋 Salin Caption SEO</button>
+              <a class="mini-link" href="${escHtml(safeUrl(it.link))}" target="_blank" rel="noopener noreferrer">🔗 Cek Sumber Asli</a>
+              <button type="button" class="mini-link js-toggle-used" data-id="${escHtml(it.id)}">${isUsed ? '↩️ Tandai Belum Dipakai' : '✅ Tandai Sudah Dipakai'}</button>
+            </div>
+          </div>
+        </article>
+      `;
+    }).join('');
+  }
+
+  // Event delegation untuk tombol di kartu berita
+  el('newsGrid').addEventListener('click', e => {
+    const btnEdit = e.target.closest('.js-edit');
+    if (btnEdit && bankData) {
+      const it = bankData.items.find(x => x.id === btnEdit.dataset.id);
+      if (!it) return;
+      sendToEditor({
+        id: it.id,
+        catIdx: it.cat_idx,
+        headline: it.card_headline,
+        subline: it.subline,
+        lokasi: it.lokasi,
+        sumber: it.sumber_utama,
+        tanggal: it.tanggal_wit,
+        caption: it.caption_seo,
+        useGraphicBg: true
+      }, btnEdit.dataset.mode);
+      return;
+    }
+
+    const btnCopy = e.target.closest('.js-copy');
+    if (btnCopy && bankData) {
+      const it = bankData.items.find(x => x.id === btnCopy.dataset.id);
+      if (it) copyText(it.caption_seo, 'Caption SEO + 5 Tagar');
+      return;
+    }
+
+    const btnUsed = e.target.closest('.js-toggle-used');
+    if (btnUsed) {
+      const id = btnUsed.dataset.id;
+      if (usedIds.has(id)) usedIds.delete(id); else usedIds.add(id);
+      saveUsed();
+      renderNews();
+    }
+  });
+
+  // Tab filter wilayah
+  el('wilayahTabs').addEventListener('click', e => {
+    const b = e.target.closest('.tab-btn');
+    if (!b) return;
+    activeWilayah = b.dataset.wilayah;
+    el('wilayahTabs').querySelectorAll('.tab-btn').forEach(x => x.classList.toggle('active', x === b));
+    renderNews();
+  });
+  el('catFilter').addEventListener('change', renderNews);
+  el('searchInput').addEventListener('input', renderNews);
+
+  // Quick Paste Parser untuk IG / Facebook / WA Warga
+  function parseManualSocialText() {
+    const raw = (el('pasteText').value || '').trim();
+    if (!raw) {
+      showToast('Tempel dulu teks info dari IG / FB / WA di kotak!');
+      return null;
+    }
+    const [srcName, defCatLabel, defLoc] = el('pasteSource').value.split('|');
+    const cleanLines = raw
+      .replace(/#\S+/g, '')
+      .split(/\r?\n+/)
+      .map(s => s.trim())
+      .filter(Boolean);
+
+    let firstLine = cleanLines[0] || raw;
+    if (firstLine.length > 96) {
+      firstLine = firstLine.slice(0, 92).replace(/\s+\S*$/, '') + '…';
+    }
+    let secondLine = cleanLines.slice(1).join(' ').trim();
+    if (!secondLine && raw.length > firstLine.length + 10) {
+      secondLine = raw.slice(firstLine.length).trim();
+    }
+    if (secondLine.length > 120) {
+      secondLine = secondLine.slice(0, 116).replace(/\s+\S*$/, '') + '…';
+    }
+
+    // Deteksi kategori otomatis dari teks
+    const low = raw.toLowerCase();
+    let catIdx = CAT_STYLES.findIndex(c => c.label === defCatLabel);
+    if (catIdx < 0) catIdx = 0;
+    let tagarTopik = '#infobintuni';
+    if (/(bmkg|hujan lebat|banjir|longsor|darurat|padam)/.test(low)) { catIdx = 1; tagarTopik = '#cuacabintuni'; }
+    else if (/(loker|lowongan|rekrutmen|pelatihan|ak-1|umkm|kuliner|promo)/.test(low)) { catIdx = 2; tagarTopik = '#lokerbintuni'; }
+    else if (/(bps|inflasi|statistik|persen|data|survei)/.test(low)) { catIdx = 3; tagarTopik = '#databintuni'; }
+    else if (/(wisata|festival|lomba|event|turnamen|explore)/.test(low)) { catIdx = 4; tagarTopik = '#eventbintuni'; }
+
+    // Highlight kata kunci di judul
+    let headline = firstLine.replace(/\*/g, '');
+    const hlMatch = headline.match(/\b(Teluk Bintuni|Papua Barat Daya|Papua Barat|Bintuni|DisTransnaker|BPS|Lowongan Kerja|Loker|Pelatihan)\b/i);
+    if (hlMatch) {
+      headline = headline.replace(hlMatch[0], '*' + hlMatch[0] + '*');
+    }
+
+    const now = new Date();
+    const bln = ['Jan','Feb','Mar','Apr','Mei','Jun','Jul','Agu','Sep','Okt','Nov','Des'];
+    const tanggal = `${now.getDate()} ${bln[now.getMonth()]} ${now.getFullYear()}`;
+    const caption =
+      `${firstLine}\n\n` +
+      `${secondLine || 'Pantau informasi resmi selengkapnya dari sumber terkait.'}\n\n` +
+      `📍 Lokasi: ${defLoc}\n` +
+      `📌 Sumber: ${srcName}\n` +
+      `💬 Simpan & bagikan info ini ke teman atau keluarga di Bintuni!\n\n` +
+      `#kabarbintuni #telukbintuni #bintuni #papuabarat ${tagarTopik}`;
+
+    return {
+      catIdx,
+      headline,
+      subline: secondLine || `Info resmi dari ${srcName}.`,
+      lokasi: defLoc,
+      sumber: srcName,
+      tanggal,
+      caption,
+      useGraphicBg: true
+    };
+  }
+
+  el('pasteGoBtn').addEventListener('click', () => {
+    const parsed = parseManualSocialText();
+    if (!parsed) return;
+    sendToEditor(parsed, el('pasteMode').value);
+  });
+
+  el('pasteCopyCaptionBtn').addEventListener('click', () => {
+    const parsed = parseManualSocialText();
+    if (parsed) copyText(parsed.caption, 'Caption SEO IG/FB');
+  });
+
+  // Muat bank-berita.json (cache-busted agar selalu dapat update terbaru GitHub Actions)
+  fetch('data/bank-berita.json?v=' + Date.now())
+    .then(r => {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(data => {
+      bankData = data;
+      const st = data.stats || {};
+      el('kpiTotal').textContent = st.total_terpilih ?? 0;
+      el('kpiBintuni').textContent = st.bintuni ?? 0;
+      el('kpiPabar').textContent = st.papua_barat ?? 0;
+      el('kpiPapua').textContent = st.papua ?? 0;
+      el('kpiBlocked').textContent = st.total_diblokir_sensitif ?? 0;
+      el('updatedStamp').textContent = `Diperbarui: ${data.generated_at_wit} · ${data.jadwal_otomatis}`;
+      renderWatchlist(data.social_watchlist || []);
+      renderNews();
+    })
+    .catch(err => {
+      el('updatedStamp').textContent = 'Gagal memuat data/bank-berita.json (' + err.message + ')';
+      el('newsGrid').innerHTML = `<div class="empty-state">
+        ⚠️ Data <code>data/bank-berita.json</code> belum terbaca.<br>
+        <small>Jika dibuka langsung lewat <code>file://</code> di laptop, jalankan lewat server lokal atau buka versi live di <strong>kabarbintuni.github.io/bank-berita/</strong>.</small>
+      </div>`;
+    });
+})();
+</script>
+</body>
+</html>
