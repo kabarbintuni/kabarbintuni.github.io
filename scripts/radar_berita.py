@@ -15,6 +15,8 @@ Zero external dependencies (Python 3.10+ stdlib murni) agar cepat & stabil di Gi
 """
 from __future__ import annotations
 
+import base64
+import concurrent.futures
 import email.utils
 import hashlib
 import html
@@ -37,7 +39,7 @@ OUT_DIR = ROOT_DIR / "bank-berita" / "data"
 JSON_OUT = OUT_DIR / "bank-berita.json"
 MD_OUT = OUT_DIR / "RINGKASAN-HARIAN.md"
 
-USER_AGENT = "Mozilla/5.0 (compatible; KabarBintuniRadar/1.0; +https://kabarbintuni.github.io/)"
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 
 # ---------------------------------------------------------------------------
 # 1. Konfigurasi Sumber Berita (RSS Resmi & Google News Terkurasi)
@@ -95,6 +97,27 @@ FEEDS: list[dict[str, str]] = [
         "label": "BMKG — Peringatan Dini Cuaca Resmi",
         "wilayah_hint": "bintuni",
         "url": "https://www.bmkg.go.id/alerts/nowcast/id/rss.xml",
+    },
+    {
+        "id": "rss_mediaprorakyat",
+        "label": "Media Pro Rakyat — RSS Langsung Teluk Bintuni",
+        "wilayah_hint": "bintuni",
+        "source_override": "Media Pro Rakyat",
+        "url": "https://mediaprorakyat.com/feed/",
+    },
+    {
+        "id": "rss_papuadalamberita",
+        "label": "Papua Dalam Berita — RSS Langsung Papua Barat",
+        "wilayah_hint": "papua_barat",
+        "source_override": "Papua Dalam Berita",
+        "url": "https://papuadalamberita.com/feed/",
+    },
+    {
+        "id": "rss_taburapos",
+        "label": "Tabura Pos — RSS Langsung Papua Barat",
+        "wilayah_hint": "papua_barat",
+        "source_override": "Tabura Pos",
+        "url": "https://taburapos.co/feed/",
     },
 ]
 
@@ -463,26 +486,249 @@ def recommend_format(wilayah: str, cat_idx: int, tier: int, sumber_count: int, s
 
 def build_seo_caption(
     clean_title: str,
-    subline: str,
+    poin_resume: list[str],
     lokasi: str,
     sumber_display: str,
+    tanggal_wit: str,
     tagar_topik: str,
     wilayah: str,
+    kredit_foto: str = "Ilustrasi / Dok. Instansi",
 ) -> str:
+    """Format caption bergaya jurnalisme ringkas ala Tempo + SEO baku Kabar Bintuni."""
+    body_blocks = [p.strip() for p in poin_resume if p and p.strip()]
+    if not body_blocks:
+        body_blocks = [clean_title]
+    body_text = "\n\n".join(body_blocks[:3])
     cta_map = {
-        "bintuni": "Menurut kaka dan ade di Bintuni, bagaimana tanggapan soal kabar ini? Tulis di komentar!",
-        "papua_barat": "Bagaimana dampaknya di wilayah Bintuni menurut kam? Bagikan ke teman atau keluarga!",
-        "papua": "Kabar baik dari Tanah Papua! Bagikan info ini biar makin banyak warga Bintuni yang tahu.",
+        "bintuni": "Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.",
+        "papua_barat": "Bagaimana dampaknya ke Teluk Bintuni menurut kam? Bagikan ke teman atau keluarga.",
+        "papua": "Kabar pilihan dari Tanah Papua. Simpan dan bagikan info ini agar makin banyak warga tahu.",
     }
     cta = cta_map.get(wilayah, cta_map["bintuni"])
     return (
-        f"{clean_title}\n\n"
-        f"{subline}\n\n"
+        f"{body_text}\n\n"
         f"📍 Lokasi: {lokasi}\n"
-        f"📌 Sumber: {sumber_display}\n"
+        f"📰 Sumber: {sumber_display} ({tanggal_wit})\n"
+        f"📷 Foto: {kredit_foto}\n"
         f"💬 {cta}\n\n"
         f"#kabarbintuni #telukbintuni #bintuni #papuabarat {tagar_topik}"
     )
+
+
+def strip_news_dateline(text: str) -> str:
+    """Buang dateline koran di awal paragraf agar gaya baca bersih seperti Tempo."""
+    t = text.strip()
+    # Contoh: "TELUK BINTUNI, Mediaprorakyat.com — Pendidikan..." atau "MANOKWARI, KOMPAS.com - ..."
+    t = re.sub(
+        r"^(?:[A-Z][A-Za-z.\s,]{2,48}?(?:com|co\.id|id|net|Pos|News|RRI|Antara)?)\s*(?:[-–—]{1,2}|:)\s+",
+        "",
+        t,
+    )
+    # Juga buang awalan nama kota huruf kapital penuh: "BINTUNI, " atau "MANOKWARI — "
+    t = re.sub(r"^[A-Z\s]{4,28}\s*[-–—,]\s+", "", t)
+    return t.strip()
+
+
+BOILERPLATE_PHRASES = [
+    "baca juga", "simak juga", "berita terkait", "artikel terkait", "the post ",
+    "appeared first on", "copyright", "all rights reserved", "hak cipta",
+    "cookie", "subscribe", "berlangganan", "silakan login", "masuk atau daftar",
+    "download aplikasi", "unduh aplikasi", "ikuti kami", "follow instagram",
+    "gabung saluran", "halaman selanjutnya", "halaman:", "pewarta:", "editor:",
+    "penulis:", "reporter:", "foto:", "ilustrasi:", "sumber:", "advertisement",
+    "scroll untuk melanjutkan", "dapatkan update", "whatsapp channel",
+    "link copied", "lihat foto", "laporan reporter", "laporan wartawan",
+    "bagikan artikel", "komentar anda",
+]
+
+
+def clean_article_paragraphs(raw_paragraphs: list[str], title: str) -> list[str]:
+    """Saring paragraf isi artikel menjadi daftar kalimat/paragraf bersih bernilai berita."""
+    cleaned: list[str] = []
+    seen_norm: set[str] = set()
+    title_l = title.lower()
+
+    for raw in raw_paragraphs:
+        p = clean_html_text(raw)
+        p = strip_news_dateline(p)
+        p = re.sub(r"\s+", " ", p).strip()
+        if len(p) < 55 or len(p) > 480:
+            continue
+        pl = p.lower()
+        if any(bp in pl for bp in BOILERPLATE_PHRASES):
+            continue
+        if pl.startswith(("http://", "https://", "www.", "@", "#")):
+            continue
+        # Hindari paragraf yang hanya mengulang persis judul
+        if SequenceMatcher(None, pl[:90], title_l[:90]).ratio() > 0.86:
+            continue
+        norm = re.sub(r"[^a-z0-9]", "", pl[:70])
+        if norm in seen_norm:
+            continue
+        seen_norm.add(norm)
+        # Pastikan diakhiri tanda baca rapi
+        if p[-1] not in ".!?…\"”":
+            p += "."
+        cleaned.append(p)
+    return cleaned
+
+
+def score_paragraph_value(p: str, idx: int) -> int:
+    """Nilai bobot informasi paragraf: angka, rupiah, persen, tujuan/dampak, kutipan."""
+    score = 0
+    if idx == 0:
+        score += 30
+    if re.search(r"\b\d[\d.,]*\s*(?:%|persen|ribu|juta|miliar|triliun|hektare|ha|orang|unit|formasi|rupiah|rp|km|jam|hari|tahun)\b", p, flags=re.I):
+        score += 22
+    elif re.search(r"\b(?:rp\s?\d|\d{2,})", p, flags=re.I):
+        score += 12
+    if any(w in p.lower() for w in ["bertujuan", "untuk memperkuat", "berdampak", "menargetkan", "sehingga", "upaya", "resmi", "meliputi", "melibatkan", "diharapkan", "mendorong", "meningkatkan", "mengimbau"]):
+        score += 10
+    if '"' in p or "“" in p or "mengatakan" in p.lower() or "mengungkapkan" in p.lower() or "menjelaskan" in p.lower():
+        score += 8
+    if 95 <= len(p) <= 260:
+        score += 10
+    return score
+
+
+def select_tempo_resume(
+    title: str,
+    raw_paragraphs: list[str],
+    meta_desc: str,
+    fallback_summary: str,
+    wilayah: str,
+    source_name: str,
+) -> tuple[list[str], str, bool]:
+    """Pilih 2-3 paragraf ringkasan faktual bergaya Tempo (Lead + Konteks/Dampak)."""
+    paras = clean_article_paragraphs(raw_paragraphs, title)
+
+    if not paras and meta_desc:
+        md_clean = clean_article_paragraphs([meta_desc], title)
+        paras.extend(md_clean)
+
+    if paras:
+        chosen: list[str] = [paras[0]]
+        rest = [(score_paragraph_value(p, i + 1), i + 1, p) for i, p in enumerate(paras[1:10])]
+        rest.sort(key=lambda x: (-x[0], x[1]))
+
+        total_len = len(chosen[0])
+        for _, _, cand in rest:
+            if len(chosen) >= 3:
+                break
+            # Hindari tumpang tindih dengan paragraf yang sudah dipilih
+            if any(SequenceMatcher(None, cand.lower()[:90], c.lower()[:90]).ratio() > 0.55 for c in chosen):
+                continue
+            if total_len + len(cand) > 680 and len(chosen) >= 2:
+                continue
+            chosen.append(cand)
+            total_len += len(cand)
+
+        # Ringkasan 1 kalimat singkat untuk subline kartu berita (maks 118 karakter)
+        first_sent = re.split(r"(?<=[.!?])\s+", chosen[0])[0].strip()
+        subline = first_sent if len(first_sent) <= 118 else first_sent[:114].rsplit(" ", 1)[0].rstrip(".,;:") + "…"
+        return chosen, subline, True
+
+    # Fallback aman bila portal memblokir bot (mis. Cloudflare 403) atau RSS BMKG alert
+    raw_clean = clean_html_text(fallback_summary)
+    if raw_clean and len(raw_clean) > 45 and SequenceMatcher(None, raw_clean.lower()[:80], title.lower()[:80]).ratio() < 0.72:
+        long_fb = raw_clean if len(raw_clean) <= 360 else raw_clean[:356].rsplit(" ", 1)[0].rstrip(".,;:") + "…"
+        short_fb = build_subline(raw_clean, title, wilayah, source_name)
+        return [long_fb], short_fb, True
+    fb = build_subline(fallback_summary, title, wilayah, source_name)
+    return [f"{title}.", fb], fb, False
+
+
+def decode_gnews_url(gurl: str) -> str:
+    """Resolve tautan redirect Google News RSS ke URL artikel berita aslinya."""
+    if "news.google.com" not in gurl:
+        return gurl
+    m = re.search(r"/articles/([^?]+)", gurl)
+    if not m:
+        return gurl
+    token = m.group(1)
+
+    # Cara 1: format base64 lama
+    try:
+        padded = token + "=" * (-len(token) % 4)
+        raw = base64.urlsafe_b64decode(padded)
+        s = raw.decode("latin1")
+        hm = re.search(r"(https?://[^\x00-\x1f\x7f-\xff\"'<> ]+)", s)
+        if hm and "news.google.com" not in hm.group(1) and is_safe_http_url(hm.group(1)):
+            return hm.group(1)
+    except Exception:
+        pass
+
+    # Cara 2: ambil signature & timestamp dari halaman artikel Google News lalu decode via batchexecute
+    try:
+        ctx = ssl.create_default_context()
+        req = urllib.request.Request(gurl, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=10, context=ctx) as r:
+            html_page = r.read(1_200_000).decode("utf-8", errors="ignore")
+        sg = re.search(r'data-n-a-sg="([^"]+)"', html_page)
+        ts = re.search(r'data-n-a-ts="([^"]+)"', html_page)
+        if sg and ts:
+            payload = [
+                "Fbv4je",
+                f'["garturlreq",[["X","X",["X","X"],null,null,1,1,"ID:id",null,1,null,null,null,null,null,0,1],"X","X",1,[1,1,1],1,1,null,0,0,null,0],"{token}",{ts.group(1)},"{sg.group(1)}"]',
+            ]
+            body = urllib.parse.urlencode({"f.req": json.dumps([[payload]])}).encode("utf-8")
+            req2 = urllib.request.Request(
+                "https://news.google.com/_/DotsSplashUi/data/batchexecute",
+                data=body,
+                headers={"Content-Type": "application/x-www-form-urlencoded;charset=UTF-8", "User-Agent": USER_AGENT},
+            )
+            with urllib.request.urlopen(req2, timeout=10, context=ctx) as r2:
+                txt = r2.read(200_000).decode("utf-8", errors="ignore")
+            m2 = re.search(r'garturlres\\",\\"(https?://[^\\"]+)', txt)
+            if m2:
+                decoded = m2.group(1).replace("\\u003d", "=").replace("\\u0026", "&")
+                if is_safe_http_url(decoded):
+                    return decoded
+    except Exception:
+        pass
+    return gurl
+
+
+def fetch_article_content(url: str) -> tuple[list[str], str]:
+    """Ambil paragraf isi artikel + meta description secara aman (maks 500 KB, timeout 8 dtk)."""
+    if not is_safe_http_url(url) or "news.google.com" in url:
+        return [], ""
+    try:
+        ctx = ssl.create_default_context()
+        req = urllib.request.Request(url, headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "id-ID,id;q=0.9,en;q=0.5",
+        })
+        with urllib.request.urlopen(req, timeout=8, context=ctx) as resp:
+            ctype = (resp.headers.get("Content-Type") or "").lower()
+            if "html" not in ctype and "xml" not in ctype:
+                return [], ""
+            page = resp.read(500_000).decode("utf-8", errors="ignore")
+
+        # Ambil og:description / meta description sebagai cadangan kuat
+        meta_desc = ""
+        for pat in [
+            r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\']([^"\']+)["\']',
+            r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:description["\']',
+            r'<meta[^>]+name=["\']description["\'][^>]+content=["\']([^"\']+)["\']',
+        ]:
+            mm = re.search(pat, page, flags=re.I)
+            if mm and len(mm.group(1).strip()) > 45:
+                meta_desc = clean_html_text(mm.group(1))
+                break
+
+        # Hapus script, style, nav, footer, aside agar hanya tersisa isi utama
+        clean_page = re.sub(r"<(script|style|noscript|nav|footer|aside|header)[^>]*>.*?</\1>", " ", page, flags=re.S | re.I)
+        # Prioritaskan isi di dalam <article> jika ada
+        art = re.search(r"<article[^>]*>(.*?)</article>", clean_page, flags=re.S | re.I)
+        scope = art.group(1) if art else clean_page
+        paras = re.findall(r"<p[^>]*>(.*?)</p>", scope, flags=re.S | re.I)
+        if len(paras) < 2 and art:
+            paras = re.findall(r"<p[^>]*>(.*?)</p>", clean_page, flags=re.S | re.I)
+        return paras[:20], meta_desc
+    except Exception:
+        return [], ""
 
 
 def title_tokens(title: str) -> set[str]:
@@ -523,7 +769,13 @@ def fetch_xml(url: str, timeout: int = 15, max_bytes: int = 2_500_000) -> bytes:
 def is_safe_http_url(url: str) -> bool:
     try:
         p = urllib.parse.urlparse(url.strip())
-        return p.scheme in ("https", "http") and bool(p.netloc)
+        if p.scheme not in ("https", "http") or not p.netloc:
+            return False
+        host = (p.hostname or "").lower()
+        # Tolak host lokal / privat (anti-SSRF)
+        if host in ("localhost", "127.0.0.1", "0.0.0.0", "::1") or host.startswith(("10.", "192.168.", "169.254.", "172.16.", "172.17.", "172.18.", "172.19.")):
+            return False
+        return True
     except Exception:
         return False
 
@@ -544,9 +796,13 @@ def collect_raw_items() -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
                 link = (it.findtext("link", "") or "").strip()
                 pub_raw = it.findtext("pubDate", "")
                 desc_raw = it.findtext("description", "")
+                content_el = it.find("{http://purl.org/rss/1.0/modules/content/}encoded")
+                content_html = (content_el.text or "") if content_el is not None else ""
                 src_el = it.find("source")
                 source_name = (src_el.text or "").strip() if src_el is not None else ""
-                if feed["id"] == "bmkg_nowcast":
+                if feed.get("source_override"):
+                    source_name = feed["source_override"]
+                elif feed["id"] == "bmkg_nowcast":
                     source_name = "BMKG Resmi"
 
                 if not raw_title or not link or not is_safe_http_url(link):
@@ -556,6 +812,7 @@ def collect_raw_items() -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
 
                 clean_t = strip_source_suffix(raw_title, source_name)
                 summary = clean_html_text(desc_raw)
+                rss_paras = re.findall(r"<p[^>]*>(.*?)</p>", content_html or desc_raw, flags=re.S | re.I)
 
                 # Khusus BMKG Nowcast: hanya ambil jika menyangkut Papua Barat / Teluk Bintuni / PBD
                 if feed["id"] == "bmkg_nowcast":
@@ -574,6 +831,7 @@ def collect_raw_items() -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
                     "raw_title": raw_title,
                     "title": clean_t,
                     "summary": summary,
+                    "rss_paras": rss_paras[:15],
                     "link": link,
                     "source": source_name or "Portal Berita",
                     "tier": tier,
@@ -702,7 +960,15 @@ def build_bank_berita() -> dict[str, Any]:
         sumber_names = [s["nama"] for s in cl["sources"]]
         sumber_display = sumber_names[0] if len(sumber_names) == 1 else f"{sumber_names[0]} (+{len(sumber_names)-1} media)"
         rec = recommend_format(p["wilayah"], cat_idx, best_tier, src_count, total_score)
-        caption_seo = build_seo_caption(p["title"], subline, lokasi, sumber_display, tagar_topik, p["wilayah"])
+        kredit_foto_saran = (
+            f"Dok. {p['source']}" if best_tier == 1
+            else "Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)"
+        )
+        poin_awal = [p["title"] + ".", subline]
+        tanggal_str = format_tanggal_wit(dt)
+        caption_seo = build_seo_caption(
+            p["title"], poin_awal, lokasi, sumber_display, tanggal_str, tagar_topik, p["wilayah"], kredit_foto_saran
+        )
 
         item_id = "kb-" + hashlib.md5(f"{p['title']}|{p['source']}".encode("utf-8")).hexdigest()[:10]
         verifikasi_label = (
@@ -720,6 +986,8 @@ def build_bank_berita() -> dict[str, Any]:
             "title": p["title"],
             "card_headline": card_headline,
             "subline": subline,
+            "poin_resume": poin_awal,
+            "resume_dari_artikel": False,
             "lokasi": lokasi,
             "sumber_utama": p["source"],
             "sumber_display": sumber_display,
@@ -727,14 +995,17 @@ def build_bank_berita() -> dict[str, Any]:
             "sumber_list": cl["sources"],
             "tier": best_tier,
             "verifikasi_label": verifikasi_label,
-            "tanggal_wit": format_tanggal_wit(dt),
+            "tanggal_wit": tanggal_str,
             "published_iso": dt.isoformat(timespec="minutes"),
             "umur_jam": round(age_hours, 1),
             "link": p["link"],
             "rekomendasi_format": rec,
             "tagar_topik": tagar_topik,
+            "kredit_foto_saran": kredit_foto_saran,
             "caption_seo": caption_seo,
-            "peringatan_visual": "Jangan pakai foto ber-watermark media lain. Pakai Mode Grafis Kaka Kabar, foto rilis resmi, atau dokumentasi sendiri.",
+            "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin.",
+            "_rss_paras": p.get("rss_paras") or [],
+            "_raw_summary": p["summary"],
         })
 
     # Gerbang 3: Terapkan Kuota Wilayah 60% Bintuni (18) / 25% Papua Barat & PBD (8) / 15% Papua (4)
@@ -752,6 +1023,48 @@ def build_bank_berita() -> dict[str, Any]:
     # Urutkan tampilan akhir: prioritaskan Bintuni skor tinggi + berita segar
     wilayah_order = {"bintuni": 0, "papua_barat": 1, "papua": 2}
     selected.sort(key=lambda x: (wilayah_order[x["wilayah"]], -x["score"], x["umur_jam"]))
+
+    # Gerbang 4: Perkaya 30 berita terpilih dengan isi artikel asli -> Resume otomatis ala Tempo
+    def _enrich_one(it: dict[str, Any]) -> None:
+        rss_paras = it.pop("_rss_paras", [])
+        raw_summary = it.pop("_raw_summary", "")
+        real_url = decode_gnews_url(it["link"])
+        if is_safe_http_url(real_url):
+            it["link"] = real_url
+
+        paras: list[str] = list(rss_paras)
+        meta_desc = ""
+        # Jika paragraf dari RSS belum cukup (kurang dari 2 paragraf substansial), baca halaman artikel aslinya
+        if len(clean_article_paragraphs(paras, it["title"])) < 2:
+            fetched_paras, meta_desc = fetch_article_content(it["link"])
+            if fetched_paras:
+                paras = fetched_paras
+
+        poin, new_sub, from_article = select_tempo_resume(
+            it["title"], paras, meta_desc, raw_summary, it["wilayah"], it["sumber_utama"]
+        )
+        it["poin_resume"] = poin
+        it["resume_dari_artikel"] = from_article
+        if from_article and new_sub:
+            it["subline"] = new_sub
+        it["caption_seo"] = build_seo_caption(
+            it["title"],
+            poin,
+            it["lokasi"],
+            it["sumber_display"],
+            it["tanggal_wit"],
+            it["tagar_topik"],
+            it["wilayah"],
+            it["kredit_foto_saran"],
+        )
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+        list(pool.map(_enrich_one, selected))
+
+    # Pastikan semua item ter-clean dari field internal bila ada
+    for it in selected:
+        it.pop("_rss_paras", None)
+        it.pop("_raw_summary", None)
 
     counts = {
         "bintuni": sum(1 for x in selected if x["wilayah"] == "bintuni"),

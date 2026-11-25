@@ -627,9 +627,14 @@
         <input type="text" id="lokasi" value="Bintuni Kota, Papua Barat">
       </div>
       <div>
-        <label class="lbl" for="sumber">Sumber</label>
+        <label class="lbl" for="sumber">Sumber Berita</label>
         <input type="text" id="sumber" value="Info Warga / Redaksi">
       </div>
+    </div>
+
+    <div class="field">
+      <label class="lbl" for="kreditFoto">Kredit Foto (Ala Tempo) <small>Tampil mungil di pojok foto saat pakai foto</small></label>
+      <input type="text" id="kreditFoto" placeholder="Contoh: Dok. Humas Pemkab Teluk Bintuni / Istimewa">
     </div>
 
     <!-- Pengaturan Lanjutan (Foto, Font, Kualitas HD) -->
@@ -873,6 +878,7 @@
         subline: el('subline').value,
         lokasi: el('lokasi').value,
         sumber: el('sumber').value,
+        kreditFoto: el('kreditFoto') ? el('kreditFoto').value : '',
         handleText: el('handleText').value,
         tanggal: el('tanggal').value,
         fontSize: el('fontSize').value,
@@ -891,7 +897,7 @@
       const raw = localStorage.getItem(STORAGE_KEY);
       if (!raw) return;
       const d = JSON.parse(raw);
-      ['format','layoutStyle','headline','subline','lokasi','sumber','handleText','tanggal','fontSize','vignette','qualityScale','exportType','captionSeo'].forEach(k => {
+      ['format','layoutStyle','headline','subline','lokasi','sumber','kreditFoto','handleText','tanggal','fontSize','vignette','qualityScale','exportType','captionSeo'].forEach(k => {
         if (d[k] !== undefined && el(k)) el(k).value = d[k];
       });
       if (typeof d.catIdx === 'number') activeCatIdx = d.catIdx;
@@ -1326,6 +1332,26 @@
       c.strokeStyle = '#1E1B18';
       c.stroke();
 
+      // Kredit Foto mungil ala Tempo tepat di atas pojok kanan kartu saat memakai Foto
+      const kf = el('kreditFoto') ? el('kreditFoto').value.trim() : '';
+      if (bgSource && kf) {
+        c.save();
+        const kfText = kf.toLowerCase().startsWith('foto') || kf.toLowerCase().startsWith('ilustrasi') || kf.toLowerCase().startsWith('dok') ? kf : ('Foto: ' + kf);
+        c.font = '700 18px "Plus Jakarta Sans", sans-serif';
+        const kw = Math.ceil(c.measureText(kfText).width + 22);
+        const kh = 30;
+        const kx = cardL + cardW - kw - 6;
+        const ky = cardY - kh - 14;
+        roundRectPath(c, kx, ky, kw, kh, 8);
+        c.fillStyle = 'rgba(30,27,24,0.68)';
+        c.fill();
+        c.fillStyle = '#FFFDF5';
+        c.textAlign = 'center';
+        c.textBaseline = 'alphabetic';
+        c.fillText(kfText, kx + kw / 2, ky + 21);
+        c.restore();
+      }
+
       // Category Badge overlapping top-left with crisp vector dot
       c.save();
       c.font = '800 24px "Rubik", sans-serif';
@@ -1594,6 +1620,18 @@
       c.lineWidth = 2.5;
       c.strokeStyle = 'rgba(255,253,245,0.32)';
       c.stroke();
+
+      // Kredit Foto mungil ala Tempo di atas badge editorial bila memakai Foto
+      const kfEd = el('kreditFoto') ? el('kreditFoto').value.trim() : '';
+      if (bgSource && kfEd) {
+        c.save();
+        const kfText = kfEd.toLowerCase().startsWith('foto') || kfEd.toLowerCase().startsWith('ilustrasi') || kfEd.toLowerCase().startsWith('dok') ? kfEd : ('Foto: ' + kfEd);
+        c.font = '700 18px "Plus Jakarta Sans", sans-serif';
+        c.fillStyle = 'rgba(255,253,245,0.82)';
+        c.textAlign = 'right';
+        c.fillText(kfText, cardL + cardW, startY + 33);
+        c.restore();
+      }
 
       const metaY = metaTop + 36;
       c.font = '700 21px "Plus Jakarta Sans", sans-serif';
@@ -2003,7 +2041,7 @@
   }
 
   // Event Listeners (both 'input' and 'change' for 100% mobile browser compatibility)
-  ['format','layoutStyle','headline','subline','lokasi','sumber','handleText','tanggal',
+  ['format','layoutStyle','headline','subline','lokasi','sumber','kreditFoto','handleText','tanggal',
    'photoZoom','photoPanX','photoPanY','vignette','fontSize','qualityScale','exportType','showSafeZone','captionSeo'
   ].forEach(id => {
     const node = el(id);
@@ -2050,8 +2088,9 @@
     const sub = (el('subline').value || '').trim();
     const loc = (el('lokasi').value || 'Teluk Bintuni, Papua Barat').trim();
     const src = (el('sumber').value || 'Redaksi Kabar Bintuni').trim();
+    const kf = (el('kreditFoto') && el('kreditFoto').value.trim()) || (bgSource ? 'Dok. ' + src : 'Ilustrasi: Kabar Bintuni');
     const cat = CATEGORIES[activeCatIdx] || CATEGORIES[0];
-    return `${hl}\n\n${sub || 'Pantau kabar terbaru dan terpercaya seputar Teluk Bintuni & Papua Barat.'}\n\n📍 Lokasi: ${loc}\n📌 Sumber: ${src}\n💬 Menurut kaka dan ade di Bintuni, bagaimana tanggapan soal kabar ini? Tulis di komentar!\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat ${cat.tag || '#infobintuni'}`;
+    return `${hl}.\n\n${sub || 'Pantau kabar terbaru dan terpercaya seputar Teluk Bintuni & Papua Barat.'}\n\n📍 Lokasi: ${loc}\n📰 Sumber: ${src}\n📷 Foto: ${kf}\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat ${cat.tag || '#infobintuni'}`;
   }
 
   function applyBankPayload(payload, forceMode) {
@@ -2064,6 +2103,7 @@
     if (payload.subline !== undefined) el('subline').value = payload.subline;
     if (payload.lokasi) el('lokasi').value = payload.lokasi;
     if (payload.sumber) el('sumber').value = payload.sumber;
+    if (payload.kreditFoto !== undefined && el('kreditFoto')) el('kreditFoto').value = payload.kreditFoto;
     if (payload.tanggal !== undefined) el('tanggal').value = payload.tanggal;
     if (typeof payload.catIdx === 'number') activeCatIdx = payload.catIdx;
 
@@ -2134,6 +2174,7 @@
         subline: it.subline,
         lokasi: it.lokasi,
         sumber: it.sumber_utama,
+        kreditFoto: it.kredit_foto_saran || '',
         tanggal: it.tanggal_wit,
         caption: it.caption_seo,
         useGraphicBg: true
