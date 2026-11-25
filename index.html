@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kabar Bintuni (@kabar.bintuni) — Link Resmi</title>
+<meta name="description" content="Media Informasi, Edukasi Lokal & Gaya Hidup Kabupaten Teluk Bintuni, Papua Barat. Kirim info warga, pasang iklan UMKM, visit & media partner.">
+<meta property="og:title" content="Kabar Bintuni — Media Informasi Teluk Bintuni">
+<meta property="og:description" content="Kirim info warga, cek Rate Card & Media Kit resmi, atau hubungi WhatsApp bisnis Kabar Bintuni.">
+<meta property="og:image" content="logo.jpg">
+<style>
+  :root {
+    --bg: #0D2A1E;
+    --bg2: #154531;
+    --card: rgba(255, 255, 255, 0.97);
+    --green: #1B6B4A;
+    --green-dark: #114731;
+    --gold: #F5B700;
+    --ink: #111827;
+    --muted: #4B5563;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+    min-height: 100vh;
+    background: radial-gradient(circle at top center, #226B4C 0%, var(--bg) 68%);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 28px 16px 40px;
+  }
+  .wrap {
+    width: 100%;
+    max-width: 440px;
+    text-align: center;
+  }
+  .avatar {
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--gold);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
+    margin: 0 auto 12px;
+    display: block;
+    background: #fff;
+  }
+  .badge {
+    display: inline-block;
+    background: rgba(245, 183, 0, 0.16);
+    border: 1px solid rgba(245, 183, 0, 0.5);
+    color: #FFE27A;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 4px 11px;
+    border-radius: 999px;
+    margin-bottom: 8px;
+  }
+  h1 {
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin-bottom: 4px;
+  }
+  .sub {
+    font-size: 13.5px;
+    color: rgba(255, 255, 255, 0.86);
+    line-height: 1.45;
+    margin-bottom: 16px;
+  }
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+  .stat {
+    background: rgba(255, 255, 255, 0.09);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 12px;
+    padding: 9px 6px;
+  }
+  .stat strong {
+    display: block;
+    font-size: 15px;
+    color: #FFE27A;
+  }
+  .stat span {
+    font-size: 10.5px;
+    color: rgba(255, 255, 255, 0.78);
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .btn {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    text-decoration: none;
+    background: var(--card);
+    color: var(--ink);
+    padding: 14px 16px;
+    border-radius: 14px;
+    text-align: left;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.22);
+    transition: transform 0.16s ease, box-shadow 0.16s ease;
+    border: 2px solid transparent;
+  }
+  .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.3);
+  }
+  .btn.primary {
+    background: linear-gradient(135deg, #F5B700 0%, #FFCF3F 100%);
+    color: #111827;
+  }
+  .icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 11px;
+    background: rgba(27, 107, 74, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    flex-shrink: 0;
+  }
+  .btn.primary .icon {
+    background: rgba(17, 24, 39, 0.12);
+  }
+  .btn-text strong {
+    display: block;
+    font-size: 14.5px;
+    font-weight: 800;
+    line-height: 1.25;
+  }
+  .btn-text span {
+    display: block;
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 2px;
+  }
+  .btn.primary .btn-text span {
+    color: #374151;
+  }
+  .rate-preview {
+    margin-top: 18px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 14px;
+    padding: 14px 15px;
+    text-align: left;
+  }
+  .rate-preview h2 {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #FFE27A;
+    margin-bottom: 8px;
+  }
+  .rate-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12.5px;
+    padding: 5px 0;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.14);
+  }
+  .rate-row:last-child { border-bottom: none; }
+  .rate-row strong { color: #fff; }
+  .footer {
+    margin-top: 22px;
+    font-size: 11.5px;
+    color: rgba(255, 255, 255, 0.65);
+    line-height: 1.5;
+  }
+  .footer a { color: #FFE27A; text-decoration: none; }
+</style>
+</head>
+<body>
+  <main class="wrap">
+    <img src="logo.jpg" alt="Logo Kabar Bintuni" class="avatar">
+    <div class="badge">Media Lokal • Teluk Bintuni, Papua Barat</div>
+    <h1>Kabar Bintuni</h1>
+    <p class="sub">Berita Lokal • Bedah Fakta • Kuliner &amp; UMKM • Event<br>Rujukan informasi warga &amp; promosi bisnis Teluk Bintuni</p>
+
+    <section class="stats" aria-label="Statistik Akun">
+      <div class="stat">
+        <strong>2,4 Jt+</strong>
+        <span>Views / Tahun</span>
+      </div>
+      <div class="stat">
+        <strong>5.500+</strong>
+        <span>Followers Lokal</span>
+      </div>
+      <div class="stat">
+        <strong>73%</strong>
+        <span>Usia 18–34 Thn</span>
+      </div>
+    </section>
+
+    <nav class="links" aria-label="Tautan Utama">
+      <a class="btn primary" href="https://wa.me/6285171124991?text=Halo%20Kabar%20Bintuni%2C%20saya%20tertarik%20kerja%20sama%20Promosi%20UMKM%20%2F%20Visit%20%2F%20Media%20Partner.%20Boleh%20info%20slot%20tayangnya%3F" target="_blank" rel="noopener">
+        <div class="icon">💼</div>
+        <div class="btn-text">
+          <strong>Pasang Iklan UMKM, Visit &amp; Media Partner</strong>
+          <span>Chat WhatsApp Bisnis 0851-7112-4991</span>
+        </div>
+      </a>
+
+      <a class="btn" href="https://wa.me/6285171124991?text=Halo%20Kabar%20Bintuni%2C%20saya%20mau%20kirim%20info%20%2F%20video%20warga%20di%20daerah..." target="_blank" rel="noopener">
+        <div class="icon">📢</div>
+        <div class="btn-text">
+          <strong>Kirim Info / Liputan Warga Bintuni</strong>
+          <span>Laporkan kabar, event, cuaca, atau kuliner baru</span>
+        </div>
+      </a>
+
+      <a class="btn" href="Media-Kit-Kabar-Bintuni-2026.pdf" target="_blank" rel="noopener">
+        <div class="icon">📄</div>
+        <div class="btn-text">
+          <strong>Unduh Media Kit &amp; Rate Card Resmi (PDF)</strong>
+          <span>Data audiens + paket UMKM, Event &amp; Korporat</span>
+        </div>
+      </a>
+
+      <a class="btn" href="https://www.tiktok.com/@kabar.bintuni" target="_blank" rel="noopener">
+        <div class="icon">🎵</div>
+        <div class="btn-text">
+          <strong>TikTok Resmi @kabar.bintuni</strong>
+          <span>Tonton Kabar Terkini &amp; Bedah Fakta Bintuni</span>
+        </div>
+      </a>
+
+      <a class="btn" href="mailto:kabarbintuni@gmail.com?subject=Kerja%20Sama%20Media%20-%20Kabar%20Bintuni">
+        <div class="icon">✉️</div>
+        <div class="btn-text">
+          <strong>Email Redaksi &amp; Instansi</strong>
+          <span>kabarbintuni@gmail.com</span>
+        </div>
+      </a>
+    </nav>
+
+    <section class="rate-preview">
+      <h2>Ringkasan Paket Kerja Sama</h2>
+      <div class="rate-row"><span>Spotlight UMKM (Video Editorial)</span><strong>Rp150.000</strong></div>
+      <div class="rate-row"><span>Visit &amp; Liputan Lokasi UMKM</span><strong>Rp350.000</strong></div>
+      <div class="rate-row"><span>Media Partner Event (Pra + Hari-H)</span><strong>Rp500.000</strong></div>
+      <div class="rate-row"><span>Sponsor Rubrik (Korporat / Instansi)</span><strong>Rp1.250.000</strong></div>
+    </section>
+
+    <footer class="footer">
+      WhatsApp Resmi: <a href="https://wa.me/6285171124991">0851-7112-4991</a><br>
+      © 2026 Kabar Bintuni — Teluk Bintuni, Papua Barat
+    </footer>
+  </main>
+</body>
+</html>
