@@ -3,93 +3,105 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kabar Bintuni (@kabar.bintuni) — Link Resmi</title>
-<meta name="description" content="Media Informasi, Edukasi Lokal & Gaya Hidup Kabupaten Teluk Bintuni, Papua Barat. Kirim info warga, pasang iklan UMKM, visit & media partner.">
+<title>Kabar Bintuni (@kabarbintuni &amp; @kabar.bintuni) — Link Resmi</title>
+<meta name="description" content="Media Informasi, Edukasi Lokal & Gaya Hidup Kabupaten Teluk Bintuni, Papua Barat. 14.000+ Followers IG & TikTok. Kirim info warga, pasang iklan UMKM, visit & media partner.">
 <meta property="og:title" content="Kabar Bintuni — Media Informasi Teluk Bintuni">
-<meta property="og:description" content="Kirim info warga, cek Rate Card & Media Kit resmi, atau hubungi WhatsApp bisnis Kabar Bintuni.">
-<meta property="og:image" content="logo.jpg">
+<meta property="og:description" content="14.000+ Followers Lokal (IG & TikTok). Kirim info warga, unduh Media Kit & Rate Card resmi, atau hubungi WA Bisnis 0851-7112-4991.">
+<meta property="og:image" content="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800;900&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #0D2A1E;
-    --bg2: #154531;
-    --card: rgba(255, 255, 255, 0.97);
-    --green: #1B6B4A;
-    --green-dark: #114731;
-    --gold: #F5B700;
-    --ink: #111827;
-    --muted: #4B5563;
+    --yellow: #FED132;
+    --yellow-soft: #FFF6CC;
+    --green: #158F5C;
+    --cyan: #22B7CF;
+    --mint: #95E5E3;
+    --orange: #F97316;
+    --cream: #FFFDF5;
+    --ink: #1E1B18;
+    --muted: #57534E;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
-    font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     min-height: 100vh;
-    background: radial-gradient(circle at top center, #226B4C 0%, var(--bg) 68%);
-    color: #fff;
-    padding: 24px 14px 36px;
+    background-color: var(--yellow);
+    background-image: radial-gradient(rgba(30,27,24,0.09) 1.8px, transparent 1.8px);
+    background-size: 24px 24px;
+    color: var(--ink);
+    padding: 26px 14px 40px;
     overflow-x: hidden;
   }
   .wrap {
     width: 100%;
-    max-width: 410px;
+    max-width: 430px;
     margin: 0 auto;
     text-align: center;
   }
   .avatar {
-    width: 98px;
-    height: 98px;
+    width: 112px;
+    height: 112px;
     border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid var(--gold);
-    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
+    object-fit: contain;
     margin: 0 auto 12px;
     display: block;
-    background: #fff;
+    filter: drop-shadow(5px 5px 0 rgba(30,27,24,0.28));
   }
   .badge {
     display: inline-block;
-    background: rgba(245, 183, 0, 0.16);
-    border: 1px solid rgba(245, 183, 0, 0.5);
-    color: #FFE27A;
+    background: var(--green);
+    color: #FFFDF5;
+    border: 2.5px solid var(--ink);
+    box-shadow: 3.5px 3.5px 0 var(--ink);
     font-size: 11px;
-    font-weight: 700;
+    font-weight: 900;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    padding: 4px 11px;
+    padding: 5px 13px;
     border-radius: 999px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
   }
   h1 {
-    font-size: 24px;
-    font-weight: 800;
+    font-size: 27px;
+    font-weight: 900;
     letter-spacing: -0.02em;
-    margin-bottom: 4px;
+    margin-bottom: 5px;
   }
   .sub {
     font-size: 13.5px;
-    color: rgba(255, 255, 255, 0.86);
+    font-weight: 700;
+    color: #36302A;
     line-height: 1.45;
     margin-bottom: 16px;
   }
   .stats {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
+    gap: 9px;
     margin-bottom: 20px;
   }
   .stat {
-    background: rgba(255, 255, 255, 0.09);
-    border: 1px solid rgba(255, 255, 255, 0.14);
-    border-radius: 12px;
-    padding: 9px 6px;
+    background: var(--cream);
+    border: 2.5px solid var(--ink);
+    box-shadow: 4px 4px 0 var(--ink);
+    border-radius: 14px;
+    padding: 10px 6px;
   }
+  .stat.s1 { background: var(--green); color: #FFFDF5; }
+  .stat.s2 { background: var(--mint); }
+  .stat.s3 { background: var(--cream); }
   .stat strong {
     display: block;
-    font-size: 15px;
-    color: #FFE27A;
+    font-size: 16px;
+    font-weight: 900;
   }
+  .stat.s1 strong { color: var(--yellow); }
   .stat span {
     font-size: 10.5px;
-    color: rgba(255, 255, 255, 0.78);
+    font-weight: 700;
+    opacity: 0.9;
   }
   .links {
     display: flex;
@@ -101,28 +113,32 @@
     align-items: center;
     gap: 13px;
     text-decoration: none;
-    background: var(--card);
+    background: var(--cream);
     color: var(--ink);
-    padding: 14px 16px;
-    border-radius: 14px;
+    padding: 13px 15px;
+    border-radius: 16px;
     text-align: left;
-    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.22);
-    transition: transform 0.16s ease, box-shadow 0.16s ease;
-    border: 2px solid transparent;
+    border: 3px solid var(--ink);
+    box-shadow: 5px 5px 0 var(--ink);
+    transition: transform 0.14s ease, box-shadow 0.14s ease;
   }
   .btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.3);
+    transform: translate(-2px, -2px);
+    box-shadow: 7px 7px 0 var(--ink);
   }
   .btn.primary {
-    background: linear-gradient(135deg, #F5B700 0%, #FFCF3F 100%);
-    color: #111827;
+    background: var(--green);
+    color: #FFFDF5;
+  }
+  .btn.accent {
+    background: var(--mint);
   }
   .icon {
-    width: 42px;
-    height: 42px;
-    border-radius: 11px;
-    background: rgba(27, 107, 74, 0.12);
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    background: var(--yellow);
+    border: 2.5px solid var(--ink);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,110 +146,156 @@
     flex-shrink: 0;
   }
   .btn.primary .icon {
-    background: rgba(17, 24, 39, 0.12);
+    background: var(--yellow);
+    color: var(--ink);
   }
   .btn-text strong {
     display: block;
     font-size: 14.5px;
-    font-weight: 800;
-    line-height: 1.25;
+    font-weight: 900;
+    line-height: 1.24;
   }
   .btn-text span {
     display: block;
     font-size: 12px;
+    font-weight: 600;
     color: var(--muted);
     margin-top: 2px;
   }
   .btn.primary .btn-text span {
-    color: #374151;
+    color: #E5F9EE;
   }
+  .social-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    text-decoration: none;
+    background: var(--cream);
+    color: var(--ink);
+    padding: 12px 10px;
+    border-radius: 14px;
+    border: 3px solid var(--ink);
+    box-shadow: 4px 4px 0 var(--ink);
+    font-size: 13px;
+    font-weight: 900;
+    transition: transform 0.14s ease;
+  }
+  .social-btn:hover { transform: translate(-1.5px, -1.5px); }
+  .social-btn.ig { background: #FFF0E5; }
+  .social-btn.tt { background: #E3F9FC; }
   .rate-preview {
     margin-top: 18px;
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.14);
-    border-radius: 14px;
-    padding: 14px 15px;
+    background: var(--cream);
+    border: 3px solid var(--ink);
+    box-shadow: 5px 5px 0 var(--ink);
+    border-radius: 16px;
+    padding: 14px 16px;
     text-align: left;
   }
   .rate-preview h2 {
-    font-size: 12px;
+    display: inline-block;
+    background: var(--ink);
+    color: var(--yellow);
+    font-size: 10.5px;
+    font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    color: #FFE27A;
-    margin-bottom: 8px;
+    padding: 4px 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
   }
   .rate-row {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 12.5px;
-    padding: 5px 0;
-    border-bottom: 1px dashed rgba(255, 255, 255, 0.14);
+    font-weight: 700;
+    padding: 6px 0;
+    border-bottom: 2px dashed #E5E0D5;
   }
   .rate-row:last-child { border-bottom: none; }
-  .rate-row strong { color: #fff; }
-  .footer {
-    margin-top: 22px;
-    font-size: 11.5px;
-    color: rgba(255, 255, 255, 0.65);
-    line-height: 1.5;
+  .rate-row strong {
+    color: var(--green);
+    font-weight: 900;
+    white-space: nowrap;
   }
-  .footer a { color: #FFE27A; text-decoration: none; }
+  .rate-note {
+    margin-top: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--muted);
+  }
+  .footer {
+    margin-top: 20px;
+    font-size: 11.5px;
+    font-weight: 700;
+    color: #36302A;
+    line-height: 1.55;
+  }
+  .footer a { color: var(--ink); font-weight: 900; }
 </style>
 </head>
 <body>
   <main class="wrap">
-    <img src="logo.jpg" alt="Logo Kabar Bintuni" class="avatar">
+    <img src="logo.png" alt="Logo Kabar Bintuni" class="avatar">
     <div class="badge">Media Lokal • Teluk Bintuni, Papua Barat</div>
     <h1>Kabar Bintuni</h1>
     <p class="sub">Berita Lokal • Bedah Fakta • Kuliner &amp; UMKM • Event<br>Rujukan informasi warga &amp; promosi bisnis Teluk Bintuni</p>
 
-    <section class="stats" aria-label="Statistik Akun">
-      <div class="stat">
-        <strong>2,4 Jt+</strong>
-        <span>Views / Tahun</span>
-      </div>
-      <div class="stat">
-        <strong>5.500+</strong>
+    <section class="stats" aria-label="Statistik Gabungan IG dan TikTok">
+      <div class="stat s1">
+        <strong>14.000+</strong>
         <span>Followers Lokal</span>
       </div>
-      <div class="stat">
-        <strong>73%</strong>
-        <span>Usia 18–34 Thn</span>
+      <div class="stat s2">
+        <strong>3,1 Jt+</strong>
+        <span>Total Views</span>
+      </div>
+      <div class="stat s3">
+        <strong>IG + TT</strong>
+        <span>Tayang Ganda</span>
       </div>
     </section>
 
     <nav class="links" aria-label="Tautan Utama">
-      <a class="btn primary" href="https://wa.me/6285171124991?text=Halo%20Kabar%20Bintuni%2C%20saya%20tertarik%20kerja%20sama%20Promosi%20UMKM%20%2F%20Visit%20%2F%20Media%20Partner.%20Boleh%20info%20slot%20tayangnya%3F" target="_blank" rel="noopener">
+      <a class="btn primary" href="https://wa.me/6285171124991?text=Halo%20Kabar%20Bintuni%2C%20saya%20tertarik%20kerja%20sama%20Promosi%20UMKM%20%2F%20Visit%20%2F%20Media%20Partner%20(IG%20%2B%20TikTok).%20Boleh%20info%20slot%20tayangnya%3F" target="_blank" rel="noopener">
         <div class="icon">💼</div>
         <div class="btn-text">
           <strong>Pasang Iklan UMKM, Visit &amp; Media Partner</strong>
-          <span>Chat WhatsApp Bisnis 0851-7112-4991</span>
+          <span>Chat WA Bisnis 0851-7112-4991 (IG + TikTok)</span>
         </div>
       </a>
 
-      <a class="btn" href="https://wa.me/6285171124991?text=Halo%20Kabar%20Bintuni%2C%20saya%20mau%20kirim%20info%20%2F%20video%20warga%20di%20daerah..." target="_blank" rel="noopener">
+      <a class="btn accent" href="https://wa.me/6285171124991?text=Halo%20Kabar%20Bintuni%2C%20saya%20mau%20kirim%20info%20%2F%20video%20warga%20di%20daerah..." target="_blank" rel="noopener">
         <div class="icon">📢</div>
         <div class="btn-text">
           <strong>Kirim Info / Liputan Warga Bintuni</strong>
-          <span>Laporkan kabar, event, cuaca, atau kuliner baru</span>
+          <span>Laporkan kabar, cuaca, event, atau kuliner baru</span>
         </div>
       </a>
 
       <a class="btn" href="Media-Kit-Kabar-Bintuni-2026.pdf" target="_blank" rel="noopener">
         <div class="icon">📄</div>
         <div class="btn-text">
-          <strong>Unduh Media Kit &amp; Rate Card Resmi (PDF)</strong>
-          <span>Data audiens + paket UMKM, Event &amp; Korporat</span>
+          <strong>Unduh Media Kit &amp; Rate Card 2026 (PDF)</strong>
+          <span>Data resmi IG &amp; TikTok + 4 paket kerja sama</span>
         </div>
       </a>
 
-      <a class="btn" href="https://www.tiktok.com/@kabar.bintuni" target="_blank" rel="noopener">
-        <div class="icon">🎵</div>
-        <div class="btn-text">
-          <strong>TikTok Resmi @kabar.bintuni</strong>
-          <span>Tonton Kabar Terkini &amp; Bedah Fakta Bintuni</span>
-        </div>
-      </a>
+      <div class="social-row">
+        <a class="social-btn ig" href="https://www.instagram.com/kabarbintuni/" target="_blank" rel="noopener">
+          📸 IG @kabarbintuni
+        </a>
+        <a class="social-btn tt" href="https://www.tiktok.com/@kabar.bintuni" target="_blank" rel="noopener">
+          🎵 TikTok @kabar.bintuni
+        </a>
+      </div>
 
       <a class="btn" href="mailto:kabarbintuni@gmail.com?subject=Kerja%20Sama%20Media%20-%20Kabar%20Bintuni">
         <div class="icon">✉️</div>
@@ -245,11 +307,12 @@
     </nav>
 
     <section class="rate-preview">
-      <h2>Ringkasan Paket Kerja Sama</h2>
-      <div class="rate-row"><span>Spotlight UMKM (Video Editorial)</span><strong>Rp150.000</strong></div>
-      <div class="rate-row"><span>Visit &amp; Liputan Lokasi UMKM</span><strong>Rp350.000</strong></div>
-      <div class="rate-row"><span>Media Partner Event (Pra + Hari-H)</span><strong>Rp500.000</strong></div>
-      <div class="rate-row"><span>Sponsor Rubrik (Korporat / Instansi)</span><strong>Rp1.250.000</strong></div>
+      <h2>Ringkasan Paket (IG + TikTok)</h2>
+      <div class="rate-row"><span>Spotlight UMKM (IG Reels + TikTok + Story)</span><strong>Rp200.000</strong></div>
+      <div class="rate-row"><span>Visit &amp; Liputan Lokasi UMKM ⭐</span><strong>Rp450.000</strong></div>
+      <div class="rate-row"><span>Media Partner Event (Pra + Hari-H)</span><strong>Rp650.000</strong></div>
+      <div class="rate-row"><span>Sponsor Rubrik (Korporat / Instansi)</span><strong>Rp1.500.000</strong></div>
+      <div class="rate-note">*Bundling 3× UMKM Rp500.000 · Opsi hemat 1 platform Rp150.000</div>
     </section>
 
     <footer class="footer">
