@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_wit": "26 Nov 2026, 02:04 WIT",
-  "generated_at_iso": "2026-11-26T02:04+09:00",
+  "generated_at_wit": "26 Nov 2026, 02:06 WIT",
+  "generated_at_iso": "2026-11-26T02:06+09:00",
   "jadwal_otomatis": "2× sehari otomatis (06.00 WIT & 17.30 WIT) via GitHub Actions",
   "kuota_target": {
     "bintuni": "60%",
@@ -13,8 +13,8 @@
     "papua_barat": 8,
     "papua": 4,
     "total_terpilih": 30,
-    "total_mentah": 482,
-    "total_terklaster": 299,
+    "total_mentah": 488,
+    "total_terklaster": 304,
     "total_diblokir_sensitif": 17
   },
   "feed_health": [
@@ -50,7 +50,7 @@
       "id": "rri_papua_barat",
       "label": "RRI — Papua Barat, PBD & Teluk Bintuni (7 hari)",
       "ok": true,
-      "count": 80,
+      "count": 86,
       "error": ""
     },
     {
@@ -148,6 +148,56 @@
       },
       "tagar_topik": "#infobintuni",
       "caption_seo": "Melampaui Teknologi: Membangun Budaya K3 Tangguh\n\nPantauan redaksi dari Jubi Papua untuk warga Kabupaten Teluk Bintuni.\n\n📍 Lokasi: Teluk Bintuni, Papua Barat\n📌 Sumber: Jubi Papua\n💬 Menurut kaka dan ade di Bintuni, bagaimana tanggapan soal kabar ini? Tulis di komentar!\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
+      "peringatan_visual": "Jangan pakai foto ber-watermark media lain. Pakai Mode Grafis Kaka Kabar, foto rilis resmi, atau dokumentasi sendiri."
+    },
+    {
+      "id": "kb-2c88bdd4e5",
+      "wilayah": "bintuni",
+      "wilayah_label": "Teluk Bintuni",
+      "score": 72,
+      "cat_idx": 0,
+      "cat_label": "KABAR TERKINI",
+      "title": "Yustina Ogoney, Perempuan Moskona Pertama Menjadi Plt Kepala DMPK Teluk Bintuni",
+      "card_headline": "Yustina Ogoney, Perempuan Moskona Pertama Menjadi Plt Kepala DMPK *Teluk Bintuni*",
+      "subline": "Pantauan redaksi dari Tabura Pos untuk warga Kabupaten Teluk Bintuni.",
+      "lokasi": "Moskona, Teluk Bintuni",
+      "sumber_utama": "Tabura Pos",
+      "sumber_display": "Tabura Pos (+2 media)",
+      "sumber_count": 3,
+      "sumber_list": [
+        {
+          "nama": "Tabura Pos",
+          "tier": 2,
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaWc5WjQwSmFhYXhzNVBzZy1JWGpjTzhpenY5bjdvbVV2Z2ZHTkFXUjBuU1lzMUd4Z3FYbnF3b2JHSmQzd1l4bmI4RTYzQ2NBNXZZQkZZS0xHUzA0QVdIM082Y3A5UW00eDVNNktuM2lJQk1SMDJteGNpdEZyOC12UnJGNXNCMnlFc0k0VDdXZllkdTNoT2hMOUR1MlVjaVhIMWw1MzFyNmNVV2FTeEx4MQ?oc=5",
+          "tanggal_wit": "17 Nov 2026"
+        },
+        {
+          "nama": "Garda Papua",
+          "tier": 3,
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRVExcGxQVEtRcUdXTlYwVkNTMy1XbDZmS0tDZEwzOTNYcVlsRzBveVhMU09GWlhBeTFrNFRYekJJdy1pSm9hYnRXR240ZUFNRzF6R0M2WEVlUGprMUg3T2lEOTZjWERHY2RULS1nU2JtTEd5UXB6ODdPVHl6NVVGWHo3Mk83UVNnOUtZM3hSMkZqLWxSRnNjWUJFajVNdlJhX2tqd0NWTVhWSnVzUFZ0TnVjSWtyMlZ6akJTUVVQaTYxUzh2RkVSTDRBcjcyNzhrejdhM1F6Zw?oc=5",
+          "tanggal_wit": "16 Nov 2026"
+        },
+        {
+          "nama": "Suaradamai.com",
+          "tier": 3,
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMFBRZDBQZ1VXcVZiQVRMNlZiWlFjRTA2QlpDRXZvT2JnRmhoeXdjM2hzZEhZMXJuaXo1RDB0NklFb051SFJaX3FLSWg1QUpHQXAyMFFsdG14bDZqWXBEWjhrNXdKOG80LUYxSjlMR1BxeUd1TkFXcnZJcXZ5OElvSkJUZFpEUkRsT21UUi1VNjItVWVEYUFrRkdQRGJoN3B4ajF0N3NNTkx6a0NQVm9KcVhxSUh0akk?oc=5",
+          "tanggal_wit": "16 Nov 2026"
+        }
+      ],
+      "tier": 2,
+      "verifikasi_label": "Terverifikasi Multi-Sumber",
+      "tanggal_wit": "17 Nov 2026",
+      "published_iso": "2026-11-17T16:30+09:00",
+      "umur_jam": 201.6,
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaWc5WjQwSmFhYXhzNVBzZy1JWGpjTzhpenY5bjdvbVV2Z2ZHTkFXUjBuU1lzMUd4Z3FYbnF3b2JHSmQzd1l4bmI4RTYzQ2NBNXZZQkZZS0xHUzA0QVdIM082Y3A5UW00eDVNNktuM2lJQk1SMDJteGNpdEZyOC12UnJGNXNCMnlFc0k0VDdXZllkdTNoT2hMOUR1MlVjaVhIMWw1MzFyNmNVV2FTeEx4MQ?oc=5",
+      "rekomendasi_format": {
+        "kode": "feed_reels",
+        "label": "Feed 4:5 + Video Cepat 9:16",
+        "editor_mode": "4x5",
+        "catatan": "Relevansi Bintuni tinggi — layak naik Feed IG 4:5 dan Reels/TikTok 9:16."
+      },
+      "tagar_topik": "#infobintuni",
+      "caption_seo": "Yustina Ogoney, Perempuan Moskona Pertama Menjadi Plt Kepala DMPK Teluk Bintuni\n\nPantauan redaksi dari Tabura Pos untuk warga Kabupaten Teluk Bintuni.\n\n📍 Lokasi: Moskona, Teluk Bintuni\n📌 Sumber: Tabura Pos (+2 media)\n💬 Menurut kaka dan ade di Bintuni, bagaimana tanggapan soal kabar ini? Tulis di komentar!\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
       "peringatan_visual": "Jangan pakai foto ber-watermark media lain. Pakai Mode Grafis Kaka Kabar, foto rilis resmi, atau dokumentasi sendiri."
     },
     {
@@ -340,7 +390,7 @@
       "verifikasi_label": "Sumber Resmi / Primer",
       "tanggal_wit": "24 Nov 2026",
       "published_iso": "2026-11-24T08:56+09:00",
-      "umur_jam": 41.1,
+      "umur_jam": 41.2,
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbkd5QUd0T1JzODNoXy13cHFIOC1aelppSkRnaE92Tl82Q0tZRU1nUk5SeFlMR093MW1VdGlCUDR1UUJKNnRQbFpGeTdNeFZUX3dONXJGRmpsYmNRTWtVMW9XWmpGN0tWbmJ0bTIzaVA5V1hySlhUUTRKY3Q2aWdVcW5KQmVqeUdXbjhlcnQ2Vmt3bmxiaWxRYldmb08ycEhjOUZGZU9ULURHMXJKd2ZRdEFoZmk0R1Jt?oc=5",
       "rekomendasi_format": {
         "kode": "feed_reels",
@@ -416,7 +466,7 @@
       "verifikasi_label": "Media Terverifikasi",
       "tanggal_wit": "12 Nov 2026",
       "published_iso": "2026-11-12T19:08+09:00",
-      "umur_jam": 318.9,
+      "umur_jam": 319.0,
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNRlExS00yc2diaUVUeW13TXNmdklkQkJhdHhnTnhUYk1NU21kMmZZYXJwMzhidEpWcmRTZFNxOG50bG9ZaGZGUVVvRVloYk5TVDlyZ0RLRkx6MWhtZUNUSlJWbUlmVXBVSU1uS3I0T3hhX282a0RHWmNDSWduX0RFTEw4X214NEpTM1hoaFlTZ2h5bVRNQmVWMmh3a3lzWDZSMDhQQUdDOVBMeDJMcXpsbTUxb0tJelJVWVdMaUFFc3BwYnpUVlpOQzUyM1dVVXdMdnh2Rmp1Z0tDWUZZ?oc=5",
       "rekomendasi_format": {
         "kode": "feed_reels",
@@ -580,7 +630,7 @@
       "verifikasi_label": "Terverifikasi Multi-Sumber",
       "tanggal_wit": "10 Nov 2026",
       "published_iso": "2026-11-10T14:14+09:00",
-      "umur_jam": 371.8,
+      "umur_jam": 371.9,
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSTdUSGtmejJuYjU3dXZoUDF2eUxSbkljRUtwVXN6OTZMREUwaFhNNW91VUptWVZLV0Voa3NjeFZTVmtXT21ISEc0MG1WRFUzcXJLR2lMMlc0aU9fd0FHN1dBcGtNbFhLVVdFaE0zLTlXMFVTS2xrM1VUblB4dzBMOUFudFo2RmpXRzZxbUZuLVowaHpfNE5jSnltbzNUNmRSYWJ4Qy1maGFsMl9jVVJlRjhib3MwZnRRZ05vUGxYZGxNME9PLUpzdWM3R0N2UzQ?oc=5",
       "rekomendasi_format": {
         "kode": "feed_reels",
@@ -732,7 +782,7 @@
       "verifikasi_label": "Media Terverifikasi",
       "tanggal_wit": "25 Nov 2026",
       "published_iso": "2026-11-25T14:02+09:00",
-      "umur_jam": 12.0,
+      "umur_jam": 12.1,
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTHJRWFh4b0kxcXhIblNDYUxMaTExUlRLRTRyUWg4TUJvREZ1WFl3WGdTUFBVRHNVaURWZmtfeV9lTmdMUGY2QmNYUXFtbGFjT2pWY2FhakxjRkZwWDhZMDlQS1A4VzVNSXQyd0twUkdvOFNYNy1EN3dzck0wV2Mwd1hRdkRPZy1VcUZaNmNmTTU1eWd5WFY4Q1hIeEJ3NFNEeF9MSmJ2RGdoVVlueXVCT3htaVJFOWdKV2wzakpabmk3QQ?oc=5",
       "rekomendasi_format": {
         "kode": "story",
@@ -780,50 +830,6 @@
       },
       "tagar_topik": "#infobintuni",
       "caption_seo": "Lacak Digital, URC Reskrim Polres Teluk Bintuni Tangkap Terduga Pelaku Pencurian di Kompleks Tahiti\n\nPantauan redaksi dari Media Pro Rakyat untuk warga Kabupaten Teluk Bintuni.\n\n📍 Lokasi: Teluk Bintuni, Papua Barat\n📌 Sumber: Media Pro Rakyat\n💬 Menurut kaka dan ade di Bintuni, bagaimana tanggapan soal kabar ini? Tulis di komentar!\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
-      "peringatan_visual": "Jangan pakai foto ber-watermark media lain. Pakai Mode Grafis Kaka Kabar, foto rilis resmi, atau dokumentasi sendiri."
-    },
-    {
-      "id": "kb-2c88bdd4e5",
-      "wilayah": "bintuni",
-      "wilayah_label": "Teluk Bintuni",
-      "score": 60,
-      "cat_idx": 0,
-      "cat_label": "KABAR TERKINI",
-      "title": "Yustina Ogoney, Perempuan Moskona Pertama Menjadi Plt Kepala DMPK Teluk Bintuni",
-      "card_headline": "Yustina Ogoney, Perempuan Moskona Pertama Menjadi Plt Kepala DMPK *Teluk Bintuni*",
-      "subline": "Pantauan redaksi dari Tabura Pos untuk warga Kabupaten Teluk Bintuni.",
-      "lokasi": "Moskona, Teluk Bintuni",
-      "sumber_utama": "Tabura Pos",
-      "sumber_display": "Tabura Pos (+1 media)",
-      "sumber_count": 2,
-      "sumber_list": [
-        {
-          "nama": "Tabura Pos",
-          "tier": 2,
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaWc5WjQwSmFhYXhzNVBzZy1JWGpjTzhpenY5bjdvbVV2Z2ZHTkFXUjBuU1lzMUd4Z3FYbnF3b2JHSmQzd1l4bmI4RTYzQ2NBNXZZQkZZS0xHUzA0QVdIM082Y3A5UW00eDVNNktuM2lJQk1SMDJteGNpdEZyOC12UnJGNXNCMnlFc0k0VDdXZllkdTNoT2hMOUR1MlVjaVhIMWw1MzFyNmNVV2FTeEx4MQ?oc=5",
-          "tanggal_wit": "17 Nov 2026"
-        },
-        {
-          "nama": "Garda Papua",
-          "tier": 3,
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRVExcGxQVEtRcUdXTlYwVkNTMy1XbDZmS0tDZEwzOTNYcVlsRzBveVhMU09GWlhBeTFrNFRYekJJdy1pSm9hYnRXR240ZUFNRzF6R0M2WEVlUGprMUg3T2lEOTZjWERHY2RULS1nU2JtTEd5UXB6ODdPVHl6NVVGWHo3Mk83UVNnOUtZM3hSMkZqLWxSRnNjWUJFajVNdlJhX2tqd0NWTVhWSnVzUFZ0TnVjSWtyMlZ6akJTUVVQaTYxUzh2RkVSTDRBcjcyNzhrejdhM1F6Zw?oc=5",
-          "tanggal_wit": "16 Nov 2026"
-        }
-      ],
-      "tier": 2,
-      "verifikasi_label": "Terverifikasi Multi-Sumber",
-      "tanggal_wit": "17 Nov 2026",
-      "published_iso": "2026-11-17T16:30+09:00",
-      "umur_jam": 201.6,
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaWc5WjQwSmFhYXhzNVBzZy1JWGpjTzhpenY5bjdvbVV2Z2ZHTkFXUjBuU1lzMUd4Z3FYbnF3b2JHSmQzd1l4bmI4RTYzQ2NBNXZZQkZZS0xHUzA0QVdIM082Y3A5UW00eDVNNktuM2lJQk1SMDJteGNpdEZyOC12UnJGNXNCMnlFc0k0VDdXZllkdTNoT2hMOUR1MlVjaVhIMWw1MzFyNmNVV2FTeEx4MQ?oc=5",
-      "rekomendasi_format": {
-        "kode": "feed_reels",
-        "label": "Feed 4:5 + Video Cepat 9:16",
-        "editor_mode": "4x5",
-        "catatan": "Relevansi Bintuni tinggi — layak naik Feed IG 4:5 dan Reels/TikTok 9:16."
-      },
-      "tagar_topik": "#infobintuni",
-      "caption_seo": "Yustina Ogoney, Perempuan Moskona Pertama Menjadi Plt Kepala DMPK Teluk Bintuni\n\nPantauan redaksi dari Tabura Pos untuk warga Kabupaten Teluk Bintuni.\n\n📍 Lokasi: Moskona, Teluk Bintuni\n📌 Sumber: Tabura Pos (+1 media)\n💬 Menurut kaka dan ade di Bintuni, bagaimana tanggapan soal kabar ini? Tulis di komentar!\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
       "peringatan_visual": "Jangan pakai foto ber-watermark media lain. Pakai Mode Grafis Kaka Kabar, foto rilis resmi, atau dokumentasi sendiri."
     },
     {
@@ -947,88 +953,6 @@
       "peringatan_visual": "Jangan pakai foto ber-watermark media lain. Pakai Mode Grafis Kaka Kabar, foto rilis resmi, atau dokumentasi sendiri."
     },
     {
-      "id": "kb-f87e5da5c6",
-      "wilayah": "papua_barat",
-      "wilayah_label": "Papua Barat & PBD",
-      "score": 77,
-      "cat_idx": 0,
-      "cat_label": "KABAR TERKINI",
-      "title": "Berita Video - Pemprov PBD Bersama Australia Perkuat Transformasi Kesehatan lewat Program KITA",
-      "card_headline": "*Berita Video* - Pemprov PBD Bersama Australia Perkuat Transformasi Kesehatan lewat Program KITA",
-      "subline": "Perkembangan regional Papua Barat & PBD yang berdampak ke wilayah Teluk Bintuni.",
-      "lokasi": "Papua Barat",
-      "sumber_utama": "RRI.co.id",
-      "sumber_display": "RRI.co.id (+1 media)",
-      "sumber_count": 2,
-      "sumber_list": [
-        {
-          "nama": "RRI.co.id",
-          "tier": 1,
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMFZXWThBU3loSG9sdzBlbmJUUFB4X3B4czBkcG51Y0xmMDM2dFVZLW4xV1c4Y3p4bUp1YmJQbHdLaEZOdDNibTd3NnJxNnFvbWpIdVhveWxHa0w5V1MzM21YNTdBdEtvZjRvWUZGTVZhREczYXpPMnBQOF9zbm1RdzhlN3ZLTVlBUEN4SGlCTEJMeGE0MWhEU3lGYk5tWE54STRqbmRDeXJKV0ktdVg0Mlk0UDhUR3lHRlpCX0dWY0E?oc=5",
-          "tanggal_wit": "23 Nov 2026"
-        },
-        {
-          "nama": "Pemerintah Provinsi Papua Barat Daya",
-          "tier": 1,
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTm1EYld2T0MwbGZoZExacVhEbW5HajkxTU5vSGZFc0ZZWnY1RktFcnV1VVdRajhST1JZUUxqd2hpbEE4eGRNNlAwMlJ5aVlvdWIycDFJNmljRmdlWkZOSzA4V1NDV3Vnc1UwTlhBUC1SazVOWngybjZiMkpDTEVlbjFmSmlBXzdUeWg0SjNueEs4S2UyX04xT0hNV1c0VU1CRUgxN2N4VzNsOTIteldxbVJ1UUN6dVdmTkRLckRoWU1CNjhubXdodk1MVHRmSl9k?oc=5",
-          "tanggal_wit": "20 Nov 2026"
-        }
-      ],
-      "tier": 1,
-      "verifikasi_label": "Terverifikasi Multi-Sumber",
-      "tanggal_wit": "23 Nov 2026",
-      "published_iso": "2026-11-23T17:52+09:00",
-      "umur_jam": 56.2,
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMFZXWThBU3loSG9sdzBlbmJUUFB4X3B4czBkcG51Y0xmMDM2dFVZLW4xV1c4Y3p4bUp1YmJQbHdLaEZOdDNibTd3NnJxNnFvbWpIdVhveWxHa0w5V1MzM21YNTdBdEtvZjRvWUZGTVZhREczYXpPMnBQOF9zbm1RdzhlN3ZLTVlBUEN4SGlCTEJMeGE0MWhEU3lGYk5tWE54STRqbmRDeXJKV0ktdVg0Mlk0UDhUR3lHRlpCX0dWY0E?oc=5",
-      "rekomendasi_format": {
-        "kode": "feed_reels",
-        "label": "Feed 4:5 + Story",
-        "editor_mode": "4x5",
-        "catatan": "Berdampak ke Papua Barat — naikkan dengan sudut pandang warga Bintuni."
-      },
-      "tagar_topik": "#infobintuni",
-      "caption_seo": "Berita Video - Pemprov PBD Bersama Australia Perkuat Transformasi Kesehatan lewat Program KITA\n\nPerkembangan regional Papua Barat & PBD yang berdampak ke wilayah Teluk Bintuni.\n\n📍 Lokasi: Papua Barat\n📌 Sumber: RRI.co.id (+1 media)\n💬 Bagaimana dampaknya di wilayah Bintuni menurut kam? Bagikan ke teman atau keluarga!\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
-      "peringatan_visual": "Jangan pakai foto ber-watermark media lain. Pakai Mode Grafis Kaka Kabar, foto rilis resmi, atau dokumentasi sendiri."
-    },
-    {
-      "id": "kb-b7112a82e3",
-      "wilayah": "papua_barat",
-      "wilayah_label": "Papua Barat & PBD",
-      "score": 72,
-      "cat_idx": 0,
-      "cat_label": "KABAR TERKINI",
-      "title": "Buka Pelatihan Jurnalistik, Asisten II Setda PBD Apresiasi Peran SKK Migas Pamalu",
-      "card_headline": "*Buka Pelatihan* Jurnalistik, Asisten II Setda PBD Apresiasi Peran SKK Migas Pamalu",
-      "subline": "Perkembangan regional Papua Barat & PBD yang berdampak ke wilayah Teluk Bintuni.",
-      "lokasi": "Papua Barat",
-      "sumber_utama": "RRI.co.id",
-      "sumber_display": "RRI.co.id",
-      "sumber_count": 1,
-      "sumber_list": [
-        {
-          "nama": "RRI.co.id",
-          "tier": 1,
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR1gwb2pxenpzLUNXYXlEc1Jucjd6dGtHaUNFd19KSnRfbEhOM0NCSzhXalBPVGZieFVOVWpKMl9fdEVxNFlaS2hwRFVxd0Y2eFpLRmQzN0xYaGgxbFhzX1JjZWJzUzNTMFd2ZlhmRWxfMm1FaUlCSEVRUkJQck5oLXdKdlQxQ0xiNzEwRlFUZ3I4LXFUekVHa1JvTlkySGZYNHNSZl9qV1lLUEZYUkJDMzdhTzluTDAwUHJ4TWlWV3A?oc=5",
-          "tanggal_wit": "23 Nov 2026"
-        }
-      ],
-      "tier": 1,
-      "verifikasi_label": "Sumber Resmi / Primer",
-      "tanggal_wit": "23 Nov 2026",
-      "published_iso": "2026-11-23T14:55+09:00",
-      "umur_jam": 59.2,
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR1gwb2pxenpzLUNXYXlEc1Jucjd6dGtHaUNFd19KSnRfbEhOM0NCSzhXalBPVGZieFVOVWpKMl9fdEVxNFlaS2hwRFVxd0Y2eFpLRmQzN0xYaGgxbFhzX1JjZWJzUzNTMFd2ZlhmRWxfMm1FaUlCSEVRUkJQck5oLXdKdlQxQ0xiNzEwRlFUZ3I4LXFUekVHa1JvTlkySGZYNHNSZl9qV1lLUEZYUkJDMzdhTzluTDAwUHJ4TWlWV3A?oc=5",
-      "rekomendasi_format": {
-        "kode": "feed_reels",
-        "label": "Feed 4:5 + Story",
-        "editor_mode": "4x5",
-        "catatan": "Berdampak ke Papua Barat — naikkan dengan sudut pandang warga Bintuni."
-      },
-      "tagar_topik": "#infobintuni",
-      "caption_seo": "Buka Pelatihan Jurnalistik, Asisten II Setda PBD Apresiasi Peran SKK Migas Pamalu\n\nPerkembangan regional Papua Barat & PBD yang berdampak ke wilayah Teluk Bintuni.\n\n📍 Lokasi: Papua Barat\n📌 Sumber: RRI.co.id\n💬 Bagaimana dampaknya di wilayah Bintuni menurut kam? Bagikan ke teman atau keluarga!\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
-      "peringatan_visual": "Jangan pakai foto ber-watermark media lain. Pakai Mode Grafis Kaka Kabar, foto rilis resmi, atau dokumentasi sendiri."
-    },
-    {
       "id": "kb-8e0ab2cb18",
       "wilayah": "papua_barat",
       "wilayah_label": "Papua Barat & PBD",
@@ -1143,6 +1067,82 @@
       "peringatan_visual": "Jangan pakai foto ber-watermark media lain. Pakai Mode Grafis Kaka Kabar, foto rilis resmi, atau dokumentasi sendiri."
     },
     {
+      "id": "kb-b343f0e38c",
+      "wilayah": "papua_barat",
+      "wilayah_label": "Papua Barat & PBD",
+      "score": 71,
+      "cat_idx": 4,
+      "cat_label": "EVENT & WARGA",
+      "title": "Turnamen BPJS Series Papua Barat Daya Resmi Ditutup, Diikuti 128 Pebiliar",
+      "card_headline": "Turnamen BPJS Series *Papua Barat Daya* Resmi Ditutup, Diikuti 128 Pebiliar",
+      "subline": "Perkembangan regional Papua Barat & PBD yang berdampak ke wilayah Teluk Bintuni.",
+      "lokasi": "Papua Barat Daya",
+      "sumber_utama": "RRI.co.id",
+      "sumber_display": "RRI.co.id",
+      "sumber_count": 1,
+      "sumber_list": [
+        {
+          "nama": "RRI.co.id",
+          "tier": 1,
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNzk4LUVpZ0VtalRtd1AtODBjeVVhdjMxdVRmQTBBWVVOb2ZaMUNZNGJoWk05RkV0cE15eDdYLVllLW1uZzZ4eGQxSnUyU3lNQ3FkajRlQ1NEclRoSjN6NHhscHR0NkVVX0dWQXZ3c2tmOHBWWHdaaFZ4OUV2OU9Sel9UNHpRS1d0M3hZSlpnNGhCWHZxU0RqS1pLanNLWnJrLW5VTXFCQ3Z0MG9KcU95OWxaR0M?oc=5",
+          "tanggal_wit": "25 Nov 2026"
+        }
+      ],
+      "tier": 1,
+      "verifikasi_label": "Sumber Resmi / Primer",
+      "tanggal_wit": "25 Nov 2026",
+      "published_iso": "2026-11-25T16:58+09:00",
+      "umur_jam": 9.1,
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNzk4LUVpZ0VtalRtd1AtODBjeVVhdjMxdVRmQTBBWVVOb2ZaMUNZNGJoWk05RkV0cE15eDdYLVllLW1uZzZ4eGQxSnUyU3lNQ3FkajRlQ1NEclRoSjN6NHhscHR0NkVVX0dWQXZ3c2tmOHBWWHdaaFZ4OUV2OU9Sel9UNHpRS1d0M3hZSlpnNGhCWHZxU0RqS1pLanNLWnJrLW5VTXFCQ3Z0MG9KcU95OWxaR0M?oc=5",
+      "rekomendasi_format": {
+        "kode": "feed_reels",
+        "label": "Feed 4:5 + Story",
+        "editor_mode": "4x5",
+        "catatan": "Berdampak ke Papua Barat — naikkan dengan sudut pandang warga Bintuni."
+      },
+      "tagar_topik": "#eventbintuni",
+      "caption_seo": "Turnamen BPJS Series Papua Barat Daya Resmi Ditutup, Diikuti 128 Pebiliar\n\nPerkembangan regional Papua Barat & PBD yang berdampak ke wilayah Teluk Bintuni.\n\n📍 Lokasi: Papua Barat Daya\n📌 Sumber: RRI.co.id\n💬 Bagaimana dampaknya di wilayah Bintuni menurut kam? Bagikan ke teman atau keluarga!\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #eventbintuni",
+      "peringatan_visual": "Jangan pakai foto ber-watermark media lain. Pakai Mode Grafis Kaka Kabar, foto rilis resmi, atau dokumentasi sendiri."
+    },
+    {
+      "id": "kb-0e59edb881",
+      "wilayah": "papua_barat",
+      "wilayah_label": "Papua Barat & PBD",
+      "score": 71,
+      "cat_idx": 0,
+      "cat_label": "KABAR TERKINI",
+      "title": "Perempuan Asli Papua di Sorong Selatan Dilatih Olah Sampah Jadi Pupuk",
+      "card_headline": "Perempuan Asli *Papua* di Sorong Selatan Dilatih Olah Sampah Jadi Pupuk",
+      "subline": "Perkembangan regional Papua Barat & PBD yang berdampak ke wilayah Teluk Bintuni.",
+      "lokasi": "Sorong, Papua Barat Daya",
+      "sumber_utama": "RRI.co.id",
+      "sumber_display": "RRI.co.id",
+      "sumber_count": 1,
+      "sumber_list": [
+        {
+          "nama": "RRI.co.id",
+          "tier": 1,
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOel8wRHNnekp1QWo2RHlCYU9wRTVqS3hkNUg3ZVJBcWthSFhITE95MkRMenhtVnRvRG9DT1NaamZWV1BTbU1MaXpBQnVaV0p0R0taaWNUWDIxbVFiTmlHellPU2hxUzdKTkJvVm1FTE1nMnd0Vk9Dck5JSmxjNXFIeEs4OWVPTjBBeWsxWjJMNWpGd1drdG1lRVlxM2QxM0haLXpyTmk2T3JKU2VtUHRoUFFQUQ?oc=5",
+          "tanggal_wit": "25 Nov 2026"
+        }
+      ],
+      "tier": 1,
+      "verifikasi_label": "Sumber Resmi / Primer",
+      "tanggal_wit": "25 Nov 2026",
+      "published_iso": "2026-11-25T16:33+09:00",
+      "umur_jam": 9.6,
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOel8wRHNnekp1QWo2RHlCYU9wRTVqS3hkNUg3ZVJBcWthSFhITE95MkRMenhtVnRvRG9DT1NaamZWV1BTbU1MaXpBQnVaV0p0R0taaWNUWDIxbVFiTmlHellPU2hxUzdKTkJvVm1FTE1nMnd0Vk9Dck5JSmxjNXFIeEs4OWVPTjBBeWsxWjJMNWpGd1drdG1lRVlxM2QxM0haLXpyTmk2T3JKU2VtUHRoUFFQUQ?oc=5",
+      "rekomendasi_format": {
+        "kode": "feed_reels",
+        "label": "Feed 4:5 + Story",
+        "editor_mode": "4x5",
+        "catatan": "Berdampak ke Papua Barat — naikkan dengan sudut pandang warga Bintuni."
+      },
+      "tagar_topik": "#infobintuni",
+      "caption_seo": "Perempuan Asli Papua di Sorong Selatan Dilatih Olah Sampah Jadi Pupuk\n\nPerkembangan regional Papua Barat & PBD yang berdampak ke wilayah Teluk Bintuni.\n\n📍 Lokasi: Sorong, Papua Barat Daya\n📌 Sumber: RRI.co.id\n💬 Bagaimana dampaknya di wilayah Bintuni menurut kam? Bagikan ke teman atau keluarga!\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
+      "peringatan_visual": "Jangan pakai foto ber-watermark media lain. Pakai Mode Grafis Kaka Kabar, foto rilis resmi, atau dokumentasi sendiri."
+    },
+    {
       "id": "kb-20d594c25b",
       "wilayah": "papua",
       "wilayah_label": "Papua Umum",
@@ -1180,7 +1180,7 @@
       "verifikasi_label": "Terverifikasi Multi-Sumber",
       "tanggal_wit": "25 Nov 2026",
       "published_iso": "2026-11-25T15:15+09:00",
-      "umur_jam": 10.8,
+      "umur_jam": 10.9,
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZ1BCT3lxdTctRGUyYy1BeUZqZTByR0hZMWx4VkxMVkFEVFNxUWwyQTJUdTNDd0VWTlJqY1B6OEQyZGJUczhlMnJLZkNHWjIxM2c4b0lYNkVWT1hyNkFzc0xfT0taa3NvaVpGT1RLNGJkTENJOEpxalYyelUwTldqYU5QaVBhel9VUlhyakxtZ2tJQ00yQlNXZjlaWFdKZkQ5aUx1WE1odmVfVUtPdWNMYm90VTVoaXhXWWM2OUdDSURTQ0ZHNF94WHFWUzJ0UENxd2xoS251UVR6Tnl2?oc=5",
       "rekomendasi_format": {
         "kode": "story",
@@ -1230,7 +1230,7 @@
       "verifikasi_label": "Terverifikasi Multi-Sumber",
       "tanggal_wit": "23 Nov 2026",
       "published_iso": "2026-11-23T22:50+09:00",
-      "umur_jam": 51.2,
+      "umur_jam": 51.3,
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNnh4UGlfZFAtZzRjenlNVlZ2dlZaRVRsUGNCdTVIcTZvQzMzcDRlVnNPaEE2RnZLbjFXR2I2bVlEeWdxZWFZRk41YzdiZHFucTllQ0Y0d3cxUERSRDFod3BZSXFPcjRUT2pkZHQ5ZkpXYkxEYlpEU2kzVG5GUmhWd1U0WEtQR1k5d0hRS0pMS2FqUG52Tno2YS14TmdSbDMyQ000dndydG9SeC00RFFaQnJKOVUwUlJqZ1AyYkx0TjQ4RVU?oc=5",
       "rekomendasi_format": {
         "kode": "story",
@@ -1243,39 +1243,83 @@
       "peringatan_visual": "Jangan pakai foto ber-watermark media lain. Pakai Mode Grafis Kaka Kabar, foto rilis resmi, atau dokumentasi sendiri."
     },
     {
-      "id": "kb-4b059ee2c4",
+      "id": "kb-971d164b36",
       "wilayah": "papua",
       "wilayah_label": "Papua Umum",
-      "score": 73,
-      "cat_idx": 0,
-      "cat_label": "KABAR TERKINI",
-      "title": "Pemprov Papua Selatan Dorong Kemandirian Ekonomi Perempuan Asli Papua di Asmat",
-      "card_headline": "Pemprov *Papua* Selatan Dorong Kemandirian Ekonomi Perempuan Asli Papua di Asmat",
+      "score": 77,
+      "cat_idx": 2,
+      "cat_label": "KULINER & UMKM",
+      "title": "UNDIP Kembangkan Inovasi Pertanian-UMKM di Kawasan Transmigrasi Papua",
+      "card_headline": "UNDIP Kembangkan Inovasi Pertanian-*UMKM* di Kawasan Transmigrasi Papua",
       "subline": "Kabar pilihan Tanah Papua yang relevan dan inspiratif untuk warga Bintuni.",
       "lokasi": "Tanah Papua",
-      "sumber_utama": "RRI.co.id",
-      "sumber_display": "seputarpapua.com (+1 media)",
-      "sumber_count": 2,
+      "sumber_utama": "detikcom",
+      "sumber_display": "Demokratis.co.id (+2 media)",
+      "sumber_count": 3,
       "sumber_list": [
         {
-          "nama": "seputarpapua.com",
+          "nama": "Demokratis.co.id",
           "tier": 3,
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPb29MMFJMOUhkVWE4ZjREUTFvWGZLSHNiX1N1Qmw2RlVIaU1BUDd5QllHRlRZYzVyaDk1UUROMWhaYVhEeVg5OTdCUEFBaVVXd2QyTlR0NEY1blhPaDc5SmZpeW5jcVBLckV0aVZpVTV3OXBydEZYM2otM3JMajRJczg0RDB2Qk1wel9BaTdDV1B2dWQ0TmNydWV1N2VxUFBRdUVTTV9WUkVLRVROckVtemZBRVk?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yQ216U05xbF80amRGVmplUkh5UUZGMlRuZlNiSGVVLVZYNXYtSUNHUFBjVVcxNzU0aVRXQk1KbTZyVE15TnM5ZXhZOXhGUmNfamxhU3FmRGpWam9fVEV2VFF5Y3ZKOFl0aEJGTUZTS0Y?oc=5",
           "tanggal_wit": "25 Nov 2026"
         },
         {
+          "nama": "detikcom",
+          "tier": 2,
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeEx3UGp3WjNKdS1ubHpSZkZFd2dPbDE3R0l3bkN0VFdDOXFFVTRicm1vSWMxZTk3STR1VEVCVXhIUUFBNldUaFUwUGF3UmVWcnF0N2JxX0xxRlhCZ1VJNS1RZXh5ZlpOUW1adzhvekR4aklkc3VzLVo4dzdMbHdpVERYR3lWQ2R6enI3N0tYUVNuSVFfSVFpNEJKLXNRWG93bUFWVzlON3I0ZDNPdDBuMlFOQkFjSV9KTXFYSFhJSlpIbzFB0gHEAUFVX3lxTE14THdQandaM0p1LW5selJmRkV3Z09sMTdHSXduQ3RUV0M5cUVVNGJybW9JYzFlOTdJNHVURUJVeEhRQUE2V1RoVTBQYXdSZVZycXQ3YnFfTHFGWEJnVUk1LVFleHlmWk5RbVp3OG96RHhqSWRzdXMtWjh3N0xsd2lURFhHeVZDZHp6cjc3S1hRU25JUV9JUWk0Qkotc1FYb3dtQVZXOU43cjRkM090MG4yUU5CQWNJX0pNcVhIWElKWkhvMUE?oc=5",
+          "tanggal_wit": "25 Nov 2026"
+        },
+        {
+          "nama": "NNC Netralnews",
+          "tier": 3,
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcm53ZllXYzZLRWNNU0VOcGlaUGZrV05GeVllbFlfcGxweGV1VTQ0OWtPQk9IbGc3aWFnc05vMnZjU05MY0s3cGpNVTJqaEY1MnM0NHNMWnJHdHRLOF8wX3hvMng0ZFF4TmsydGhaZGY2X21PcmJyRXh1aGVuSTVfVmJWMDlxZElWTVd3dnhMY0gwVzh2ZmxpNEU3ZDh2d0ptajJuZU45ektNYkZyUVd0VEZtdUR6cTFCNE13?oc=5",
+          "tanggal_wit": "24 Nov 2026"
+        }
+      ],
+      "tier": 2,
+      "verifikasi_label": "Terverifikasi Multi-Sumber",
+      "tanggal_wit": "25 Nov 2026",
+      "published_iso": "2026-11-25T01:14+09:00",
+      "umur_jam": 24.9,
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeEx3UGp3WjNKdS1ubHpSZkZFd2dPbDE3R0l3bkN0VFdDOXFFVTRicm1vSWMxZTk3STR1VEVCVXhIUUFBNldUaFUwUGF3UmVWcnF0N2JxX0xxRlhCZ1VJNS1RZXh5ZlpOUW1adzhvekR4aklkc3VzLVo4dzdMbHdpVERYR3lWQ2R6enI3N0tYUVNuSVFfSVFpNEJKLXNRWG93bUFWVzlON3I0ZDNPdDBuMlFOQkFjSV9KTXFYSFhJSlpIbzFB0gHEAUFVX3lxTE14THdQandaM0p1LW5selJmRkV3Z09sMTdHSXduQ3RUV0M5cUVVNGJybW9JYzFlOTdJNHVURUJVeEhRQUE2V1RoVTBQYXdSZVZycXQ3YnFfTHFGWEJnVUk1LVFleHlmWk5RbVp3OG96RHhqSWRzdXMtWjh3N0xsd2lURFhHeVZDZHp6cjc3S1hRU25JUV9JUWk0Qkotc1FYb3dtQVZXOU43cjRkM090MG4yUU5CQWNJX0pNcVhIWElKWkhvMUE?oc=5",
+      "rekomendasi_format": {
+        "kode": "story",
+        "label": "IG Story (Cepat)",
+        "editor_mode": "story",
+        "catatan": "Sesuai SOP Bagian 3: berita portal luar cukup diolah ringkas untuk IG Story + kredit sumber."
+      },
+      "tagar_topik": "#umkmbintuni",
+      "caption_seo": "UNDIP Kembangkan Inovasi Pertanian-UMKM di Kawasan Transmigrasi Papua\n\nKabar pilihan Tanah Papua yang relevan dan inspiratif untuk warga Bintuni.\n\n📍 Lokasi: Tanah Papua\n📌 Sumber: Demokratis.co.id (+2 media)\n💬 Kabar baik dari Tanah Papua! Bagikan info ini biar makin banyak warga Bintuni yang tahu.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #umkmbintuni",
+      "peringatan_visual": "Jangan pakai foto ber-watermark media lain. Pakai Mode Grafis Kaka Kabar, foto rilis resmi, atau dokumentasi sendiri."
+    },
+    {
+      "id": "kb-1c02f2ec54",
+      "wilayah": "papua",
+      "wilayah_label": "Papua Umum",
+      "score": 75,
+      "cat_idx": 0,
+      "cat_label": "KABAR TERKINI",
+      "title": "PLN Pastikan Pasokan Listrik Papua Aman Jelang Nataru",
+      "card_headline": "PLN Pastikan Pasokan Listrik *Papua* Aman Jelang Nataru",
+      "subline": "Kabar pilihan Tanah Papua yang relevan dan inspiratif untuk warga Bintuni.",
+      "lokasi": "Tanah Papua",
+      "sumber_utama": "RRI.co.id",
+      "sumber_display": "RRI.co.id",
+      "sumber_count": 1,
+      "sumber_list": [
+        {
           "nama": "RRI.co.id",
           "tier": 1,
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOUczWnlHRGxLa19lNkVNS2pwOVRVZE4tSFZFbV9la3hMbVpvMVZRUDZMcFdVLXhkd24yNFZZUWtZYzJSYVpkcWZhX3I3NjVSRmxRcjhnV3VHUzJWY3c5MDJwbUYxZ3Vwbm5ZZzZoSnZqeW5DREwtY0FzUktPbHdtOW56aEpUZVRna0Rwb2hDbWlncFA1Skp5WGRIUTF6QkdYXzJLV09mRzRWV3U0QTFKUWFId2lnUUsxZlNtY3hFOHE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVTRpN2ZRZi1YNmVFb0pZZ2FCUkhoZXRfY3ZVbEllVk9UOXNsWWJSeXVFWDEtam1KbnlfVFNMaVJFWjBkUTY3dFYxTi1KWnRfSVpRcWFGSVNIeWY2cjlSY3Z2VFNBTXo2dDNoX2RLbWs2MXJseTdrU0phMDRhUEM3UFM1QnMwbmxiUzlBbzVTV2hRWF9sTmRzTU9veVZTZw?oc=5",
           "tanggal_wit": "25 Nov 2026"
         }
       ],
       "tier": 1,
-      "verifikasi_label": "Terverifikasi Multi-Sumber",
+      "verifikasi_label": "Sumber Resmi / Primer",
       "tanggal_wit": "25 Nov 2026",
-      "published_iso": "2026-11-25T18:04+09:00",
-      "umur_jam": 8.0,
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOUczWnlHRGxLa19lNkVNS2pwOVRVZE4tSFZFbV9la3hMbVpvMVZRUDZMcFdVLXhkd24yNFZZUWtZYzJSYVpkcWZhX3I3NjVSRmxRcjhnV3VHUzJWY3c5MDJwbUYxZ3Vwbm5ZZzZoSnZqeW5DREwtY0FzUktPbHdtOW56aEpUZVRna0Rwb2hDbWlncFA1Skp5WGRIUTF6QkdYXzJLV09mRzRWV3U0QTFKUWFId2lnUUsxZlNtY3hFOHE?oc=5",
+      "published_iso": "2026-11-25T11:33+09:00",
+      "umur_jam": 14.6,
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVTRpN2ZRZi1YNmVFb0pZZ2FCUkhoZXRfY3ZVbEllVk9UOXNsWWJSeXVFWDEtam1KbnlfVFNMaVJFWjBkUTY3dFYxTi1KWnRfSVpRcWFGSVNIeWY2cjlSY3Z2VFNBTXo2dDNoX2RLbWs2MXJseTdrU0phMDRhUEM3UFM1QnMwbmxiUzlBbzVTV2hRWF9sTmRzTU9veVZTZw?oc=5",
       "rekomendasi_format": {
         "kode": "story",
         "label": "IG Story (Cepat)",
@@ -1283,51 +1327,7 @@
         "catatan": "Sesuai SOP Bagian 3: berita portal luar cukup diolah ringkas untuk IG Story + kredit sumber."
       },
       "tagar_topik": "#infobintuni",
-      "caption_seo": "Pemprov Papua Selatan Dorong Kemandirian Ekonomi Perempuan Asli Papua di Asmat\n\nKabar pilihan Tanah Papua yang relevan dan inspiratif untuk warga Bintuni.\n\n📍 Lokasi: Tanah Papua\n📌 Sumber: seputarpapua.com (+1 media)\n💬 Kabar baik dari Tanah Papua! Bagikan info ini biar makin banyak warga Bintuni yang tahu.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
-      "peringatan_visual": "Jangan pakai foto ber-watermark media lain. Pakai Mode Grafis Kaka Kabar, foto rilis resmi, atau dokumentasi sendiri."
-    },
-    {
-      "id": "kb-62896341bf",
-      "wilayah": "papua",
-      "wilayah_label": "Papua Umum",
-      "score": 71,
-      "cat_idx": 4,
-      "cat_label": "EVENT & WARGA",
-      "title": "Siswa SATP Raih Tujuh Medali di Festival Sains Berstandar Global",
-      "card_headline": "*Siswa SATP* Raih Tujuh Medali di Festival Sains Berstandar Global",
-      "subline": "Kabar pilihan Tanah Papua yang relevan dan inspiratif untuk warga Bintuni.",
-      "lokasi": "Tanah Papua",
-      "sumber_utama": "Tribun-papua.com",
-      "sumber_display": "Tribun-papua.com (+1 media)",
-      "sumber_count": 2,
-      "sumber_list": [
-        {
-          "nama": "Tribun-papua.com",
-          "tier": 2,
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPT0Y4aHY1MVhqUUhQUGZzTlV2UmhLdUNGdmZpaUh4cXlpaEtmMnZPSVdqTl95WHFpTkY0Z0VTTUpha24wLUlib3l5UXdtcHJrb0ZaSjl5UXBBM3ZESnNUNmtOeGdISjN2VGhWM2JqOGNwNlBzOVBwcmtEVjRpd0l5aVZkbUFRUVBrSFN0ZWxlczFJMXBYWmJSenBIRkZZNFZmaFkxeDJqNkxEUQ?oc=5",
-          "tanggal_wit": "25 Nov 2026"
-        },
-        {
-          "nama": "Tribunpapuatengah.com",
-          "tier": 2,
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR3FZLU5GVm56cFl1c1B4NEJ5YzdvMUphMTdJbmZQTzMtQ2xnbkhKUnQwSktPZ04yZFF6a3NJOTJaZy1pQmJvVnZTODNURWJ5VkdCNmF2RmFpTjUwS01ONDJLRnhZOWE5a3pGaG9VRm10dnM4MHpfTFlGVk5lTE11T0c4ZV9MUEg4Wk9WeWcyVUdwa002WUhHdWE5RG1EM0J6a21Gbk5BUDMwZmF5NGZEWXNnZHd3Ukl4dUJWdUxQMkNnZWg1NUdZ?oc=5",
-          "tanggal_wit": "25 Nov 2026"
-        }
-      ],
-      "tier": 2,
-      "verifikasi_label": "Terverifikasi Multi-Sumber",
-      "tanggal_wit": "25 Nov 2026",
-      "published_iso": "2026-11-25T11:13+09:00",
-      "umur_jam": 14.8,
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPT0Y4aHY1MVhqUUhQUGZzTlV2UmhLdUNGdmZpaUh4cXlpaEtmMnZPSVdqTl95WHFpTkY0Z0VTTUpha24wLUlib3l5UXdtcHJrb0ZaSjl5UXBBM3ZESnNUNmtOeGdISjN2VGhWM2JqOGNwNlBzOVBwcmtEVjRpd0l5aVZkbUFRUVBrSFN0ZWxlczFJMXBYWmJSenBIRkZZNFZmaFkxeDJqNkxEUQ?oc=5",
-      "rekomendasi_format": {
-        "kode": "story",
-        "label": "IG Story (Cepat)",
-        "editor_mode": "story",
-        "catatan": "Sesuai SOP Bagian 3: berita portal luar cukup diolah ringkas untuk IG Story + kredit sumber."
-      },
-      "tagar_topik": "#eventbintuni",
-      "caption_seo": "Siswa SATP Raih Tujuh Medali di Festival Sains Berstandar Global\n\nKabar pilihan Tanah Papua yang relevan dan inspiratif untuk warga Bintuni.\n\n📍 Lokasi: Tanah Papua\n📌 Sumber: Tribun-papua.com (+1 media)\n💬 Kabar baik dari Tanah Papua! Bagikan info ini biar makin banyak warga Bintuni yang tahu.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #eventbintuni",
+      "caption_seo": "PLN Pastikan Pasokan Listrik Papua Aman Jelang Nataru\n\nKabar pilihan Tanah Papua yang relevan dan inspiratif untuk warga Bintuni.\n\n📍 Lokasi: Tanah Papua\n📌 Sumber: RRI.co.id\n💬 Kabar baik dari Tanah Papua! Bagikan info ini biar makin banyak warga Bintuni yang tahu.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
       "peringatan_visual": "Jangan pakai foto ber-watermark media lain. Pakai Mode Grafis Kaka Kabar, foto rilis resmi, atau dokumentasi sendiri."
     }
   ],
