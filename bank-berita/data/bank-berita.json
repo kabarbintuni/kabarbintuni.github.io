@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_wit": "27 Nov 2026, 03:33 WIT",
-  "generated_at_iso": "2026-11-27T03:33+09:00",
+  "generated_at_wit": "27 Nov 2026, 12:30 WIT",
+  "generated_at_iso": "2026-11-27T12:30+09:00",
   "jadwal_otomatis": "2× sehari otomatis (06.00 WIT & 17.30 WIT) via GitHub Actions",
   "kuota_target": {
     "bintuni": "60%",
@@ -13,30 +13,30 @@
     "papua_barat": 8,
     "papua": 4,
     "total_terpilih": 30,
-    "total_mentah": 496,
-    "total_terklaster": 302,
-    "total_diblokir_sensitif": 17
+    "total_mentah": 405,
+    "total_terklaster": 247,
+    "total_diblokir_sensitif": 16
   },
   "feed_health": [
     {
       "id": "bintuni_utama",
       "label": "Google News — Teluk Bintuni (14 hari)",
       "ok": true,
-      "count": 61,
+      "count": 60,
       "error": ""
     },
     {
       "id": "bintuni_layanan",
       "label": "Google News — Layanan, Loker, BPS & Ekonomi Bintuni (30 hari)",
       "ok": true,
-      "count": 72,
+      "count": 32,
       "error": ""
     },
     {
       "id": "databoks_bps",
       "label": "Databoks / Data Statistik Teluk Bintuni & Papua Barat",
       "ok": true,
-      "count": 73,
+      "count": 72,
       "error": ""
     },
     {
@@ -50,14 +50,14 @@
       "id": "rri_papua_barat",
       "label": "RRI — Papua Barat, PBD & Teluk Bintuni (7 hari)",
       "ok": true,
-      "count": 84,
+      "count": 79,
       "error": ""
     },
     {
       "id": "papua_positif",
       "label": "Google News — Papua (Ekonomi, Infrastruktur, Prestasi, Budaya, Wisata)",
       "ok": true,
-      "count": 97,
+      "count": 43,
       "error": ""
     },
     {
@@ -77,9 +77,9 @@
     {
       "id": "rss_papuadalamberita",
       "label": "Papua Dalam Berita — RSS Langsung Papua Barat",
-      "ok": false,
-      "count": 0,
-      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "id": "rss_taburapos",
@@ -142,13 +142,12 @@
       "cat_label": "KABAR TERKINI",
       "title": "Korban Jatuh dari Kapal Fajar Mulia di Pelabuhan Bintuni Ditemukan, Operasi SAR Ditutup",
       "card_headline": "Korban Jatuh dari Kapal Fajar Mulia di Pelabuhan *Bintuni* Ditemukan, Operasi SAR Ditutup",
-      "subline": "Setelah melakukan pencarian selama hampir dua hari, tim SAR gabungan akhirnya menemukan jasad YW (60 tahun)…",
+      "subline": "Pantauan redaksi dari Tribunnews.com untuk warga Kabupaten Teluk Bintuni.",
       "poin_resume": [
-        "Setelah melakukan pencarian selama hampir dua hari, tim SAR gabungan akhirnya menemukan jasad YW (60 tahun) korban jatuh dari Kapal Fajar Mulia di kawasan Pelabuhan Teluk Bintuni, Papua Barat.",
-        "Jasad korban ditemukan pada Selasa (17/11/2026) sekitar pukul 09.45 WIT di kawasan Pelabuhan Bintuni . Korban selanjutnya dievakuasi oleh tim SAR gabungan.",
-        "Penemuan tersebut sekaligus mengakhiri operasi pencarian yang telah berlangsung sejak Senin (16/11/2026)."
+        "Korban Jatuh dari Kapal Fajar Mulia di Pelabuhan Bintuni Ditemukan, Operasi SAR Ditutup.",
+        "Pantauan redaksi dari Tribunnews.com untuk warga Kabupaten Teluk Bintuni."
       ],
-      "resume_dari_artikel": true,
+      "resume_dari_artikel": false,
       "lokasi": "Teluk Bintuni, Papua Barat",
       "sumber_utama": "Tribunnews.com",
       "sumber_display": "Tribunnews.com (+2 media)",
@@ -177,7 +176,7 @@
       "verifikasi_label": "Terverifikasi Multi-Sumber",
       "tanggal_wit": "17 Nov 2026",
       "published_iso": "2026-11-17T23:01+09:00",
-      "umur_jam": 220.5,
+      "umur_jam": 229.5,
       "link": "https://papuabarat.tribunnews.com/teluk-bintuni/67825/korban-jatuh-dari-kapal-fajar-mulia-di-pelabuhan-bintuni-ditemukan-operasi-sar-ditutup",
       "rekomendasi_format": {
         "kode": "feed_reels",
@@ -187,54 +186,49 @@
       },
       "tagar_topik": "#infobintuni",
       "kredit_foto_saran": "Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)",
-      "caption_seo": "Setelah melakukan pencarian selama hampir dua hari, tim SAR gabungan akhirnya menemukan jasad YW (60 tahun) korban jatuh dari Kapal Fajar Mulia di kawasan Pelabuhan Teluk Bintuni, Papua Barat.\n\nJasad korban ditemukan pada Selasa (17/11/2026) sekitar pukul 09.45 WIT di kawasan Pelabuhan Bintuni . Korban selanjutnya dievakuasi oleh tim SAR gabungan.\n\nPenemuan tersebut sekaligus mengakhiri operasi pencarian yang telah berlangsung sejak Senin (16/11/2026).\n\n📍 Lokasi: Teluk Bintuni, Papua Barat\n📰 Sumber: Tribunnews.com (+2 media) (17 Nov 2026)\n📷 Foto: Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
+      "caption_seo": "Korban Jatuh dari Kapal Fajar Mulia di Pelabuhan Bintuni Ditemukan, Operasi SAR Ditutup.\n\nPantauan redaksi dari Tribunnews.com untuk warga Kabupaten Teluk Bintuni.\n\n📍 Lokasi: Teluk Bintuni, Papua Barat\n📰 Sumber: Tribunnews.com (+2 media) (17 Nov 2026)\n📷 Foto: Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
       "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
     },
     {
-      "id": "kb-2c88bdd4e5",
+      "id": "kb-21d32ef3b0",
       "wilayah": "bintuni",
       "wilayah_label": "Teluk Bintuni",
-      "score": 72,
+      "score": 66,
       "cat_idx": 0,
       "cat_label": "KABAR TERKINI",
-      "title": "Yustina Ogoney, Perempuan Moskona Pertama Menjadi Plt Kepala DMPK Teluk Bintuni",
-      "card_headline": "Yustina Ogoney, Perempuan Moskona Pertama Menjadi Plt Kepala DMPK *Teluk Bintuni*",
-      "subline": "Pantauan redaksi dari Tabura Pos untuk warga Kabupaten Teluk Bintuni.",
+      "title": "Pemkab Teluk Bintuni Desak Revisi Perdasus DBH Migas, Minta Daerah Penghasil Dapat Porsi Lebih Adil",
+      "card_headline": "Pemkab *Teluk Bintuni* Desak Revisi Perdasus DBH Migas, Minta Daerah Penghasil Dapat Porsi Lebih Adil",
+      "subline": "Pemerintah Kabupaten Teluk Bintuni, Papua Barat, mendesak pemerintah provinsi mengevaluasi dan merevisi aturan…",
       "poin_resume": [
-        "Yustina Ogoney, Perempuan Moskona Pertama Menjadi Plt Kepala DMPK Teluk Bintuni.",
-        "Pantauan redaksi dari Tabura Pos untuk warga Kabupaten Teluk Bintuni."
+        "Pemerintah Kabupaten Teluk Bintuni, Papua Barat, mendesak pemerintah provinsi mengevaluasi dan merevisi aturan pembagian Dana Bagi Hasil (DBH) minyak dan gas bumi (migas) serta dana Otonomi Khusus (Otsus).",
+        "“Perubahan Peraturan Daerah Khusus Provinsi Papua Barat Nomor 22 Tahun 2022 merupakan harapan masyarakat adat Suku Sebyar dan terkhusus seluruh masyarakat Kabupaten Teluk Bintuni,” ujar Manibuy.",
+        "Dalam pertemuan tersebut, para pemangku kepentingan menilai Perdasus Nomor 22 Tahun 2022 belum memberikan keberpihakan yang memadai kepada daerah penghasil migas."
       ],
-      "resume_dari_artikel": false,
-      "lokasi": "Moskona, Teluk Bintuni",
-      "sumber_utama": "Tabura Pos",
-      "sumber_display": "Tabura Pos (+2 media)",
-      "sumber_count": 3,
+      "resume_dari_artikel": true,
+      "lokasi": "Teluk Bintuni, Papua Barat",
+      "sumber_utama": "papuadalamberita.com",
+      "sumber_display": "papuadalamberita.com (+1 media)",
+      "sumber_count": 2,
       "sumber_list": [
         {
-          "nama": "Tabura Pos",
+          "nama": "papuadalamberita.com",
           "tier": 2,
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaWc5WjQwSmFhYXhzNVBzZy1JWGpjTzhpenY5bjdvbVV2Z2ZHTkFXUjBuU1lzMUd4Z3FYbnF3b2JHSmQzd1l4bmI4RTYzQ2NBNXZZQkZZS0xHUzA0QVdIM082Y3A5UW00eDVNNktuM2lJQk1SMDJteGNpdEZyOC12UnJGNXNCMnlFc0k0VDdXZllkdTNoT2hMOUR1MlVjaVhIMWw1MzFyNmNVV2FTeEx4MQ?oc=5",
-          "tanggal_wit": "17 Nov 2026"
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPXzN6R3dKSnYxbGNuTnZ1OENwcUR4OFBaUUMwNVl5aTZBb0ZnMEpPa2RVdFVaQWcyRXV5Ql9HdHUybW5Zb2l3SmViT1JoQ0pOMkJGcW5RUkhtWVk1VjlVSjg5eFB6ak9yTnpZYUxYWHFaN0tmMEQ2RF9ueXRPYjROYlVDdVppb09NN3BvZ3ZMQ3htdldIQnJLZ1d1ZHFUT18zcEN6Mkt2VERkSUhHNW9fSzdzR3M0WlFNaWxyYXhvOE90ZHJ1ZEpn?oc=5",
+          "tanggal_wit": "21 Nov 2026"
         },
         {
-          "nama": "Garda Papua",
-          "tier": 3,
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRVExcGxQVEtRcUdXTlYwVkNTMy1XbDZmS0tDZEwzOTNYcVlsRzBveVhMU09GWlhBeTFrNFRYekJJdy1pSm9hYnRXR240ZUFNRzF6R0M2WEVlUGprMUg3T2lEOTZjWERHY2RULS1nU2JtTEd5UXB6ODdPVHl6NVVGWHo3Mk83UVNnOUtZM3hSMkZqLWxSRnNjWUJFajVNdlJhX2tqd0NWTVhWSnVzUFZ0TnVjSWtyMlZ6akJTUVVQaTYxUzh2RkVSTDRBcjcyNzhrejdhM1F6Zw?oc=5",
-          "tanggal_wit": "16 Nov 2026"
-        },
-        {
-          "nama": "Suaradamai.com",
-          "tier": 3,
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMFBRZDBQZ1VXcVZiQVRMNlZiWlFjRTA2QlpDRXZvT2JnRmhoeXdjM2hzZEhZMXJuaXo1RDB0NklFb051SFJaX3FLSWg1QUpHQXAyMFFsdG14bDZqWXBEWjhrNXdKOG80LUYxSjlMR1BxeUd1TkFXcnZJcXZ5OElvSkJUZFpEUkRsT21UUi1VNjItVWVEYUFrRkdQRGJoN3B4ajF0N3NNTkx6a0NQVm9KcVhxSUh0akk?oc=5",
-          "tanggal_wit": "16 Nov 2026"
+          "nama": "Jagat Papua",
+          "tier": 2,
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZFcxQVl3dHFxblQyNno3SnhfZEpmb3gxRjUxalhXRDJSV2pqTXNfUHljaWt1V3d2QXNVeFdtZjN1ckFVdElZcWlBVTI5VjJxakFUNV9TWFRqTUxzaHl2Y01jbmpma3hFdEQwZkRZMTBCTGZCdXEzSXpjNFdLS0NrTW03WUhmei02N25hM0hhNmlLTkpXWDNGd0VfWG96R19GcVVkbFUzajRSeXZGUzRNaFgyNm4tYkVPYzNQc0JORWJMN1l6?oc=5",
+          "tanggal_wit": "20 Nov 2026"
         }
       ],
       "tier": 2,
       "verifikasi_label": "Terverifikasi Multi-Sumber",
-      "tanggal_wit": "17 Nov 2026",
-      "published_iso": "2026-11-17T16:30+09:00",
-      "umur_jam": 227.0,
-      "link": "https://taburapos.co/2026/11/17/yustina-ogoney-perempuan-moskona-pertama-menjadi-plt-kepala-dmpk-teluk-bintuni/",
+      "tanggal_wit": "21 Nov 2026",
+      "published_iso": "2026-11-21T06:46+09:00",
+      "umur_jam": 149.7,
+      "link": "https://papuadalamberita.com/pemkab-teluk-bintuni-desak-revisi-perdasus-dbh-migas-minta-daerah-penghasil-dapat-porsi-lebih-adil/",
       "rekomendasi_format": {
         "kode": "feed_reels",
         "label": "Feed 4:5 + Video Cepat 9:16",
@@ -243,14 +237,14 @@
       },
       "tagar_topik": "#infobintuni",
       "kredit_foto_saran": "Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)",
-      "caption_seo": "Yustina Ogoney, Perempuan Moskona Pertama Menjadi Plt Kepala DMPK Teluk Bintuni.\n\nPantauan redaksi dari Tabura Pos untuk warga Kabupaten Teluk Bintuni.\n\n📍 Lokasi: Moskona, Teluk Bintuni\n📰 Sumber: Tabura Pos (+2 media) (17 Nov 2026)\n📷 Foto: Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
+      "caption_seo": "Pemerintah Kabupaten Teluk Bintuni, Papua Barat, mendesak pemerintah provinsi mengevaluasi dan merevisi aturan pembagian Dana Bagi Hasil (DBH) minyak dan gas bumi (migas) serta dana Otonomi Khusus (Otsus).\n\n“Perubahan Peraturan Daerah Khusus Provinsi Papua Barat Nomor 22 Tahun 2022 merupakan harapan masyarakat adat Suku Sebyar dan terkhusus seluruh masyarakat Kabupaten Teluk Bintuni,” ujar Manibuy.\n\nDalam pertemuan tersebut, para pemangku kepentingan menilai Perdasus Nomor 22 Tahun 2022 belum memberikan keberpihakan yang memadai kepada daerah penghasil migas.\n\n📍 Lokasi: Teluk Bintuni, Papua Barat\n📰 Sumber: papuadalamberita.com (+1 media) (21 Nov 2026)\n📷 Foto: Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
       "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
     },
     {
       "id": "kb-5c05b8ddb7",
       "wilayah": "bintuni",
       "wilayah_label": "Teluk Bintuni",
-      "score": 69,
+      "score": 63,
       "cat_idx": 0,
       "cat_label": "KABAR TERKINI",
       "title": "Didominasi Non OAP, Ribuan Guru Teluk Bintuni Rayakan Hari PGRI di GSG Kalikodok",
@@ -277,7 +271,7 @@
       "verifikasi_label": "Sumber Resmi / Primer",
       "tanggal_wit": "26 Nov 2026",
       "published_iso": "2026-11-26T06:59+09:00",
-      "umur_jam": 20.6,
+      "umur_jam": 29.5,
       "link": "https://portaljepe.id/2026/11/25/didominasi-non-oap-ribuan-guru-teluk-bintuni-rayakan-hari-pgri-di-gsg-kalikodok/",
       "rekomendasi_format": {
         "kode": "feed_reels",
@@ -288,100 +282,6 @@
       "tagar_topik": "#infobintuni",
       "kredit_foto_saran": "Dok. portaljepe.id",
       "caption_seo": "Didominasi Non OAP, Ribuan Guru Teluk Bintuni Rayakan Hari PGRI di GSG Kalikodok.\n\nPantauan redaksi dari portaljepe.id untuk warga Kabupaten Teluk Bintuni.\n\n📍 Lokasi: Teluk Bintuni, Papua Barat\n📰 Sumber: portaljepe.id (26 Nov 2026)\n📷 Foto: Dok. portaljepe.id\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
-      "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
-    },
-    {
-      "id": "kb-ffd7471b39",
-      "wilayah": "bintuni",
-      "wilayah_label": "Teluk Bintuni",
-      "score": 68,
-      "cat_idx": 0,
-      "cat_label": "KABAR TERKINI",
-      "title": "Melampaui Teknologi: Membangun Budaya K3 Tangguh",
-      "card_headline": "*Melampaui Teknologi:* Membangun Budaya K3 Tangguh",
-      "subline": "Pantauan redaksi dari Jubi Papua untuk warga Kabupaten Teluk Bintuni.",
-      "poin_resume": [
-        "Melampaui Teknologi: Membangun Budaya K3 Tangguh.",
-        "Pantauan redaksi dari Jubi Papua untuk warga Kabupaten Teluk Bintuni."
-      ],
-      "resume_dari_artikel": false,
-      "lokasi": "Teluk Bintuni, Papua Barat",
-      "sumber_utama": "Jubi Papua",
-      "sumber_display": "Jubi Papua",
-      "sumber_count": 1,
-      "sumber_list": [
-        {
-          "nama": "Jubi Papua",
-          "tier": 2,
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSUdFVnRWZ1ZYUmxlTUJfcVFyM25Za29UWjlVc1RZMy1OZ3h4Tml0bEd5azN1RzBTQktmM3RsWkozUTVmVnJMYlU0SzVDRGd2NzBuNE5nZzM3TU0yajBKOUFrazNYMVU3WXl2UUM5MFN4N29iX19GRkVJYm5UWHc0MmlnLWFkcXpEcjBuSllsb2o?oc=5",
-          "tanggal_wit": "25 Nov 2026"
-        }
-      ],
-      "tier": 2,
-      "verifikasi_label": "Media Terverifikasi",
-      "tanggal_wit": "25 Nov 2026",
-      "published_iso": "2026-11-25T14:09+09:00",
-      "umur_jam": 37.4,
-      "link": "https://jubi.id/menyapa-nusantara/2026/melampaui-teknologi-membangun-budaya-k3-tangguh/",
-      "rekomendasi_format": {
-        "kode": "feed_reels",
-        "label": "Feed 4:5 + Video Cepat 9:16",
-        "editor_mode": "4x5",
-        "catatan": "Relevansi Bintuni tinggi — layak naik Feed IG 4:5 dan Reels/TikTok 9:16."
-      },
-      "tagar_topik": "#infobintuni",
-      "kredit_foto_saran": "Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)",
-      "caption_seo": "Melampaui Teknologi: Membangun Budaya K3 Tangguh.\n\nPantauan redaksi dari Jubi Papua untuk warga Kabupaten Teluk Bintuni.\n\n📍 Lokasi: Teluk Bintuni, Papua Barat\n📰 Sumber: Jubi Papua (25 Nov 2026)\n📷 Foto: Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
-      "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
-    },
-    {
-      "id": "kb-21d32ef3b0",
-      "wilayah": "bintuni",
-      "wilayah_label": "Teluk Bintuni",
-      "score": 66,
-      "cat_idx": 0,
-      "cat_label": "KABAR TERKINI",
-      "title": "Pemkab Teluk Bintuni Desak Revisi Perdasus DBH Migas, Minta Daerah Penghasil Dapat Porsi Lebih Adil",
-      "card_headline": "Pemkab *Teluk Bintuni* Desak Revisi Perdasus DBH Migas, Minta Daerah Penghasil Dapat Porsi Lebih Adil",
-      "subline": "Pantauan redaksi dari papuadalamberita.com untuk warga Kabupaten Teluk Bintuni.",
-      "poin_resume": [
-        "Pemkab Teluk Bintuni Desak Revisi Perdasus DBH Migas, Minta Daerah Penghasil Dapat Porsi Lebih Adil.",
-        "Pantauan redaksi dari papuadalamberita.com untuk warga Kabupaten Teluk Bintuni."
-      ],
-      "resume_dari_artikel": false,
-      "lokasi": "Teluk Bintuni, Papua Barat",
-      "sumber_utama": "papuadalamberita.com",
-      "sumber_display": "papuadalamberita.com (+1 media)",
-      "sumber_count": 2,
-      "sumber_list": [
-        {
-          "nama": "papuadalamberita.com",
-          "tier": 2,
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPXzN6R3dKSnYxbGNuTnZ1OENwcUR4OFBaUUMwNVl5aTZBb0ZnMEpPa2RVdFVaQWcyRXV5Ql9HdHUybW5Zb2l3SmViT1JoQ0pOMkJGcW5RUkhtWVk1VjlVSjg5eFB6ak9yTnpZYUxYWHFaN0tmMEQ2RF9ueXRPYjROYlVDdVppb09NN3BvZ3ZMQ3htdldIQnJLZ1d1ZHFUT18zcEN6Mkt2VERkSUhHNW9fSzdzR3M0WlFNaWxyYXhvOE90ZHJ1ZEpn?oc=5",
-          "tanggal_wit": "21 Nov 2026"
-        },
-        {
-          "nama": "Jagat Papua",
-          "tier": 2,
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZFcxQVl3dHFxblQyNno3SnhfZEpmb3gxRjUxalhXRDJSV2pqTXNfUHljaWt1V3d2QXNVeFdtZjN1ckFVdElZcWlBVTI5VjJxakFUNV9TWFRqTUxzaHl2Y01jbmpma3hFdEQwZkRZMTBCTGZCdXEzSXpjNFdLS0NrTW03WUhmei02N25hM0hhNmlLTkpXWDNGd0VfWG96R19GcVVkbFUzajRSeXZGUzRNaFgyNm4tYkVPYzNQc0JORWJMN1l6?oc=5",
-          "tanggal_wit": "20 Nov 2026"
-        }
-      ],
-      "tier": 2,
-      "verifikasi_label": "Terverifikasi Multi-Sumber",
-      "tanggal_wit": "21 Nov 2026",
-      "published_iso": "2026-11-21T06:46+09:00",
-      "umur_jam": 140.8,
-      "link": "https://papuadalamberita.com/pemkab-teluk-bintuni-desak-revisi-perdasus-dbh-migas-minta-daerah-penghasil-dapat-porsi-lebih-adil/",
-      "rekomendasi_format": {
-        "kode": "feed_reels",
-        "label": "Feed 4:5 + Video Cepat 9:16",
-        "editor_mode": "4x5",
-        "catatan": "Relevansi Bintuni tinggi — layak naik Feed IG 4:5 dan Reels/TikTok 9:16."
-      },
-      "tagar_topik": "#infobintuni",
-      "kredit_foto_saran": "Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)",
-      "caption_seo": "Pemkab Teluk Bintuni Desak Revisi Perdasus DBH Migas, Minta Daerah Penghasil Dapat Porsi Lebih Adil.\n\nPantauan redaksi dari papuadalamberita.com untuk warga Kabupaten Teluk Bintuni.\n\n📍 Lokasi: Teluk Bintuni, Papua Barat\n📰 Sumber: papuadalamberita.com (+1 media) (21 Nov 2026)\n📷 Foto: Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
       "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
     },
     {
@@ -415,7 +315,7 @@
       "verifikasi_label": "Sumber Resmi / Primer",
       "tanggal_wit": "25 Nov 2026",
       "published_iso": "2026-11-25T22:01+09:00",
-      "umur_jam": 29.5,
+      "umur_jam": 38.5,
       "link": "https://rri.co.id/manokwari/iptek/2925974/hut-pgri-ke-81-wabup-bintuni-tegaskan-hak-guru-tak-boleh-terlambat",
       "rekomendasi_format": {
         "kode": "feed_reels",
@@ -459,7 +359,7 @@
       "verifikasi_label": "Sumber Resmi / Primer",
       "tanggal_wit": "24 Nov 2026",
       "published_iso": "2026-11-24T20:19+09:00",
-      "umur_jam": 55.2,
+      "umur_jam": 64.2,
       "link": "https://rri.co.id/manokwari/info-pemda/2921252/rap-otsus-2027-wabup-bintuni-ingatkan-opd-jangan-salah-perencanaan",
       "rekomendasi_format": {
         "kode": "feed_reels",
@@ -470,50 +370,6 @@
       "tagar_topik": "#infobintuni",
       "kredit_foto_saran": "Dok. RRI.co.id",
       "caption_seo": "RAP Otsus 2027, Wabup Bintuni Ingatkan OPD Jangan Salah Perencanaan.\n\nPantauan redaksi dari RRI.co.id untuk warga Kabupaten Teluk Bintuni.\n\n📍 Lokasi: Teluk Bintuni, Papua Barat\n📰 Sumber: RRI.co.id (24 Nov 2026)\n📷 Foto: Dok. RRI.co.id\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
-      "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
-    },
-    {
-      "id": "kb-8208b4cf4a",
-      "wilayah": "bintuni",
-      "wilayah_label": "Teluk Bintuni",
-      "score": 63,
-      "cat_idx": 0,
-      "cat_label": "KABAR TERKINI",
-      "title": "PGRI Teluk Bintuni Ajak Guru Perkuat Solidaritas Hadapi Era Teknologi",
-      "card_headline": "PGRI *Teluk Bintuni* Ajak Guru Perkuat Solidaritas Hadapi Era Teknologi",
-      "subline": "Pantauan redaksi dari RRI.co.id untuk warga Kabupaten Teluk Bintuni.",
-      "poin_resume": [
-        "PGRI Teluk Bintuni Ajak Guru Perkuat Solidaritas Hadapi Era Teknologi.",
-        "Pantauan redaksi dari RRI.co.id untuk warga Kabupaten Teluk Bintuni."
-      ],
-      "resume_dari_artikel": false,
-      "lokasi": "Teluk Bintuni, Papua Barat",
-      "sumber_utama": "RRI.co.id",
-      "sumber_display": "RRI.co.id",
-      "sumber_count": 1,
-      "sumber_list": [
-        {
-          "nama": "RRI.co.id",
-          "tier": 1,
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbkd5QUd0T1JzODNoXy13cHFIOC1aelppSkRnaE92Tl82Q0tZRU1nUk5SeFlMR093MW1VdGlCUDR1UUJKNnRQbFpGeTdNeFZUX3dONXJGRmpsYmNRTWtVMW9XWmpGN0tWbmJ0bTIzaVA5V1hySlhUUTRKY3Q2aWdVcW5KQmVqeUdXbjhlcnQ2Vmt3bmxiaWxRYldmb08ycEhjOUZGZU9ULURHMXJKd2ZRdEFoZmk0R1Jt?oc=5",
-          "tanggal_wit": "24 Nov 2026"
-        }
-      ],
-      "tier": 1,
-      "verifikasi_label": "Sumber Resmi / Primer",
-      "tanggal_wit": "24 Nov 2026",
-      "published_iso": "2026-11-24T08:56+09:00",
-      "umur_jam": 66.6,
-      "link": "https://rri.co.id/manokwari/berita-lain/2919984/pgri-teluk-bintuni-ajak-guru-perkuat-solidaritas-hadapi-era-teknologi",
-      "rekomendasi_format": {
-        "kode": "feed_reels",
-        "label": "Feed 4:5 + Video Cepat 9:16",
-        "editor_mode": "4x5",
-        "catatan": "Relevansi Bintuni tinggi — layak naik Feed IG 4:5 dan Reels/TikTok 9:16."
-      },
-      "tagar_topik": "#infobintuni",
-      "kredit_foto_saran": "Dok. RRI.co.id",
-      "caption_seo": "PGRI Teluk Bintuni Ajak Guru Perkuat Solidaritas Hadapi Era Teknologi.\n\nPantauan redaksi dari RRI.co.id untuk warga Kabupaten Teluk Bintuni.\n\n📍 Lokasi: Teluk Bintuni, Papua Barat\n📰 Sumber: RRI.co.id (24 Nov 2026)\n📷 Foto: Dok. RRI.co.id\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
       "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
     },
     {
@@ -548,7 +404,7 @@
       "verifikasi_label": "Sumber Resmi / Primer",
       "tanggal_wit": "21 Nov 2026",
       "published_iso": "2026-11-21T14:19+09:00",
-      "umur_jam": 133.2,
+      "umur_jam": 142.2,
       "link": "https://databoks.katadata.co.id/pdb/statistik/abb430ad3e3557b/pengeluaran-perkapita-sebulan-untuk-kecantikan-kab-teluk-bintuni-2025",
       "rekomendasi_format": {
         "kode": "bedah_fakta",
@@ -562,21 +418,20 @@
       "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
     },
     {
-      "id": "kb-0b49afa377",
+      "id": "kb-6a0fb69d26",
       "wilayah": "bintuni",
       "wilayah_label": "Teluk Bintuni",
-      "score": 61,
+      "score": 60,
       "cat_idx": 0,
       "cat_label": "KABAR TERKINI",
-      "title": "Pemkab Teluk Bintuni Tegur Kontraktor dan Subkontraktor BP Tangguh-Genting Oil",
-      "card_headline": "Pemkab *Teluk Bintuni* Tegur Kontraktor dan Subkontraktor BP Tangguh-Genting Oil",
-      "subline": "Laporan jurnalis TribunPapuaBarat.com, Syahrul Said Refideso.",
+      "title": "Kanwil Kemenkum Papua Barat Perkuat Kualitas Tiga Ranperda Teluk Bintuni",
+      "card_headline": "Kanwil Kemenkum Papua Barat Perkuat Kualitas Tiga Ranperda *Teluk Bintuni*",
+      "subline": "Pantauan redaksi dari Tribunnews.com untuk warga Kabupaten Teluk Bintuni.",
       "poin_resume": [
-        "Laporan jurnalis TribunPapuaBarat.com, Syahrul Said Refideso.",
-        "\"Ini bukan izin prinsip untuk menjalankan usaha perusahaan, tetapi izin pembukaan kantor perwakilan di Kabupaten Teluk Bintuni. Perda Nomor 5 Tahun 2020 menjadi dasar bagi pemerintah daerah untuk mendorong perusahaan, khususnya yang bergerak di sektor migas, agar memiliki kantor perwakilan di ibu kota kabupaten,\" jelas Jeffry.",
-        "Menurut Jeffry, kewajiban tersebut mengacu pada Peraturan Daerah (Perda) Kabupaten Teluk Bintuni Nomor 5 Tahun 2020."
+        "Kanwil Kemenkum Papua Barat Perkuat Kualitas Tiga Ranperda Teluk Bintuni.",
+        "Pantauan redaksi dari Tribunnews.com untuk warga Kabupaten Teluk Bintuni."
       ],
-      "resume_dari_artikel": true,
+      "resume_dari_artikel": false,
       "lokasi": "Teluk Bintuni, Papua Barat",
       "sumber_utama": "Tribunnews.com",
       "sumber_display": "Tribunnews.com",
@@ -585,16 +440,16 @@
         {
           "nama": "Tribunnews.com",
           "tier": 2,
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdm9KeFRIc0RMcU9ZYkllQkc0U0QyY3dTMUV5eEU2NnBnU3pQczFsUWYzcDYwSzMya0hVdDQ0Sm41LWp1a3duMG5yQkM1UDRYeEl3eGp0RWZXUGFleFhCeHFTUUZkZ3RfZWwyS3RvcGFuZmJrNWhrM3JuSGkyNTNtLUJZS3c4Y3k4Z1MyZ2dsem91TDNyOUx6bXhIa2RqZDFZdlMzWEJSdkU3S1pWT0loaHFmUVJCSW1pc0MyejdsRE0yQ3VpbC11OFE0M1I?oc=5",
-          "tanggal_wit": "24 Nov 2026"
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSzFleGNzZHUzUFpMYnR1a3lnMHl1R3RMV2o1WlJ6cXVpUlhITlVab3dlblJ2Z21fM2VZbkdlZnd0ek1QdDFrYngwb2lfSEppRWxxNzI0NUxFMWRSdEZySUxSb0ZsMzBqS1luV1RsZzlRdHFCNU5FM1FocmNucklJMEg3UzdEZDdEdC10ejN2Z2gyZEV1OUl3Z29DLVdCTjNsaUVNR21PTmw5TllRcEI0cU9xWDB5RnBD?oc=5",
+          "tanggal_wit": "27 Nov 2026"
         }
       ],
       "tier": 2,
       "verifikasi_label": "Media Terverifikasi",
-      "tanggal_wit": "24 Nov 2026",
-      "published_iso": "2026-11-24T10:06+09:00",
-      "umur_jam": 65.5,
-      "link": "https://papuabarat.tribunnews.com/teluk-bintuni/67982/pemkab-teluk-bintuni-tegur-kontraktor-dan-subkontraktor-bp-tangguh-genting-oil",
+      "tanggal_wit": "27 Nov 2026",
+      "published_iso": "2026-11-27T11:21+09:00",
+      "umur_jam": 1.1,
+      "link": "https://papuabarat.tribunnews.com/news/68078/kanwil-kemenkum-papua-barat-perkuat-kualitas-tiga-ranperda-teluk-bintuni",
       "rekomendasi_format": {
         "kode": "story",
         "label": "IG Story (Cepat)",
@@ -603,7 +458,7 @@
       },
       "tagar_topik": "#infobintuni",
       "kredit_foto_saran": "Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)",
-      "caption_seo": "Laporan jurnalis TribunPapuaBarat.com, Syahrul Said Refideso.\n\n\"Ini bukan izin prinsip untuk menjalankan usaha perusahaan, tetapi izin pembukaan kantor perwakilan di Kabupaten Teluk Bintuni. Perda Nomor 5 Tahun 2020 menjadi dasar bagi pemerintah daerah untuk mendorong perusahaan, khususnya yang bergerak di sektor migas, agar memiliki kantor perwakilan di ibu kota kabupaten,\" jelas Jeffry.\n\nMenurut Jeffry, kewajiban tersebut mengacu pada Peraturan Daerah (Perda) Kabupaten Teluk Bintuni Nomor 5 Tahun 2020.\n\n📍 Lokasi: Teluk Bintuni, Papua Barat\n📰 Sumber: Tribunnews.com (24 Nov 2026)\n📷 Foto: Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
+      "caption_seo": "Kanwil Kemenkum Papua Barat Perkuat Kualitas Tiga Ranperda Teluk Bintuni.\n\nPantauan redaksi dari Tribunnews.com untuk warga Kabupaten Teluk Bintuni.\n\n📍 Lokasi: Teluk Bintuni, Papua Barat\n📰 Sumber: Tribunnews.com (27 Nov 2026)\n📷 Foto: Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
       "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
     },
     {
@@ -615,13 +470,12 @@
       "cat_label": "KABAR TERKINI",
       "title": "SPPG Yayasan Cipta Bintuni Sehat Klarifikasi Dugaan Pencemaran Limbah Dapur",
       "card_headline": "SPPG Yayasan Cipta *Bintuni* Sehat Klarifikasi Dugaan Pencemaran Limbah Dapur",
-      "subline": "Kepala Satuan Pelayanan Pemenuhan Gizi (SPPG) Yayasan Cipta Bintuni Sehat, Mahmud Wihyawari , memberikan…",
+      "subline": "Pantauan redaksi dari Tribunnews.com untuk warga Kabupaten Teluk Bintuni.",
       "poin_resume": [
-        "Kepala Satuan Pelayanan Pemenuhan Gizi (SPPG) Yayasan Cipta Bintuni Sehat, Mahmud Wihyawari , memberikan klarifikasi terkait unggahan di media sosial yang menyebut adanya dugaan pencemaran lingkungan.",
-        "“Pada saat beliau datang, saya sudah menjelaskan bahwa kami bekerja sesuai dengan standar operasional prosedur (SOP). Saya juga mempersilakan beliau melihat dan mencium langsung kondisi lingkungan dapur,” ujar Mahmud saat ditemui wartawan, Kamis (26/11/2026).",
-        "Ia mengatakan, pihaknya telah mengetahui informasi yang beredar di Facebook. Namun, saat mencoba menelusuri unggahan tersebut, postingan dimaksud sudah tidak ditemukan."
+        "SPPG Yayasan Cipta Bintuni Sehat Klarifikasi Dugaan Pencemaran Limbah Dapur.",
+        "Pantauan redaksi dari Tribunnews.com untuk warga Kabupaten Teluk Bintuni."
       ],
-      "resume_dari_artikel": true,
+      "resume_dari_artikel": false,
       "lokasi": "Teluk Bintuni, Papua Barat",
       "sumber_utama": "Tribunnews.com",
       "sumber_display": "Tribunnews.com",
@@ -638,7 +492,7 @@
       "verifikasi_label": "Media Terverifikasi",
       "tanggal_wit": "26 Nov 2026",
       "published_iso": "2026-11-26T17:57+09:00",
-      "umur_jam": 9.6,
+      "umur_jam": 18.5,
       "link": "https://papuabarat.tribunnews.com/teluk-bintuni/68070/sppg-yayasan-cipta-bintuni-sehat-klarifikasi-dugaan-pencemaran-limbah-dapur",
       "rekomendasi_format": {
         "kode": "story",
@@ -648,92 +502,48 @@
       },
       "tagar_topik": "#infobintuni",
       "kredit_foto_saran": "Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)",
-      "caption_seo": "Kepala Satuan Pelayanan Pemenuhan Gizi (SPPG) Yayasan Cipta Bintuni Sehat, Mahmud Wihyawari , memberikan klarifikasi terkait unggahan di media sosial yang menyebut adanya dugaan pencemaran lingkungan.\n\n“Pada saat beliau datang, saya sudah menjelaskan bahwa kami bekerja sesuai dengan standar operasional prosedur (SOP). Saya juga mempersilakan beliau melihat dan mencium langsung kondisi lingkungan dapur,” ujar Mahmud saat ditemui wartawan, Kamis (26/11/2026).\n\nIa mengatakan, pihaknya telah mengetahui informasi yang beredar di Facebook. Namun, saat mencoba menelusuri unggahan tersebut, postingan dimaksud sudah tidak ditemukan.\n\n📍 Lokasi: Teluk Bintuni, Papua Barat\n📰 Sumber: Tribunnews.com (26 Nov 2026)\n📷 Foto: Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
+      "caption_seo": "SPPG Yayasan Cipta Bintuni Sehat Klarifikasi Dugaan Pencemaran Limbah Dapur.\n\nPantauan redaksi dari Tribunnews.com untuk warga Kabupaten Teluk Bintuni.\n\n📍 Lokasi: Teluk Bintuni, Papua Barat\n📰 Sumber: Tribunnews.com (26 Nov 2026)\n📷 Foto: Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
       "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
     },
     {
-      "id": "kb-54f6aadab5",
+      "id": "kb-2c88bdd4e5",
       "wilayah": "bintuni",
       "wilayah_label": "Teluk Bintuni",
       "score": 60,
       "cat_idx": 0,
       "cat_label": "KABAR TERKINI",
-      "title": "Jelang 1 Desember, Ketua LMA Suku Sougb Ajak Masyarakat Teluk Bintuni Jaga Kamtibmas",
-      "card_headline": "Jelang 1 Desember, Ketua LMA Suku Sougb Ajak Masyarakat *Teluk Bintuni* Jaga Kamtibmas",
-      "subline": "Menjelang 1 Desember yang kerap dikaitkan dengan peringatan kelompok pendukung kemerdekaan Papua, Ketua Lembaga…",
+      "title": "Yustina Ogoney, Perempuan Moskona Pertama Menjadi Plt Kepala DMPK Teluk Bintuni",
+      "card_headline": "Yustina Ogoney, Perempuan Moskona Pertama Menjadi Plt Kepala DMPK *Teluk Bintuni*",
+      "subline": "Pantauan redaksi dari Tabura Pos untuk warga Kabupaten Teluk Bintuni.",
       "poin_resume": [
-        "Menjelang 1 Desember yang kerap dikaitkan dengan peringatan kelompok pendukung kemerdekaan Papua, Ketua Lembaga Masyarakat Adat (LMA) Suku Sougb, Melianus Yettu, S.IP., mengajak seluruh elemen masyarakat di Kabupaten Teluk Bintuni untuk bersama-sama menjaga keamanan dan ketertiban masyarakat (kamtibmas).",
-        "Melianus mengimbau masyarakat agar tetap tenang, tidak mudah terprovokasi oleh berbagai isu maupun informasi yang belum jelas kebenarannya, serta menghindari tindakan yang dapat mengganggu stabilitas keamanan di wilayah Kabupaten Teluk Bintuni."
-      ],
-      "resume_dari_artikel": true,
-      "lokasi": "Teluk Bintuni, Papua Barat",
-      "sumber_utama": "Media Pro Rakyat",
-      "sumber_display": "Media Pro Rakyat",
-      "sumber_count": 1,
-      "sumber_list": [
-        {
-          "nama": "Media Pro Rakyat",
-          "tier": 2,
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOanh0eS00VTdqdDgtWlFuRnRPNTU3cWNyM2NGRnc4b3pVTm8yX1pzUzJKZDk0WTh5MU0tcTdJaUtNdWFkUEU5SEdQOV9iYzdEVFo3bXlMRXNPaXNaajRGMEhVWTdvYnl3cmFuX2NrbFgtN3FTM2JvUy1LZWRJNGRVR2xUdmZYZE9tSzA0VGNXaW0xQ1liV3otYXhTU3VieVhoaWZGcUZ0UWxpMFV0TmttRFdidERCRlJDU3hYU0c4aw?oc=5",
-          "tanggal_wit": "26 Nov 2026"
-        }
-      ],
-      "tier": 2,
-      "verifikasi_label": "Media Terverifikasi",
-      "tanggal_wit": "26 Nov 2026",
-      "published_iso": "2026-11-26T12:17+09:00",
-      "umur_jam": 15.3,
-      "link": "https://mediaprorakyat.com/2026/11/26/jelang-1-desember-ketua-lma-suku-sougb-ajak-masyarakat-teluk-bintuni-jaga-kamtibmas/",
-      "rekomendasi_format": {
-        "kode": "story",
-        "label": "IG Story (Cepat)",
-        "editor_mode": "story",
-        "catatan": "Sesuai SOP Bagian 3: berita portal luar cukup diolah ringkas untuk IG Story + kredit sumber."
-      },
-      "tagar_topik": "#infobintuni",
-      "kredit_foto_saran": "Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)",
-      "caption_seo": "Menjelang 1 Desember yang kerap dikaitkan dengan peringatan kelompok pendukung kemerdekaan Papua, Ketua Lembaga Masyarakat Adat (LMA) Suku Sougb, Melianus Yettu, S.IP., mengajak seluruh elemen masyarakat di Kabupaten Teluk Bintuni untuk bersama-sama menjaga keamanan dan ketertiban masyarakat (kamtibmas).\n\nMelianus mengimbau masyarakat agar tetap tenang, tidak mudah terprovokasi oleh berbagai isu maupun informasi yang belum jelas kebenarannya, serta menghindari tindakan yang dapat mengganggu stabilitas keamanan di wilayah Kabupaten Teluk Bintuni.\n\n📍 Lokasi: Teluk Bintuni, Papua Barat\n📰 Sumber: Media Pro Rakyat (26 Nov 2026)\n📷 Foto: Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
-      "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
-    },
-    {
-      "id": "kb-53a11cb958",
-      "wilayah": "bintuni",
-      "wilayah_label": "Teluk Bintuni",
-      "score": 59,
-      "cat_idx": 0,
-      "cat_label": "KABAR TERKINI",
-      "title": "13 Cerita Rakyat Tujuh Suku Teluk Bintuni Dibukukan, Generasi Muda Diajak Jaga Warisan Leluhur",
-      "card_headline": "13 Cerita Rakyat Tujuh Suku *Teluk Bintuni* Dibukukan, Generasi Muda Diajak Jaga Warisan Leluhur",
-      "subline": "Pantauan redaksi dari TopbNews untuk warga Kabupaten Teluk Bintuni.",
-      "poin_resume": [
-        "13 Cerita Rakyat Tujuh Suku Teluk Bintuni Dibukukan, Generasi Muda Diajak Jaga Warisan Leluhur.",
-        "Pantauan redaksi dari TopbNews untuk warga Kabupaten Teluk Bintuni."
+        "Yustina Ogoney, Perempuan Moskona Pertama Menjadi Plt Kepala DMPK Teluk Bintuni.",
+        "Pantauan redaksi dari Tabura Pos untuk warga Kabupaten Teluk Bintuni."
       ],
       "resume_dari_artikel": false,
-      "lokasi": "Teluk Bintuni, Papua Barat",
-      "sumber_utama": "TopbNews",
-      "sumber_display": "TopbNews (+1 media)",
+      "lokasi": "Moskona, Teluk Bintuni",
+      "sumber_utama": "Tabura Pos",
+      "sumber_display": "Tabura Pos (+1 media)",
       "sumber_count": 2,
       "sumber_list": [
         {
-          "nama": "TopbNews",
-          "tier": 2,
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORkNfamthWE1wWEdJbGhTZFVHdS0xRko1WUdxS0ROYWF0MEo3TzhnQUxnNURIMTMxWTBDR21xd1JZTW92TFA1ZGNVV2ltdGVQSXZmUnlEMF9pb0diU3RnYVloWUJORFZtNWtKa0JZSVo2c2NSUmVTbkZzeXVSR1p3Rk16ZXJpTVVHdWd4dHQxVnpiZVNIbVU2dm56ajNZcHgydEN5TkFJNkVnXzdKVm41b253SzlGUQ?oc=5",
-          "tanggal_wit": "20 Nov 2026"
-        },
-        {
           "nama": "Tabura Pos",
           "tier": 2,
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPenowUVZaMEZTS0ZfSkY4YU83NlpvSjlmaG9iMFJsa0h0QWZYalRORi1aWW5Qc0dtY3h3VUJadFB6dHExZlNHZkxPa0RXeEF0ZUN5ZHlnTGtObi1WdmFUUGVwdkI3aVRsYjNkTkdHcUhuRkZsOWdQeW5acC1VWXVZVnNxRldpVWpHWVBTWXQzYVJNNjFmcEJBM0xELXhpRTNyQmdQRlZpdXNZeEdIVHk5eERHQXRRM1BJNGhnSjl1Vl9HZTVUYXFmUkt2LU5vVHBo?oc=5",
-          "tanggal_wit": "18 Nov 2026"
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaWc5WjQwSmFhYXhzNVBzZy1JWGpjTzhpenY5bjdvbVV2Z2ZHTkFXUjBuU1lzMUd4Z3FYbnF3b2JHSmQzd1l4bmI4RTYzQ2NBNXZZQkZZS0xHUzA0QVdIM082Y3A5UW00eDVNNktuM2lJQk1SMDJteGNpdEZyOC12UnJGNXNCMnlFc0k0VDdXZllkdTNoT2hMOUR1MlVjaVhIMWw1MzFyNmNVV2FTeEx4MQ?oc=5",
+          "tanggal_wit": "17 Nov 2026"
+        },
+        {
+          "nama": "Garda Papua",
+          "tier": 3,
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRVExcGxQVEtRcUdXTlYwVkNTMy1XbDZmS0tDZEwzOTNYcVlsRzBveVhMU09GWlhBeTFrNFRYekJJdy1pSm9hYnRXR240ZUFNRzF6R0M2WEVlUGprMUg3T2lEOTZjWERHY2RULS1nU2JtTEd5UXB6ODdPVHl6NVVGWHo3Mk83UVNnOUtZM3hSMkZqLWxSRnNjWUJFajVNdlJhX2tqd0NWTVhWSnVzUFZ0TnVjSWtyMlZ6akJTUVVQaTYxUzh2RkVSTDRBcjcyNzhrejdhM1F6Zw?oc=5",
+          "tanggal_wit": "16 Nov 2026"
         }
       ],
       "tier": 2,
       "verifikasi_label": "Terverifikasi Multi-Sumber",
-      "tanggal_wit": "20 Nov 2026",
-      "published_iso": "2026-11-20T09:25+09:00",
-      "umur_jam": 162.1,
-      "link": "https://topbnews.com/13-cerita-rakyat-tujuh-suku-teluk-bintuni-dibukukan-generasi-muda-diajak-jaga-warisan-leluhur/",
+      "tanggal_wit": "17 Nov 2026",
+      "published_iso": "2026-11-17T16:30+09:00",
+      "umur_jam": 236.0,
+      "link": "https://taburapos.co/2026/11/17/yustina-ogoney-perempuan-moskona-pertama-menjadi-plt-kepala-dmpk-teluk-bintuni/",
       "rekomendasi_format": {
         "kode": "feed_reels",
         "label": "Feed 4:5 + Video Cepat 9:16",
@@ -742,51 +552,95 @@
       },
       "tagar_topik": "#infobintuni",
       "kredit_foto_saran": "Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)",
-      "caption_seo": "13 Cerita Rakyat Tujuh Suku Teluk Bintuni Dibukukan, Generasi Muda Diajak Jaga Warisan Leluhur.\n\nPantauan redaksi dari TopbNews untuk warga Kabupaten Teluk Bintuni.\n\n📍 Lokasi: Teluk Bintuni, Papua Barat\n📰 Sumber: TopbNews (+1 media) (20 Nov 2026)\n📷 Foto: Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
+      "caption_seo": "Yustina Ogoney, Perempuan Moskona Pertama Menjadi Plt Kepala DMPK Teluk Bintuni.\n\nPantauan redaksi dari Tabura Pos untuk warga Kabupaten Teluk Bintuni.\n\n📍 Lokasi: Moskona, Teluk Bintuni\n📰 Sumber: Tabura Pos (+1 media) (17 Nov 2026)\n📷 Foto: Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
       "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
     },
     {
-      "id": "kb-bd3753419d",
+      "id": "kb-722752189c",
       "wilayah": "bintuni",
       "wilayah_label": "Teluk Bintuni",
-      "score": 59,
-      "cat_idx": 4,
-      "cat_label": "EVENT & WARGA",
-      "title": "UCAPAN SELAMAT HARI KESEHATAN NASIONAL OLEH KEPALA DINAS PENDIDIKAN, KEBUDAYAAN, PEMUDA DAN OLAHRAGA KABUPATEN TELUK BINTUNI",
-      "card_headline": "UCAPAN SELAMAT HARI KESEHATAN NASIONAL OLEH KEPALA DINAS PENDIDIKAN, KEBUDAYAAN, PEMUDA DAN OLAHRAGA KABUPATEN *TELUK BINTUNI*",
-      "subline": "Pantauan redaksi dari TopbNews untuk warga Kabupaten Teluk Bintuni.",
+      "score": 56,
+      "cat_idx": 0,
+      "cat_label": "KABAR TERKINI",
+      "title": "Berita dan Informasi peringatan hari guru nasional di bintuni Terkini dan Terbaru Hari Ini",
+      "card_headline": "Berita dan Informasi peringatan hari guru nasional di *bintuni* Terkini dan Terbaru Hari Ini",
+      "subline": "Pantauan redaksi dari RRI.co.id untuk warga Kabupaten Teluk Bintuni.",
       "poin_resume": [
-        "UCAPAN SELAMAT HARI KESEHATAN NASIONAL OLEH KEPALA DINAS PENDIDIKAN, KEBUDAYAAN, PEMUDA DAN OLAHRAGA KABUPATEN TELUK BINTUNI.",
-        "Pantauan redaksi dari TopbNews untuk warga Kabupaten Teluk Bintuni."
+        "Berita dan Informasi peringatan hari guru nasional di bintuni Terkini dan Terbaru Hari Ini.",
+        "Pantauan redaksi dari RRI.co.id untuk warga Kabupaten Teluk Bintuni."
       ],
       "resume_dari_artikel": false,
       "lokasi": "Teluk Bintuni, Papua Barat",
-      "sumber_utama": "TopbNews",
-      "sumber_display": "TopbNews",
+      "sumber_utama": "RRI.co.id",
+      "sumber_display": "RRI.co.id",
       "sumber_count": 1,
       "sumber_list": [
         {
-          "nama": "TopbNews",
-          "tier": 2,
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNRlExS00yc2diaUVUeW13TXNmdklkQkJhdHhnTnhUYk1NU21kMmZZYXJwMzhidEpWcmRTZFNxOG50bG9ZaGZGUVVvRVloYk5TVDlyZ0RLRkx6MWhtZUNUSlJWbUlmVXBVSU1uS3I0T3hhX282a0RHWmNDSWduX0RFTEw4X214NEpTM1hoaFlTZ2h5bVRNQmVWMmh3a3lzWDZSMDhQQUdDOVBMeDJMcXpsbTUxb0tJelJVWVdMaUFFc3BwYnpUVlpOQzUyM1dVVXdMdnh2Rmp1Z0tDWUZZ?oc=5",
-          "tanggal_wit": "12 Nov 2026"
+          "nama": "RRI.co.id",
+          "tier": 1,
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9FRFVSUXN0V3ZxRGw3Z3BSbzVFbGRWQ1E4b2FFbXhObG9nZGtzcVV5bE9EQmtXZG8wWXRzcHB4Y0lnZFdUaTBrU1hQdEV0RWZUOGtjN0wzNHJwNjcxWjFPTVJ4Xy1xRzV1NlJsUEppR2EtYXVvNE54M0R3NGd2UQ?oc=5",
+          "tanggal_wit": "24 Nov 2026"
         }
       ],
-      "tier": 2,
-      "verifikasi_label": "Media Terverifikasi",
-      "tanggal_wit": "12 Nov 2026",
-      "published_iso": "2026-11-12T19:08+09:00",
-      "umur_jam": 344.4,
-      "link": "https://topbnews.com/ucapan-selamat-hari-kesehatan-nasional-oleh-kepala-dinas-pendidikan-kebudayaan-pemuda-dan-olahraga-kabupaten-teluk-bintuni/",
+      "tier": 1,
+      "verifikasi_label": "Sumber Resmi / Primer",
+      "tanggal_wit": "24 Nov 2026",
+      "published_iso": "2026-11-24T09:28+09:00",
+      "umur_jam": 75.0,
+      "link": "https://rri.co.id/manokwari/tags/peringatan-hari-guru-nasional-di-bintuni",
       "rekomendasi_format": {
-        "kode": "story",
-        "label": "IG Story (Cepat)",
-        "editor_mode": "story",
-        "catatan": "Sesuai SOP Bagian 3: berita portal luar cukup diolah ringkas untuk IG Story + kredit sumber."
+        "kode": "feed_reels",
+        "label": "Feed 4:5 + Video Cepat 9:16",
+        "editor_mode": "4x5",
+        "catatan": "Relevansi Bintuni tinggi — layak naik Feed IG 4:5 dan Reels/TikTok 9:16."
       },
-      "tagar_topik": "#eventbintuni",
-      "kredit_foto_saran": "Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)",
-      "caption_seo": "UCAPAN SELAMAT HARI KESEHATAN NASIONAL OLEH KEPALA DINAS PENDIDIKAN, KEBUDAYAAN, PEMUDA DAN OLAHRAGA KABUPATEN TELUK BINTUNI.\n\nPantauan redaksi dari TopbNews untuk warga Kabupaten Teluk Bintuni.\n\n📍 Lokasi: Teluk Bintuni, Papua Barat\n📰 Sumber: TopbNews (12 Nov 2026)\n📷 Foto: Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #eventbintuni",
+      "tagar_topik": "#infobintuni",
+      "kredit_foto_saran": "Dok. RRI.co.id",
+      "caption_seo": "Berita dan Informasi peringatan hari guru nasional di bintuni Terkini dan Terbaru Hari Ini.\n\nPantauan redaksi dari RRI.co.id untuk warga Kabupaten Teluk Bintuni.\n\n📍 Lokasi: Teluk Bintuni, Papua Barat\n📰 Sumber: RRI.co.id (24 Nov 2026)\n📷 Foto: Dok. RRI.co.id\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
+      "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
+    },
+    {
+      "id": "kb-efe55dfc28",
+      "wilayah": "bintuni",
+      "wilayah_label": "Teluk Bintuni",
+      "score": 56,
+      "cat_idx": 0,
+      "cat_label": "KABAR TERKINI",
+      "title": "Berita dan Informasi pgri teluk bintuni ajak guru perkuat solidaritas hadapi era teknologi Terkini dan Terbaru Hari Ini",
+      "card_headline": "Berita dan Informasi pgri *teluk bintuni* ajak guru perkuat solidaritas hadapi era teknologi Terkini dan Terbaru Hari Ini",
+      "subline": "Pantauan redaksi dari RRI.co.id untuk warga Kabupaten Teluk Bintuni.",
+      "poin_resume": [
+        "Berita dan Informasi pgri teluk bintuni ajak guru perkuat solidaritas hadapi era teknologi Terkini dan Terbaru Hari Ini.",
+        "Pantauan redaksi dari RRI.co.id untuk warga Kabupaten Teluk Bintuni."
+      ],
+      "resume_dari_artikel": false,
+      "lokasi": "Teluk Bintuni, Papua Barat",
+      "sumber_utama": "RRI.co.id",
+      "sumber_display": "RRI.co.id",
+      "sumber_count": 1,
+      "sumber_list": [
+        {
+          "nama": "RRI.co.id",
+          "tier": 1,
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaHUxdWNjbXl3Z19KUFBPakVQWlA0STM4bkpOOHBTc0FBU3ZCWE5yOXZKX0JJbEJycU1zVDhVNVJWQVhvRjZfclRUTWlxMmlvSlpteGFVMzNnekVrOEZuY3g2WklGRWVkcFM4NG9Ca3lMQnEyOHJmZVM3T2ZwdE40MlY2eGlGUmgwSHJGTlhLa2NtLUU5YVJSNjh2bkhSS2RPSEpqYQ?oc=5",
+          "tanggal_wit": "24 Nov 2026"
+        }
+      ],
+      "tier": 1,
+      "verifikasi_label": "Sumber Resmi / Primer",
+      "tanggal_wit": "24 Nov 2026",
+      "published_iso": "2026-11-24T09:26+09:00",
+      "umur_jam": 75.1,
+      "link": "https://rri.co.id/manokwari/tags/pgri-teluk-bintuni-ajak-guru-perkuat-solidaritas-hadapi-era-teknologi",
+      "rekomendasi_format": {
+        "kode": "feed_reels",
+        "label": "Feed 4:5 + Video Cepat 9:16",
+        "editor_mode": "4x5",
+        "catatan": "Relevansi Bintuni tinggi — layak naik Feed IG 4:5 dan Reels/TikTok 9:16."
+      },
+      "tagar_topik": "#infobintuni",
+      "kredit_foto_saran": "Dok. RRI.co.id",
+      "caption_seo": "Berita dan Informasi pgri teluk bintuni ajak guru perkuat solidaritas hadapi era teknologi Terkini dan Terbaru Hari Ini.\n\nPantauan redaksi dari RRI.co.id untuk warga Kabupaten Teluk Bintuni.\n\n📍 Lokasi: Teluk Bintuni, Papua Barat\n📰 Sumber: RRI.co.id (24 Nov 2026)\n📷 Foto: Dok. RRI.co.id\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
       "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
     },
     {
@@ -820,7 +674,7 @@
       "verifikasi_label": "Sumber Resmi / Primer",
       "tanggal_wit": "22 Nov 2026",
       "published_iso": "2026-11-22T20:01+09:00",
-      "umur_jam": 103.5,
+      "umur_jam": 112.5,
       "link": "https://rri.co.id/manokwari/regional/2916021/komoditas-lokal-dan-ekonomi-kampung-jadi-perhatian-dprk-teluk-bintuni",
       "rekomendasi_format": {
         "kode": "feed_reels",
@@ -864,7 +718,7 @@
       "verifikasi_label": "Media Terverifikasi",
       "tanggal_wit": "14 Nov 2026",
       "published_iso": "2026-11-14T23:27+09:00",
-      "umur_jam": 292.1,
+      "umur_jam": 301.0,
       "link": "https://topbnews.com/hut-ke-15-rsud-teluk-bintuni-tegaskan-komitmen-tingkatkan-mutu-pelayanan-kesehatan/",
       "rekomendasi_format": {
         "kode": "story",
@@ -878,6 +732,50 @@
       "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
     },
     {
+      "id": "kb-54f6aadab5",
+      "wilayah": "bintuni",
+      "wilayah_label": "Teluk Bintuni",
+      "score": 54,
+      "cat_idx": 0,
+      "cat_label": "KABAR TERKINI",
+      "title": "Jelang 1 Desember, Ketua LMA Suku Sougb Ajak Masyarakat Teluk Bintuni Jaga Kamtibmas",
+      "card_headline": "Jelang 1 Desember, Ketua LMA Suku Sougb Ajak Masyarakat *Teluk Bintuni* Jaga Kamtibmas",
+      "subline": "Menjelang 1 Desember yang kerap dikaitkan dengan peringatan kelompok pendukung kemerdekaan Papua, Ketua Lembaga…",
+      "poin_resume": [
+        "Menjelang 1 Desember yang kerap dikaitkan dengan peringatan kelompok pendukung kemerdekaan Papua, Ketua Lembaga Masyarakat Adat (LMA) Suku Sougb, Melianus Yettu, S.IP., mengajak seluruh elemen masyarakat di Kabupaten Teluk Bintuni untuk bersama-sama menjaga keamanan dan ketertiban masyarakat (kamtibmas).",
+        "Melianus mengimbau masyarakat agar tetap tenang, tidak mudah terprovokasi oleh berbagai isu maupun informasi yang belum jelas kebenarannya, serta menghindari tindakan yang dapat mengganggu stabilitas keamanan di wilayah Kabupaten Teluk Bintuni."
+      ],
+      "resume_dari_artikel": true,
+      "lokasi": "Teluk Bintuni, Papua Barat",
+      "sumber_utama": "Media Pro Rakyat",
+      "sumber_display": "Media Pro Rakyat",
+      "sumber_count": 1,
+      "sumber_list": [
+        {
+          "nama": "Media Pro Rakyat",
+          "tier": 2,
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOanh0eS00VTdqdDgtWlFuRnRPNTU3cWNyM2NGRnc4b3pVTm8yX1pzUzJKZDk0WTh5MU0tcTdJaUtNdWFkUEU5SEdQOV9iYzdEVFo3bXlMRXNPaXNaajRGMEhVWTdvYnl3cmFuX2NrbFgtN3FTM2JvUy1LZWRJNGRVR2xUdmZYZE9tSzA0VGNXaW0xQ1liV3otYXhTU3VieVhoaWZGcUZ0UWxpMFV0TmttRFdidERCRlJDU3hYU0c4aw?oc=5",
+          "tanggal_wit": "26 Nov 2026"
+        }
+      ],
+      "tier": 2,
+      "verifikasi_label": "Media Terverifikasi",
+      "tanggal_wit": "26 Nov 2026",
+      "published_iso": "2026-11-26T12:17+09:00",
+      "umur_jam": 24.2,
+      "link": "https://mediaprorakyat.com/2026/11/26/jelang-1-desember-ketua-lma-suku-sougb-ajak-masyarakat-teluk-bintuni-jaga-kamtibmas/",
+      "rekomendasi_format": {
+        "kode": "story",
+        "label": "IG Story (Cepat)",
+        "editor_mode": "story",
+        "catatan": "Sesuai SOP Bagian 3: berita portal luar cukup diolah ringkas untuk IG Story + kredit sumber."
+      },
+      "tagar_topik": "#infobintuni",
+      "kredit_foto_saran": "Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)",
+      "caption_seo": "Menjelang 1 Desember yang kerap dikaitkan dengan peringatan kelompok pendukung kemerdekaan Papua, Ketua Lembaga Masyarakat Adat (LMA) Suku Sougb, Melianus Yettu, S.IP., mengajak seluruh elemen masyarakat di Kabupaten Teluk Bintuni untuk bersama-sama menjaga keamanan dan ketertiban masyarakat (kamtibmas).\n\nMelianus mengimbau masyarakat agar tetap tenang, tidak mudah terprovokasi oleh berbagai isu maupun informasi yang belum jelas kebenarannya, serta menghindari tindakan yang dapat mengganggu stabilitas keamanan di wilayah Kabupaten Teluk Bintuni.\n\n📍 Lokasi: Teluk Bintuni, Papua Barat\n📰 Sumber: Media Pro Rakyat (26 Nov 2026)\n📷 Foto: Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
+      "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
+    },
+    {
       "id": "kb-85f1b2ad78",
       "wilayah": "bintuni",
       "wilayah_label": "Teluk Bintuni",
@@ -886,13 +784,12 @@
       "cat_label": "KABAR TERKINI",
       "title": "Ma'dika: Kualitas Pendidikan Teluk Bintuni Harus Diimbangi dengan Kesejahteraan Guru",
       "card_headline": "Ma'dika: Kualitas Pendidikan *Teluk Bintuni* Harus Diimbangi dengan Kesejahteraan Guru",
-      "subline": "Ketua Komisi A DPRK Teluk Bintuni , Ma’dika, mengajak pemerintah daerah memperkuat sinergi untuk meningkatkan…",
+      "subline": "Pantauan redaksi dari Tribunnews.com untuk warga Kabupaten Teluk Bintuni.",
       "poin_resume": [
-        "Ketua Komisi A DPRK Teluk Bintuni , Ma’dika, mengajak pemerintah daerah memperkuat sinergi untuk meningkatkan kualitas pendidikan di Kabupaten Teluk Bintuni, Papua Barat.",
-        "Ajakan tersebut disampaikan Ma’dika saat menghadiri peringatan Hari Guru Nasional (HGN) dan Hari Ulang Tahun (HUT) ke-81 Persatuan Guru Republik Indonesia (PGRI) di Teluk Bintuni, Rabu (25/11/2026).",
-        "Ia mengatakan, guru merupakan ujung tombak pembangunan bangsa, terutama dalam mempersiapkan generasi muda Papua yang cerdas, berkualitas, dan berkarakter."
+        "Ma'dika: Kualitas Pendidikan Teluk Bintuni Harus Diimbangi dengan Kesejahteraan Guru.",
+        "Pantauan redaksi dari Tribunnews.com untuk warga Kabupaten Teluk Bintuni."
       ],
-      "resume_dari_artikel": true,
+      "resume_dari_artikel": false,
       "lokasi": "Teluk Bintuni, Papua Barat",
       "sumber_utama": "Tribunnews.com",
       "sumber_display": "Tribunnews.com",
@@ -909,7 +806,7 @@
       "verifikasi_label": "Media Terverifikasi",
       "tanggal_wit": "25 Nov 2026",
       "published_iso": "2026-11-25T15:48+09:00",
-      "umur_jam": 35.7,
+      "umur_jam": 44.7,
       "link": "https://papuabarat.tribunnews.com/teluk-bintuni/68031/madika-kualitas-pendidikan-teluk-bintuni-harus-diimbangi-dengan-kesejahteraan-guru",
       "rekomendasi_format": {
         "kode": "story",
@@ -919,7 +816,7 @@
       },
       "tagar_topik": "#infobintuni",
       "kredit_foto_saran": "Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)",
-      "caption_seo": "Ketua Komisi A DPRK Teluk Bintuni , Ma’dika, mengajak pemerintah daerah memperkuat sinergi untuk meningkatkan kualitas pendidikan di Kabupaten Teluk Bintuni, Papua Barat.\n\nAjakan tersebut disampaikan Ma’dika saat menghadiri peringatan Hari Guru Nasional (HGN) dan Hari Ulang Tahun (HUT) ke-81 Persatuan Guru Republik Indonesia (PGRI) di Teluk Bintuni, Rabu (25/11/2026).\n\nIa mengatakan, guru merupakan ujung tombak pembangunan bangsa, terutama dalam mempersiapkan generasi muda Papua yang cerdas, berkualitas, dan berkarakter.\n\n📍 Lokasi: Teluk Bintuni, Papua Barat\n📰 Sumber: Tribunnews.com (25 Nov 2026)\n📷 Foto: Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
+      "caption_seo": "Ma'dika: Kualitas Pendidikan Teluk Bintuni Harus Diimbangi dengan Kesejahteraan Guru.\n\nPantauan redaksi dari Tribunnews.com untuk warga Kabupaten Teluk Bintuni.\n\n📍 Lokasi: Teluk Bintuni, Papua Barat\n📰 Sumber: Tribunnews.com (25 Nov 2026)\n📷 Foto: Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
       "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
     },
     {
@@ -954,7 +851,7 @@
       "verifikasi_label": "Media Terverifikasi",
       "tanggal_wit": "25 Nov 2026",
       "published_iso": "2026-11-25T14:23+09:00",
-      "umur_jam": 37.2,
+      "umur_jam": 46.1,
       "link": "https://mediaprorakyat.com/2026/11/25/dari-teluk-bintuni-untuk-papua-komitmen-unimutu-mencetak-generasi-masa-depan/",
       "rekomendasi_format": {
         "kode": "story",
@@ -968,10 +865,149 @@
       "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
     },
     {
+      "id": "kb-742a19fc5d",
+      "wilayah": "bintuni",
+      "wilayah_label": "Teluk Bintuni",
+      "score": 54,
+      "cat_idx": 0,
+      "cat_label": "KABAR TERKINI",
+      "title": "Kesejahteraan Guru Jadi Perhatian Pemkab Teluk Bintuni, Gaji Tak Boleh Terlambat",
+      "card_headline": "Kesejahteraan Guru Jadi Perhatian Pemkab *Teluk Bintuni*, Gaji Tak Boleh Terlambat",
+      "subline": "Pantauan redaksi dari Tribunnews.com untuk warga Kabupaten Teluk Bintuni.",
+      "poin_resume": [
+        "Kesejahteraan Guru Jadi Perhatian Pemkab Teluk Bintuni, Gaji Tak Boleh Terlambat.",
+        "Pantauan redaksi dari Tribunnews.com untuk warga Kabupaten Teluk Bintuni."
+      ],
+      "resume_dari_artikel": false,
+      "lokasi": "Teluk Bintuni, Papua Barat",
+      "sumber_utama": "Tribunnews.com",
+      "sumber_display": "Tribunnews.com",
+      "sumber_count": 1,
+      "sumber_list": [
+        {
+          "nama": "Tribunnews.com",
+          "tier": 2,
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTHJRWFh4b0kxcXhIblNDYUxMaTExUlRLRTRyUWg4TUJvREZ1WFl3WGdTUFBVRHNVaURWZmtfeV9lTmdMUGY2QmNYUXFtbGFjT2pWY2FhakxjRkZwWDhZMDlQS1A4VzVNSXQyd0twUkdvOFNYNy1EN3dzck0wV2Mwd1hRdkRPZy1VcUZaNmNmTTU1eWd5WFY4Q1hIeEJ3NFNEeF9MSmJ2RGdoVVlueXVCT3htaVJFOWdKV2wzakpabmk3QQ?oc=5",
+          "tanggal_wit": "25 Nov 2026"
+        }
+      ],
+      "tier": 2,
+      "verifikasi_label": "Media Terverifikasi",
+      "tanggal_wit": "25 Nov 2026",
+      "published_iso": "2026-11-25T14:02+09:00",
+      "umur_jam": 46.5,
+      "link": "https://papuabarat.tribunnews.com/news/68025/kesejahteraan-guru-jadi-perhatian-pemkab-teluk-bintuni-gaji-tak-boleh-terlambat",
+      "rekomendasi_format": {
+        "kode": "story",
+        "label": "IG Story (Cepat)",
+        "editor_mode": "story",
+        "catatan": "Sesuai SOP Bagian 3: berita portal luar cukup diolah ringkas untuk IG Story + kredit sumber."
+      },
+      "tagar_topik": "#infobintuni",
+      "kredit_foto_saran": "Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)",
+      "caption_seo": "Kesejahteraan Guru Jadi Perhatian Pemkab Teluk Bintuni, Gaji Tak Boleh Terlambat.\n\nPantauan redaksi dari Tribunnews.com untuk warga Kabupaten Teluk Bintuni.\n\n📍 Lokasi: Teluk Bintuni, Papua Barat\n📰 Sumber: Tribunnews.com (25 Nov 2026)\n📷 Foto: Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
+      "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
+    },
+    {
+      "id": "kb-8d8bbc59a9",
+      "wilayah": "bintuni",
+      "wilayah_label": "Teluk Bintuni",
+      "score": 54,
+      "cat_idx": 0,
+      "cat_label": "KABAR TERKINI",
+      "title": "Lacak Digital, URC Reskrim Polres Teluk Bintuni Tangkap Terduga Pelaku Pencurian di Kompleks Tahiti",
+      "card_headline": "Lacak Digital, URC Reskrim Polres *Teluk Bintuni* Tangkap Terduga Pelaku Pencurian di Kompleks Tahiti",
+      "subline": "Gerak cepat Unit Reaksi Cepat (URC) Satuan Reserse Kriminal (Satreskrim) Polres Teluk Bintuni berhasil…",
+      "poin_resume": [
+        "Gerak cepat Unit Reaksi Cepat (URC) Satuan Reserse Kriminal (Satreskrim) Polres Teluk Bintuni berhasil mengamankan seorang pria berinisial MT (21), yang diduga terlibat dalam kasus pencurian di kawasan Kompleks Tahiti, KPPD, tepatnya di sekitar Jembatan Tahiti, Hj. Teke, Kabupaten Teluk Bintuni, Senin (23/11/2026).",
+        "Operasi diawali dengan apel dan pengarahan personel di Pos Patmor Pasar Sentral Bintuni sekitar pukul 12.39 WIT. Selanjutnya, tim melakukan pemetaan dan pelacakan terhadap keberadaan terduga pelaku.",
+        "Rangkaian tindakan kepolisian kemudian berlanjut sekitar pukul 14.17 WIT di kawasan Kampung Lama untuk mengamankan barang bukti."
+      ],
+      "resume_dari_artikel": true,
+      "lokasi": "Teluk Bintuni, Papua Barat",
+      "sumber_utama": "Media Pro Rakyat",
+      "sumber_display": "Media Pro Rakyat",
+      "sumber_count": 1,
+      "sumber_list": [
+        {
+          "nama": "Media Pro Rakyat",
+          "tier": 2,
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeFlycnpPb0g0Q0dmdjV3R2VaS3VOV3lHUld0eWlncS1LRHdQRnlPSnJOa0drYWNFUHdITjlNSHN5SDN1bEdEd04wR25jaGhyZFZySERtNjVQQS1TWmpYQzlJSExGX25pbDR6b1ljQ3pncVNwSkFuWVl6c3EzeUE3TFBaSGdZOGxMMnpGM1dxbi1MUGhoVFROeW5tTVpmWmpHejM4NFJhZE8xUHF2OFMwTlhiSzR0M3JvQnFGR0Jic3hjYTFHNDNDQld4TllHTXVBTFV3?oc=5",
+          "tanggal_wit": "25 Nov 2026"
+        }
+      ],
+      "tier": 2,
+      "verifikasi_label": "Media Terverifikasi",
+      "tanggal_wit": "25 Nov 2026",
+      "published_iso": "2026-11-25T13:57+09:00",
+      "umur_jam": 46.5,
+      "link": "https://mediaprorakyat.com/2026/11/25/lacak-digital-urc-reskrim-polres-teluk-bintuni-tangkap-terduga-pelaku-pencurian-di-kompleks-tahiti/",
+      "rekomendasi_format": {
+        "kode": "story",
+        "label": "IG Story (Cepat)",
+        "editor_mode": "story",
+        "catatan": "Sesuai SOP Bagian 3: berita portal luar cukup diolah ringkas untuk IG Story + kredit sumber."
+      },
+      "tagar_topik": "#infobintuni",
+      "kredit_foto_saran": "Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)",
+      "caption_seo": "Gerak cepat Unit Reaksi Cepat (URC) Satuan Reserse Kriminal (Satreskrim) Polres Teluk Bintuni berhasil mengamankan seorang pria berinisial MT (21), yang diduga terlibat dalam kasus pencurian di kawasan Kompleks Tahiti, KPPD, tepatnya di sekitar Jembatan Tahiti, Hj. Teke, Kabupaten Teluk Bintuni, Senin (23/11/2026).\n\nOperasi diawali dengan apel dan pengarahan personel di Pos Patmor Pasar Sentral Bintuni sekitar pukul 12.39 WIT. Selanjutnya, tim melakukan pemetaan dan pelacakan terhadap keberadaan terduga pelaku.\n\nRangkaian tindakan kepolisian kemudian berlanjut sekitar pukul 14.17 WIT di kawasan Kampung Lama untuk mengamankan barang bukti.\n\n📍 Lokasi: Teluk Bintuni, Papua Barat\n📰 Sumber: Media Pro Rakyat (25 Nov 2026)\n📷 Foto: Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)\n💬 Bagaimana menurut kaka dan ade di Bintuni? Tulis pendapat kam di komentar.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
+      "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
+    },
+    {
+      "id": "kb-75c39517ca",
+      "wilayah": "papua_barat",
+      "wilayah_label": "Papua Barat & PBD",
+      "score": 77,
+      "cat_idx": 0,
+      "cat_label": "KABAR TERKINI",
+      "title": "Senator Minta Pemprov Papua Barat Siapkan Gugatan Hukum Penurunan DBH Migas 81,56%",
+      "card_headline": "Senator Minta Pemprov *Papua Barat* Siapkan Gugatan Hukum Penurunan DBH Migas 81,56%",
+      "subline": "Perkembangan regional Papua Barat & PBD yang berdampak ke wilayah Teluk Bintuni.",
+      "poin_resume": [
+        "Senator Minta Pemprov Papua Barat Siapkan Gugatan Hukum Penurunan DBH Migas 81,56%.",
+        "Perkembangan regional Papua Barat & PBD yang berdampak ke wilayah Teluk Bintuni."
+      ],
+      "resume_dari_artikel": false,
+      "lokasi": "Papua Barat",
+      "sumber_utama": "RRI.co.id",
+      "sumber_display": "RRI.co.id (+1 media)",
+      "sumber_count": 2,
+      "sumber_list": [
+        {
+          "nama": "RRI.co.id",
+          "tier": 1,
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbWV1V0x2ZXFxdWRlRlhoNFJrbnlUUEZ2c0tXcGFzSTBCZWFMX3U2M2RpNjlTUUlTQ09zNkZ0YnpWeGRxekltTTNTVlRKWjl6XzRVMUZlSzFjNTFJVnhXX2JkV290UmZHRXZ3b2xWQlhNWkpVUGRQZ1RGcUduVTV0ek0tajh1S09hQnFQdm9GRDZUcElhVklyREk4eU9QNjAzU00xVExlS3JhQTlfendhMkdvUnhUZw?oc=5",
+          "tanggal_wit": "25 Nov 2026"
+        },
+        {
+          "nama": "Papua Dalam Berita",
+          "tier": 1,
+          "link": "https://papuadalamberita.com/dbh-migas-turun-filep-wamafma-minta-pemprov-siapkan-langkah-hukum/",
+          "tanggal_wit": "25 Nov 2026"
+        }
+      ],
+      "tier": 1,
+      "verifikasi_label": "Terverifikasi Multi-Sumber",
+      "tanggal_wit": "25 Nov 2026",
+      "published_iso": "2026-11-25T21:35+09:00",
+      "umur_jam": 38.9,
+      "link": "https://rri.co.id/nasional/2924651/senator-minta-pemprov-papua-barat-siapkan-gugatan-hukum-penurunan-dbh-migas-8156",
+      "rekomendasi_format": {
+        "kode": "feed_reels",
+        "label": "Feed 4:5 + Story",
+        "editor_mode": "4x5",
+        "catatan": "Berdampak ke Papua Barat — naikkan dengan sudut pandang warga Bintuni."
+      },
+      "tagar_topik": "#infobintuni",
+      "kredit_foto_saran": "Dok. RRI.co.id",
+      "caption_seo": "Senator Minta Pemprov Papua Barat Siapkan Gugatan Hukum Penurunan DBH Migas 81,56%.\n\nPerkembangan regional Papua Barat & PBD yang berdampak ke wilayah Teluk Bintuni.\n\n📍 Lokasi: Papua Barat\n📰 Sumber: RRI.co.id (+1 media) (25 Nov 2026)\n📷 Foto: Dok. RRI.co.id\n💬 Bagaimana dampaknya ke Teluk Bintuni menurut kam? Bagikan ke teman atau keluarga.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
+      "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
+    },
+    {
       "id": "kb-1384fb023a",
       "wilayah": "papua_barat",
       "wilayah_label": "Papua Barat & PBD",
-      "score": 78,
+      "score": 72,
       "cat_idx": 3,
       "cat_label": "BEDAH FAKTA",
       "title": "Jumlah Pekerja di Sektor Jasa Lainnya Kategori Lapangan Pekerjaan Utama di di Papua Barat Daya | 2025",
@@ -999,7 +1035,7 @@
       "verifikasi_label": "Sumber Resmi / Primer",
       "tanggal_wit": "26 Nov 2026",
       "published_iso": "2026-11-26T11:06+09:00",
-      "umur_jam": 16.5,
+      "umur_jam": 25.4,
       "link": "https://databoks.katadata.co.id/demografi/statistik/f0048604c1e440c/jumlah-pekerja-di-sektor-jasa-lainnya-kategori-lapangan-pekerjaan-utama-di-di-papua-barat-daya-2025",
       "rekomendasi_format": {
         "kode": "bedah_fakta",
@@ -1013,107 +1049,17 @@
       "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
     },
     {
-      "id": "kb-e022244b82",
+      "id": "kb-3b1a247495",
       "wilayah": "papua_barat",
       "wilayah_label": "Papua Barat & PBD",
       "score": 71,
       "cat_idx": 0,
       "cat_label": "KABAR TERKINI",
-      "title": "polda papua barat dorong sinergitas satpam perkuat keamanan lingkungan kerja",
-      "card_headline": "polda *papua barat* dorong sinergitas satpam perkuat keamanan lingkungan kerja",
-      "subline": "Perkembangan regional Papua Barat & PBD yang berdampak ke wilayah Teluk Bintuni.",
-      "poin_resume": [
-        "polda papua barat dorong sinergitas satpam perkuat keamanan lingkungan kerja.",
-        "Perkembangan regional Papua Barat & PBD yang berdampak ke wilayah Teluk Bintuni."
-      ],
-      "resume_dari_artikel": false,
-      "lokasi": "Papua Barat",
-      "sumber_utama": "RRI.co.id",
-      "sumber_display": "RRI.co.id",
-      "sumber_count": 1,
-      "sumber_list": [
-        {
-          "nama": "RRI.co.id",
-          "tier": 1,
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWjNRSGltYy1XMnF4WFB1Rjl3NFY1U3JtMWcydWtLRWRidk5DekF3LUluX1d5WHpSUC1RZWxhem43cW51MDlRdU9sNDhLaVhNWG4yZlhod1lVbVFHMF9MdDhzVVFKUW5tYkQ5VlpWNE9JZWNjN0l2MmxadnMwcG5zbENKUnh5WGRycHVmbDFIWk1taVd1bnV4QXRSMzBFNy1jVnhjY2Z5UXRoRWM?oc=5",
-          "tanggal_wit": "26 Nov 2026"
-        }
-      ],
-      "tier": 1,
-      "verifikasi_label": "Sumber Resmi / Primer",
-      "tanggal_wit": "26 Nov 2026",
-      "published_iso": "2026-11-26T23:35+09:00",
-      "umur_jam": 4.0,
-      "link": "https://rri.co.id/fak-fak/tags/polda-papua-barat-dorong-sinergitas-satpam-perkuat-keamanan-lingkungan-kerja",
-      "rekomendasi_format": {
-        "kode": "feed_reels",
-        "label": "Feed 4:5 + Story",
-        "editor_mode": "4x5",
-        "catatan": "Berdampak ke Papua Barat — naikkan dengan sudut pandang warga Bintuni."
-      },
-      "tagar_topik": "#infobintuni",
-      "kredit_foto_saran": "Dok. RRI.co.id",
-      "caption_seo": "polda papua barat dorong sinergitas satpam perkuat keamanan lingkungan kerja.\n\nPerkembangan regional Papua Barat & PBD yang berdampak ke wilayah Teluk Bintuni.\n\n📍 Lokasi: Papua Barat\n📰 Sumber: RRI.co.id (26 Nov 2026)\n📷 Foto: Dok. RRI.co.id\n💬 Bagaimana dampaknya ke Teluk Bintuni menurut kam? Bagikan ke teman atau keluarga.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
-      "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
-    },
-    {
-      "id": "kb-34536efedc",
-      "wilayah": "papua_barat",
-      "wilayah_label": "Papua Barat & PBD",
-      "score": 71,
-      "cat_idx": 0,
-      "cat_label": "KABAR TERKINI",
-      "title": "PLN Manokwari sediakan 4 SPKLU dukung transisi energi bersih",
-      "card_headline": "*PLN Manokwari* sediakan 4 SPKLU dukung transisi energi bersih",
-      "subline": "facebook Twitter Whatsapp pinterest email Fransiskus Salu Weking Fransiskus Salu Weking.",
-      "poin_resume": [
-        "facebook Twitter Whatsapp pinterest email Fransiskus Salu Weking Fransiskus Salu Weking.",
-        "Penggunaan kendaraan listrik tidak hanya berdampak positif terhadap kelestarian lingkungan, melainkan dapat menekan pengeluaran masyarakat untuk kebutuhan operasional kendaraan BBM sekitar 80 persen.",
-        "\"Contoh, biaya pengisian daya full untuk satu kendaraan listrik dengan jarak tempuh 600 kilometer Rp250 ribu, tapi kalau kendaraan BBM bisa sampai Rp1,5 juta,\" ucap Arvy."
-      ],
-      "resume_dari_artikel": true,
-      "lokasi": "Manokwari, Papua Barat",
-      "sumber_utama": "ANTARA News Papua Tengah",
-      "sumber_display": "ANTARA News Papua Tengah",
-      "sumber_count": 1,
-      "sumber_list": [
-        {
-          "nama": "ANTARA News Papua Tengah",
-          "tier": 1,
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdGZkYl9CY1drSXQ0VktHM29uVzA4OU8wT0RWc01Ha1VaZHJVcVV4Ni1hekIyb0U0cmxqUlJkc2V0MjBmaUZOUndaRkVGNkJDdDlaN3dxcXpVWFY0VGNfV0dXSUxQMEdfSUc4R3FzX05nTExwcExHRm5PSTZicFJaamFEY29RY2tkOHdEamVCQzJDd2IxVHJrb2xlUkNpeFBGTHJNTXZWX3IyWGV1SEFhWmRR0gGyAUFVX3lxTFB0ZmRiX0JjV2tJdDRWS0czb25XMDg5TzBPRFZzTUdrVVpkclVxVXg2LWF6QjJvRTRybGpSUmRzZXQyMGZpRk5Sd1pGRUY2QkN0OVo3d3FxelVYVjRUY19XR1dJTFAwR19JRzhHcXNfTmdMTHBwTEdGbk9JNmJwUlpqYURjb1Fja2Q4d0RqZUJDMkN3YjFUcmtvbGVSQ2l4UEZMck1NdlZfcjJYZXVIQWFaZFE?oc=5",
-          "tanggal_wit": "26 Nov 2026"
-        }
-      ],
-      "tier": 1,
-      "verifikasi_label": "Sumber Resmi / Primer",
-      "tanggal_wit": "26 Nov 2026",
-      "published_iso": "2026-11-26T22:12+09:00",
-      "umur_jam": 5.4,
-      "link": "https://papuatengah.antaranews.com/amp/berita/93595/pln-manokwari-sediakan-4-spklu-dukung-transisi-energi-bersih",
-      "rekomendasi_format": {
-        "kode": "feed_reels",
-        "label": "Feed 4:5 + Story",
-        "editor_mode": "4x5",
-        "catatan": "Berdampak ke Papua Barat — naikkan dengan sudut pandang warga Bintuni."
-      },
-      "tagar_topik": "#infobintuni",
-      "kredit_foto_saran": "Dok. ANTARA News Papua Tengah",
-      "caption_seo": "facebook Twitter Whatsapp pinterest email Fransiskus Salu Weking Fransiskus Salu Weking.\n\nPenggunaan kendaraan listrik tidak hanya berdampak positif terhadap kelestarian lingkungan, melainkan dapat menekan pengeluaran masyarakat untuk kebutuhan operasional kendaraan BBM sekitar 80 persen.\n\n\"Contoh, biaya pengisian daya full untuk satu kendaraan listrik dengan jarak tempuh 600 kilometer Rp250 ribu, tapi kalau kendaraan BBM bisa sampai Rp1,5 juta,\" ucap Arvy.\n\n📍 Lokasi: Manokwari, Papua Barat\n📰 Sumber: ANTARA News Papua Tengah (26 Nov 2026)\n📷 Foto: Dok. ANTARA News Papua Tengah\n💬 Bagaimana dampaknya ke Teluk Bintuni menurut kam? Bagikan ke teman atau keluarga.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
-      "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
-    },
-    {
-      "id": "kb-cfabb526ea",
-      "wilayah": "papua_barat",
-      "wilayah_label": "Papua Barat & PBD",
-      "score": 71,
-      "cat_idx": 0,
-      "cat_label": "KABAR TERKINI",
-      "title": "RSUD Kabupaten Sorong usulkan ruang khusus pasien kusta",
-      "card_headline": "*RSUD Kabupaten* Sorong usulkan ruang khusus pasien kusta",
+      "title": "RSUD Kabupaten Sorong luncurkan penanganan penyakit stroke",
+      "card_headline": "*RSUD Kabupaten* Sorong luncurkan penanganan penyakit stroke",
       "subline": "facebook Twitter Whatsapp pinterest email Yuvensius Lasa Banafanu Yuvensius Lasa Banafanu.",
       "poin_resume": [
-        "facebook Twitter Whatsapp pinterest email Yuvensius Lasa Banafanu Yuvensius Lasa Banafanu.",
-        "Ia berharap, dukungan pemerintah daerah dapat direalisasikan pada 2027."
+        "facebook Twitter Whatsapp pinterest email Yuvensius Lasa Banafanu Yuvensius Lasa Banafanu."
       ],
       "resume_dari_artikel": true,
       "lokasi": "Sorong, Papua Barat Daya",
@@ -1124,16 +1070,16 @@
         {
           "nama": "ANTARA News Papua Tengah",
           "tier": 1,
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVUtoa2hlbjZpVEZRQ2VacFQ5WTJqc053TWZPOTJ2NWxWeTdkZlhMWGJmS3JTRGwwczJkTmIteWdORWxfSGFrWDYzM2tsdlV2WGw3b3JZSjhlTFRaalhfTHVnRVdpVnZBdmYtZm5ZcXZreG1HTU1TR0xRM1NYdGZJWHdYMWdwRHhJU0VuUFA3UEpTNFVmRXdWT2s0RFV2YldoVjRYQ2RLQVNFaTTSAasBQVVfeXFMUFVLaGtoZW42aVRGUUNlWnBUOVkyanNOd01mTzkydjVsVnk3ZGZYTFhiZktyU0RsMHMyZE5iLXlnTkVsX0hha1g2MzNrbHZVdlhsN29yWUo4ZUxUWmpYX0x1Z0VXaVZ2QXZmLWZuWXF2a3htR01NU0dMUTNTWHRmSVh3WDFncER4SVNFblBQN1BKUzRVZkV3Vk9rNERVdmJXaFY0WENkS0FTRWk0?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQenUxdktMRExyZFVpN25xVmNpT1FTYndCdjJJWUxRaVAtaTV2cU15M3h3ZDM5TlVkbHVKRmpGR0gxUGY4cXZucHpOazNXWFlRSkNOczYtNFk2Z3FfcVpOazl5cllzWmdnX3VMNUJmOXQzbWJfVHJRSWtOX2JxUDQxbmZHSEZ1NlViN2ZPeUxRblUtX21tV3Ntd0hRWnRWVU9mR3I5U2VHR0tJVnp4S3RN0gGvAUFVX3lxTFB6dTF2S0xETHJkVWk3bnFWY2lPUVNid0J2MklZTFFpUC1pNXZxTXkzeHdkMzlOVWRsdUpGakZHSDFQZjhxdm5wek5rM1dYWVFKQ05zNi00WTZncV9xWk5rOXlyWXNaZ2dfdUw1QmY5dDNtYl9UclFJa05fYnFQNDFuZkdIRnU2VWI3Zk95TFFuVS1fbW1Xc213SFFadFZVT2ZHcjlTZUdHS0lWenhLdE0?oc=5",
           "tanggal_wit": "26 Nov 2026"
         }
       ],
       "tier": 1,
       "verifikasi_label": "Sumber Resmi / Primer",
       "tanggal_wit": "26 Nov 2026",
-      "published_iso": "2026-11-26T18:19+09:00",
-      "umur_jam": 9.2,
-      "link": "https://papuatengah.antaranews.com/amp/berita/93547/rsud-kabupaten-sorong-usulkan-ruang-khusus-pasien-kusta",
+      "published_iso": "2026-11-26T22:08+09:00",
+      "umur_jam": 14.4,
+      "link": "https://papuatengah.antaranews.com/amp/berita/93583/rsud-kabupaten-sorong-luncurkan-penanganan-penyakit-stroke",
       "rekomendasi_format": {
         "kode": "feed_reels",
         "label": "Feed 4:5 + Story",
@@ -1142,7 +1088,50 @@
       },
       "tagar_topik": "#infobintuni",
       "kredit_foto_saran": "Dok. ANTARA News Papua Tengah",
-      "caption_seo": "facebook Twitter Whatsapp pinterest email Yuvensius Lasa Banafanu Yuvensius Lasa Banafanu.\n\nIa berharap, dukungan pemerintah daerah dapat direalisasikan pada 2027.\n\n📍 Lokasi: Sorong, Papua Barat Daya\n📰 Sumber: ANTARA News Papua Tengah (26 Nov 2026)\n📷 Foto: Dok. ANTARA News Papua Tengah\n💬 Bagaimana dampaknya ke Teluk Bintuni menurut kam? Bagikan ke teman atau keluarga.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
+      "caption_seo": "facebook Twitter Whatsapp pinterest email Yuvensius Lasa Banafanu Yuvensius Lasa Banafanu.\n\n📍 Lokasi: Sorong, Papua Barat Daya\n📰 Sumber: ANTARA News Papua Tengah (26 Nov 2026)\n📷 Foto: Dok. ANTARA News Papua Tengah\n💬 Bagaimana dampaknya ke Teluk Bintuni menurut kam? Bagikan ke teman atau keluarga.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
+      "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
+    },
+    {
+      "id": "kb-ec704dd61a",
+      "wilayah": "papua_barat",
+      "wilayah_label": "Papua Barat & PBD",
+      "score": 71,
+      "cat_idx": 0,
+      "cat_label": "KABAR TERKINI",
+      "title": "RSUD Kabupaten Sorong serap aspirasi publik",
+      "card_headline": "*RSUD Kabupaten* Sorong serap aspirasi publik",
+      "subline": "facebook Twitter Whatsapp pinterest email Yuvensius Lasa Banafanu Yuvensius Lasa Banafanu.",
+      "poin_resume": [
+        "facebook Twitter Whatsapp pinterest email Yuvensius Lasa Banafanu Yuvensius Lasa Banafanu."
+      ],
+      "resume_dari_artikel": true,
+      "lokasi": "Sorong, Papua Barat Daya",
+      "sumber_utama": "ANTARA News Papua Tengah",
+      "sumber_display": "ANTARA News Papua Tengah",
+      "sumber_count": 1,
+      "sumber_list": [
+        {
+          "nama": "ANTARA News Papua Tengah",
+          "tier": 1,
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQU3VPdWxMWXNNdnZ1RloxTHlDcHFpVGJ4bTFUZ1JsRG5iSE5wQmhXb1drWFhhNnlLcDhDRHNFajFwbGd0Rl82M2NGeGtaYmlKLUR1ZDZHU3JMd0prU2MwNFFNMHcyTlFtdm5QXzVaaTYwYm5BdDRIQ05uY1hMUXZKOWQ3a3VXLXVrbmQwN2V0OERoWmtYWlJ0WnJJUdIBmwFBVV95cUxQU3VPdWxMWXNNdnZ1RloxTHlDcHFpVGJ4bTFUZ1JsRG5iSE5wQmhXb1drWFhhNnlLcDhDRHNFajFwbGd0Rl82M2NGeGtaYmlKLUR1ZDZHU3JMd0prU2MwNFFNMHcyTlFtdm5QXzVaaTYwYm5BdDRIQ05uY1hMUXZKOWQ3a3VXLXVrbmQwN2V0OERoWmtYWlJ0WnJJUQ?oc=5",
+          "tanggal_wit": "26 Nov 2026"
+        }
+      ],
+      "tier": 1,
+      "verifikasi_label": "Sumber Resmi / Primer",
+      "tanggal_wit": "26 Nov 2026",
+      "published_iso": "2026-11-26T22:02+09:00",
+      "umur_jam": 14.5,
+      "link": "https://papuatengah.antaranews.com/amp/berita/93563/rsud-kabupaten-sorong-serap-aspirasi-publik",
+      "rekomendasi_format": {
+        "kode": "feed_reels",
+        "label": "Feed 4:5 + Story",
+        "editor_mode": "4x5",
+        "catatan": "Berdampak ke Papua Barat — naikkan dengan sudut pandang warga Bintuni."
+      },
+      "tagar_topik": "#infobintuni",
+      "kredit_foto_saran": "Dok. ANTARA News Papua Tengah",
+      "caption_seo": "facebook Twitter Whatsapp pinterest email Yuvensius Lasa Banafanu Yuvensius Lasa Banafanu.\n\n📍 Lokasi: Sorong, Papua Barat Daya\n📰 Sumber: ANTARA News Papua Tengah (26 Nov 2026)\n📷 Foto: Dok. ANTARA News Papua Tengah\n💬 Bagaimana dampaknya ke Teluk Bintuni menurut kam? Bagikan ke teman atau keluarga.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
       "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
     },
     {
@@ -1176,7 +1165,7 @@
       "verifikasi_label": "Sumber Resmi / Primer",
       "tanggal_wit": "26 Nov 2026",
       "published_iso": "2026-11-26T13:47+09:00",
-      "umur_jam": 13.8,
+      "umur_jam": 22.7,
       "link": "https://databoks.katadata.co.id/demografi/statistik/1f6e110a1bf11f4/jumlah-koperasi-unit-desa-kud-di-papua-barat-daya-2025",
       "rekomendasi_format": {
         "kode": "bedah_fakta",
@@ -1190,10 +1179,61 @@
       "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
     },
     {
+      "id": "kb-a391839b29",
+      "wilayah": "papua_barat",
+      "wilayah_label": "Papua Barat & PBD",
+      "score": 70,
+      "cat_idx": 0,
+      "cat_label": "KABAR TERKINI",
+      "title": "Kemenkum Papua Barat Siapkan Forum Riset dan Industri, Inovasi Daerah Ditargetkan Bernilai Ekonomi",
+      "card_headline": "Kemenkum *Papua Barat* Siapkan Forum Riset dan Industri, Inovasi Daerah Ditargetkan Bernilai Ekonomi",
+      "subline": "Hasil penelitian dan inovasi daerah di Papua Barat didorong agar tidak sekadar menjadi karya ilmiah, tetapi mampu…",
+      "poin_resume": [
+        "Hasil penelitian dan inovasi daerah di Papua Barat didorong agar tidak sekadar menjadi karya ilmiah, tetapi mampu berkembang menjadi produk bernilai ekonomi yang menjawab kebutuhan masyarakat dan dunia industri.",
+        "Melalui forum yang direncanakan berlangsung pada awal 2027, pemerintah daerah diharapkan mengambil peran strategis dalam mempertemukan para pemilik inovasi dengan pihak-pihak yang dapat mengembangkan dan memanfaatkan hasil penelitian tersebut.",
+        "Untuk mewujudkan hal tersebut, Kantor Wilayah Kementerian Hukum Papua Barat menyiapkan forum kolaborasi lintas sektor pada awal 2027."
+      ],
+      "resume_dari_artikel": true,
+      "lokasi": "Manokwari, Papua Barat",
+      "sumber_utama": "Papua Dalam Berita",
+      "sumber_display": "papuadalamberita.com (+1 media)",
+      "sumber_count": 2,
+      "sumber_list": [
+        {
+          "nama": "papuadalamberita.com",
+          "tier": 2,
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWnlUcDhtTnhWX3NrdmFVWVV0bDRnVlpTMHNhZ1BTWnZfMXZKLVR1dlV3Mm1xQ1lBcmdoaEZIMVdMQzQ2TDhMb0swR0xsdHoxT2ZiWGEySjRYTkg2WEVZc2YtY1FoTTlIcGhGQ1ZQTW9HVDJlTDhDODhDRkdXTE1MZWZZSGY3bGhQVEtpSGdYUWZQdDEzNkNXMWFkZE15WXJ6clRGaEtONFlpNDJMT19razIyZnozbmpVRTNHaEpIVlZ2M2tMRmc?oc=5",
+          "tanggal_wit": "26 Nov 2026"
+        },
+        {
+          "nama": "Papua Dalam Berita",
+          "tier": 1,
+          "link": "https://papuadalamberita.com/kemenkum-papua-barat-siapkan-forum-riset-dan-industri-inovasi-daerah-ditargetkan-bernilai-ekonomi/",
+          "tanggal_wit": "26 Nov 2026"
+        }
+      ],
+      "tier": 1,
+      "verifikasi_label": "Terverifikasi Multi-Sumber",
+      "tanggal_wit": "26 Nov 2026",
+      "published_iso": "2026-11-26T09:45+09:00",
+      "umur_jam": 26.8,
+      "link": "https://papuadalamberita.com/kemenkum-papua-barat-siapkan-forum-riset-dan-industri-inovasi-daerah-ditargetkan-bernilai-ekonomi/",
+      "rekomendasi_format": {
+        "kode": "feed_reels",
+        "label": "Feed 4:5 + Story",
+        "editor_mode": "4x5",
+        "catatan": "Berdampak ke Papua Barat — naikkan dengan sudut pandang warga Bintuni."
+      },
+      "tagar_topik": "#infobintuni",
+      "kredit_foto_saran": "Dok. Papua Dalam Berita",
+      "caption_seo": "Hasil penelitian dan inovasi daerah di Papua Barat didorong agar tidak sekadar menjadi karya ilmiah, tetapi mampu berkembang menjadi produk bernilai ekonomi yang menjawab kebutuhan masyarakat dan dunia industri.\n\nMelalui forum yang direncanakan berlangsung pada awal 2027, pemerintah daerah diharapkan mengambil peran strategis dalam mempertemukan para pemilik inovasi dengan pihak-pihak yang dapat mengembangkan dan memanfaatkan hasil penelitian tersebut.\n\nUntuk mewujudkan hal tersebut, Kantor Wilayah Kementerian Hukum Papua Barat menyiapkan forum kolaborasi lintas sektor pada awal 2027.\n\n📍 Lokasi: Manokwari, Papua Barat\n📰 Sumber: papuadalamberita.com (+1 media) (26 Nov 2026)\n📷 Foto: Dok. Papua Dalam Berita\n💬 Bagaimana dampaknya ke Teluk Bintuni menurut kam? Bagikan ke teman atau keluarga.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
+      "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
+    },
+    {
       "id": "kb-6c5928c920",
       "wilayah": "papua_barat",
       "wilayah_label": "Papua Barat & PBD",
-      "score": 71,
+      "score": 65,
       "cat_idx": 3,
       "cat_label": "BEDAH FAKTA",
       "title": "Jumlah Desa/Kelurahan yang Memiliki Rumah Sakit di Papua Barat | 2025",
@@ -1221,7 +1261,7 @@
       "verifikasi_label": "Sumber Resmi / Primer",
       "tanggal_wit": "26 Nov 2026",
       "published_iso": "2026-11-26T09:21+09:00",
-      "umur_jam": 18.2,
+      "umur_jam": 27.1,
       "link": "https://databoks.katadata.co.id/demografi/statistik/4798cf845f29d7a/jumlah-desa-kelurahan-yang-memiliki-rumah-sakit-di-papua-barat-2025",
       "rekomendasi_format": {
         "kode": "bedah_fakta",
@@ -1265,7 +1305,7 @@
       "verifikasi_label": "Sumber Resmi / Primer",
       "tanggal_wit": "25 Nov 2026",
       "published_iso": "2026-11-25T22:35+09:00",
-      "umur_jam": 29.0,
+      "umur_jam": 37.9,
       "link": "https://rri.co.id/nasional/2924743/dpd-papua-barat-minta-cawapres-paparkan-peta-jalan-penyelesaian-persoalan-papua",
       "rekomendasi_format": {
         "kode": "feed_reels",
@@ -1279,220 +1319,22 @@
       "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
     },
     {
-      "id": "kb-75c39517ca",
-      "wilayah": "papua_barat",
-      "wilayah_label": "Papua Barat & PBD",
-      "score": 65,
-      "cat_idx": 0,
-      "cat_label": "KABAR TERKINI",
-      "title": "Senator Minta Pemprov Papua Barat Siapkan Gugatan Hukum Penurunan DBH Migas 81,56%",
-      "card_headline": "Senator Minta Pemprov *Papua Barat* Siapkan Gugatan Hukum Penurunan DBH Migas 81,56%",
-      "subline": "Perkembangan regional Papua Barat & PBD yang berdampak ke wilayah Teluk Bintuni.",
-      "poin_resume": [
-        "Senator Minta Pemprov Papua Barat Siapkan Gugatan Hukum Penurunan DBH Migas 81,56%.",
-        "Perkembangan regional Papua Barat & PBD yang berdampak ke wilayah Teluk Bintuni."
-      ],
-      "resume_dari_artikel": false,
-      "lokasi": "Papua Barat",
-      "sumber_utama": "RRI.co.id",
-      "sumber_display": "RRI.co.id",
-      "sumber_count": 1,
-      "sumber_list": [
-        {
-          "nama": "RRI.co.id",
-          "tier": 1,
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbWV1V0x2ZXFxdWRlRlhoNFJrbnlUUEZ2c0tXcGFzSTBCZWFMX3U2M2RpNjlTUUlTQ09zNkZ0YnpWeGRxekltTTNTVlRKWjl6XzRVMUZlSzFjNTFJVnhXX2JkV290UmZHRXZ3b2xWQlhNWkpVUGRQZ1RGcUduVTV0ek0tajh1S09hQnFQdm9GRDZUcElhVklyREk4eU9QNjAzU00xVExlS3JhQTlfendhMkdvUnhUZw?oc=5",
-          "tanggal_wit": "25 Nov 2026"
-        }
-      ],
-      "tier": 1,
-      "verifikasi_label": "Sumber Resmi / Primer",
-      "tanggal_wit": "25 Nov 2026",
-      "published_iso": "2026-11-25T21:35+09:00",
-      "umur_jam": 30.0,
-      "link": "https://rri.co.id/nasional/2924651/senator-minta-pemprov-papua-barat-siapkan-gugatan-hukum-penurunan-dbh-migas-8156",
-      "rekomendasi_format": {
-        "kode": "feed_reels",
-        "label": "Feed 4:5 + Story",
-        "editor_mode": "4x5",
-        "catatan": "Berdampak ke Papua Barat — naikkan dengan sudut pandang warga Bintuni."
-      },
-      "tagar_topik": "#infobintuni",
-      "kredit_foto_saran": "Dok. RRI.co.id",
-      "caption_seo": "Senator Minta Pemprov Papua Barat Siapkan Gugatan Hukum Penurunan DBH Migas 81,56%.\n\nPerkembangan regional Papua Barat & PBD yang berdampak ke wilayah Teluk Bintuni.\n\n📍 Lokasi: Papua Barat\n📰 Sumber: RRI.co.id (25 Nov 2026)\n📷 Foto: Dok. RRI.co.id\n💬 Bagaimana dampaknya ke Teluk Bintuni menurut kam? Bagikan ke teman atau keluarga.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
-      "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
-    },
-    {
-      "id": "kb-87aedbab78",
+      "id": "kb-0685604c57",
       "wilayah": "papua",
       "wilayah_label": "Papua Umum",
-      "score": 82,
-      "cat_idx": 1,
-      "cat_label": "BREAKING NEWS",
-      "title": "BMKG: Waspada Hujan Lebat Disertai Petir di Papua Tengah Sore Ini, Mulai Pukul 17.35 WIB",
-      "card_headline": "*BMKG*: Waspada Hujan Lebat Disertai Petir di Papua Tengah Sore Ini, Mulai Pukul 17.35 WIB",
-      "subline": "KATADATA INSIGHT CENTER Hubungi KIC untuk permintaan data, riset, dan analisis.",
-      "poin_resume": [
-        "KATADATA INSIGHT CENTER Hubungi KIC untuk permintaan data, riset, dan analisis. Hubungi sekarang ».",
-        "Sore ini sejumlah wilayah di Papua Tengah berpotensi diguyur hujan lebat disertai petir. Badan Meteorologi, Klimatologi, dan Geofisika (BMKG) mengeluarkan peringatan dini cuaca pada Kamis, 26 November 2026, berlaku pukul 17.35 hingga 19.30 WIB. BMKG menetapkan tingkat keparahan kategori sedang.",
-        "Sedikitnya 3 kecamatan masuk cakupan peringatan, antara lain DIPA, MENOU, dan YARO. Warga setempat sebaiknya bersiap sebelum hujan turun."
-      ],
-      "resume_dari_artikel": true,
-      "lokasi": "Tanah Papua",
-      "sumber_utama": "Databoks",
-      "sumber_display": "Databoks",
-      "sumber_count": 1,
-      "sumber_list": [
-        {
-          "nama": "Databoks",
-          "tier": 1,
-          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPemY5Vl9fUWtXODN2ZkxaQmhCTUozTmRoQldHUWdVUElEbFFXNzc0TmNEYlRGMml0ZVBYNUJQcHZnam5fY3dvVjBqT2FWN2JYUV84T292QVNMTU1SR3JvUUIxRmhOSDYtY3k3YXFRUmVyb1FRQURWa21VaXhWalhxQkFBODJPSnAxSVlwZmlvMWJNNGVzQmJ4azBFODB3elpGVXVvY0ZsNWNMRTMxR3FJUkRaSTVsalFMbnlwbnNXVWpxUTItLUYtUlVfSDBZYk9mbVJZU0Q5Y0g2VElPaHI4a1lHb2JDV3B6cU9v?oc=5",
-          "tanggal_wit": "26 Nov 2026"
-        }
-      ],
-      "tier": 1,
-      "verifikasi_label": "Sumber Resmi / Primer",
-      "tanggal_wit": "26 Nov 2026",
-      "published_iso": "2026-11-26T12:34+09:00",
-      "umur_jam": 15.0,
-      "link": "https://databoks.katadata.co.id/lingkungan/statistik/9a75d6160702143/bmkg-waspada-hujan-lebat-disertai-petir-di-papua-tengah-sore-ini-mulai-pukul-17-35-wib",
-      "rekomendasi_format": {
-        "kode": "feed_reels",
-        "label": "Story + Video Cepat 9:16",
-        "editor_mode": "story",
-        "catatan": "Info cepat & penting — prioritaskan IG Story segera + Video Cepat 9:16."
-      },
-      "tagar_topik": "#cuacabintuni",
-      "kredit_foto_saran": "Dok. Databoks",
-      "caption_seo": "KATADATA INSIGHT CENTER Hubungi KIC untuk permintaan data, riset, dan analisis. Hubungi sekarang ».\n\nSore ini sejumlah wilayah di Papua Tengah berpotensi diguyur hujan lebat disertai petir. Badan Meteorologi, Klimatologi, dan Geofisika (BMKG) mengeluarkan peringatan dini cuaca pada Kamis, 26 November 2026, berlaku pukul 17.35 hingga 19.30 WIB. BMKG menetapkan tingkat keparahan kategori sedang.\n\nSedikitnya 3 kecamatan masuk cakupan peringatan, antara lain DIPA, MENOU, dan YARO. Warga setempat sebaiknya bersiap sebelum hujan turun.\n\n📍 Lokasi: Tanah Papua\n📰 Sumber: Databoks (26 Nov 2026)\n📷 Foto: Dok. Databoks\n💬 Kabar pilihan dari Tanah Papua. Simpan dan bagikan info ini agar makin banyak warga tahu.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #cuacabintuni",
-      "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
-    },
-    {
-      "id": "kb-0c10aa7fba",
-      "wilayah": "papua",
-      "wilayah_label": "Papua Umum",
-      "score": 80,
-      "cat_idx": 2,
-      "cat_label": "KULINER & UMKM",
-      "title": "Pemprov Papua libatkan 82 UMKM pada kegiatan Harmoni Natal 2026",
-      "card_headline": "Pemprov Papua libatkan 82 *UMKM* pada kegiatan Harmoni Natal 2026",
-      "subline": "Pembukaan kegiatan Harmoni Natal bertempat halaman Kantor Gubernur Papua, Kota Jayapura, Kamis (26/11/2026).",
-      "poin_resume": [
-        "Pembukaan kegiatan Harmoni Natal bertempat halaman Kantor Gubernur Papua, Kota Jayapura, Kamis (26/11/2026). (ANTARA/Qadri Pratiwi) Jayapura (ANTARA) - Pemerintah Provinsi (Pemprov) Papua melibatkan sebanyak 82 pelaku usaha mikro, kecil, dan menengah (UMKM) dalam kegiatan Harmoni Natal 2026 yang berlangsung hingga 20 Desember mendatang di halaman Kantor Gubernur Papua, Kota Jayapura.",
-        "\"Selain Christus Market kami juga menghadirkan 18 jenis perlombaan serta melibatkan sekitar 52 denominasi gereja dalam rangkaian kegiatan keagamaan dan kebersamaan,\"katanya lagi.",
-        "Kirim Komentar menjadi tanggung-jawab Anda sesuai UU ITE."
-      ],
-      "resume_dari_artikel": true,
-      "lokasi": "Tanah Papua",
-      "sumber_utama": "ANTARA News",
-      "sumber_display": "pantau.com (+1 media)",
-      "sumber_count": 2,
-      "sumber_list": [
-        {
-          "nama": "pantau.com",
-          "tier": 3,
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbHRFZGRIaFVqUEt4d3h6RFN6R2FjME9USFdHMWR6bGI3M19ma3Jwb1E4cndjbnNPSkkzd3FWUGFHamk1UHdTX0ZNLTJNeHpRQ1hrMFZxUkZYT1pLTE1mQ01Mck9MUEh4OVBtN1M5Y0dTWk45aHZRV21kdE9zTkktQThUT0p1a0FfWmhKN2s0MzkycGRKbW5aT1B6REtlRy0zUVBEOU1TUFVjcHI4MC0xenBYdjZQMlpuNS01cElOQ3dfRFVM?oc=5",
-          "tanggal_wit": "26 Nov 2026"
-        },
-        {
-          "nama": "ANTARA News",
-          "tier": 1,
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdHlrYWs3ejJnVDFVTDd4QkFXQnNtZ0F0OHA3VUk2RE4tR29wZlg5eEVSZzJmQlhhMjZsUVlfUW1CYnZYQzJBRmpMM2dCcXF2RTRSUS1kQmNta05YX3pVc19ZeEgzZ3c0UnJPRzhHU084T01WWm83SVVMYkZqbTFLN0ZYTjc4UGdMUk1aNXBZSi1PNU5sUkoydW1xUGZ1UzE3N3h5dDIwTDDSAasBQVVfeXFMTUVXUW03VXVoSVhPOU9jQVpjR0FwTmlpV0FmVkFtQWZkUW1jMldFc1hDRGkyOFNUMlZ1NzBvbVR3cWNVMGdldnNaVEp5RXRUejF6MWUzUEtMLUVuYnFuLWMzLUNpcm8yYWc3bjBJQl9FWU51Vjc2ZUlhdFc5Z0NPZ1FzTUd6WTA5dHdkQXViNXV1Wm1WaFIzOXVCZ1FBbFN5WGZhVzU4V0NUd0tn?oc=5",
-          "tanggal_wit": "26 Nov 2026"
-        }
-      ],
-      "tier": 1,
-      "verifikasi_label": "Terverifikasi Multi-Sumber",
-      "tanggal_wit": "26 Nov 2026",
-      "published_iso": "2026-11-26T23:47+09:00",
-      "umur_jam": 3.8,
-      "link": "https://www.antaranews.com/berita/5880739/pemprov-papua-libatkan-82-umkm-pada-kegiatan-harmoni-natal-2026",
-      "rekomendasi_format": {
-        "kode": "story",
-        "label": "IG Story (Cepat)",
-        "editor_mode": "story",
-        "catatan": "Sesuai SOP Bagian 3: berita portal luar cukup diolah ringkas untuk IG Story + kredit sumber."
-      },
-      "tagar_topik": "#umkmbintuni",
-      "kredit_foto_saran": "Dok. ANTARA News",
-      "caption_seo": "Pembukaan kegiatan Harmoni Natal bertempat halaman Kantor Gubernur Papua, Kota Jayapura, Kamis (26/11/2026). (ANTARA/Qadri Pratiwi) Jayapura (ANTARA) - Pemerintah Provinsi (Pemprov) Papua melibatkan sebanyak 82 pelaku usaha mikro, kecil, dan menengah (UMKM) dalam kegiatan Harmoni Natal 2026 yang berlangsung hingga 20 Desember mendatang di halaman Kantor Gubernur Papua, Kota Jayapura.\n\n\"Selain Christus Market kami juga menghadirkan 18 jenis perlombaan serta melibatkan sekitar 52 denominasi gereja dalam rangkaian kegiatan keagamaan dan kebersamaan,\"katanya lagi.\n\nKirim Komentar menjadi tanggung-jawab Anda sesuai UU ITE.\n\n📍 Lokasi: Tanah Papua\n📰 Sumber: pantau.com (+1 media) (26 Nov 2026)\n📷 Foto: Dok. ANTARA News\n💬 Kabar pilihan dari Tanah Papua. Simpan dan bagikan info ini agar makin banyak warga tahu.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #umkmbintuni",
-      "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
-    },
-    {
-      "id": "kb-20d594c25b",
-      "wilayah": "papua",
-      "wilayah_label": "Papua Umum",
-      "score": 79,
-      "cat_idx": 0,
-      "cat_label": "KABAR TERKINI",
-      "title": "Empat Bulan Mengabdi, Tim Ekspedisi Patriot Undip Hadirkan Inovasi Air Bersih hingga Olahan Kakao di Keerom Papua",
-      "card_headline": "Empat Bulan Mengabdi, Tim Ekspedisi Patriot Undip Hadirkan Inovasi Air Bersih hingga Olahan Kakao di Keerom *Papua*",
-      "subline": "Ketua PIC Tim Ekspedisi Patriot (TEP) Undip, Prof.",
-      "poin_resume": [
-        "Ketua PIC Tim Ekspedisi Patriot (TEP) Undip, Prof. Dr.-Ing. Wiwandari Handayani, menjelaskan pada 2026 Undip menerjunkan 20 tim yang terdiri atas 100 anggota dan 20 ketua tim di kawasan Towe Hitam, Senggi, dan Yaffi. Program ini merupakan kelanjutan dari pelaksanaan Tim Ekspedisi Patriot pada 2025 untuk memperkuat pengembangan kawasan transmigrasi.",
-        "Jl. TMP Kalibata No.17, Jakarta Selatan 12750Kementerian Transmigrasi Siapkan Anggaran 2027 Berdampak Langsung ke Masyarakat.",
-        "Ia berharap berbagai capaian tersebut dapat menjadi pijakan kuat untuk membangun tidak hanya kawasan transmigrasi, tetapi juga Kabupaten Keerom secara menyeluruh demi meningkatkan kesejahteraan masyarakat."
-      ],
-      "resume_dari_artikel": true,
-      "lokasi": "Tanah Papua",
-      "sumber_utama": "Kementerian Transmigrasi Republik Indonesia",
-      "sumber_display": "JPNN.com (+2 media)",
-      "sumber_count": 3,
-      "sumber_list": [
-        {
-          "nama": "JPNN.com",
-          "tier": 2,
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNa3hqaC0zekVCV2FRRDVtQUE4dUVtYUdWTlNhMnUxejBGd2UzenZJYTgxeER3Z1RxXzRsWDlsQzFTMkR0UVdRVDl3Y1o5N0I2V3Z6Mm82eVJwNnNOcnFkUzRXV2QzUG0xN3c4RDJDaHlxVGpfOGtDQXRHYXEtdUkxYktSWkJxb0p1MW85Z3NTRXk5SkpfU1BhZjlSSktvbTctSUHSAZ4BQVVfeXFMTU5lazJIbWlPcmZoZkI0cExOMERuVmd5S3dPcXU5N1lMZUR1OWkyQlpJUUlQdkJrcVJqVTNnRUx5V3hjR3ZYNFpaYnU4VTJoNWJqaEN6dFREVXYzNXZJR3JwSVo3d1dGTFNkT3NqSUFRY1dScVpHeFhlVGZpS2o3bVhQSnhIeHlrU2FMRmdhNFJ0M0FyTnNnclNzbnA2b3c?oc=5",
-          "tanggal_wit": "25 Nov 2026"
-        },
-        {
-          "nama": "Kementerian Transmigrasi Republik Indonesia",
-          "tier": 1,
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZ1BCT3lxdTctRGUyYy1BeUZqZTByR0hZMWx4VkxMVkFEVFNxUWwyQTJUdTNDd0VWTlJqY1B6OEQyZGJUczhlMnJLZkNHWjIxM2c4b0lYNkVWT1hyNkFzc0xfT0taa3NvaVpGT1RLNGJkTENJOEpxalYyelUwTldqYU5QaVBhel9VUlhyakxtZ2tJQ00yQlNXZjlaWFdKZkQ5aUx1WE1odmVfVUtPdWNMYm90VTVoaXhXWWM2OUdDSURTQ0ZHNF94WHFWUzJ0UENxd2xoS251UVR6Tnl2?oc=5",
-          "tanggal_wit": "24 Nov 2026"
-        },
-        {
-          "nama": "Kompas.com",
-          "tier": 2,
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNa1QyVDBCQ3RiWWZIWlAxWS1uZXJuZVBhcEVNdWVOaUM5SmZmS1Z6bmN2eDNxTFhnZlZSTm1FNDNDQk50d2V4S1p6UjZ5SHRwckswazhvSmM4THcxOThoWUx2NkRtbkNVdWxiWDNVQ05kYzFVVkx3U3lhUElmbXVrQnJNMVBsaFFjcTZNWHE2Z2FpRmtfR1E4RjhhVXBHTmpHekdCOTZOTGJnQkkwNW9oSUx2QzM1UjRyLUxGZkJpY2I0ODhlVjhCbXlHZGlyQ05QQkVNa2VsRDNaYmNtaVNsNw?oc=5",
-          "tanggal_wit": "24 Nov 2026"
-        }
-      ],
-      "tier": 1,
-      "verifikasi_label": "Terverifikasi Multi-Sumber",
-      "tanggal_wit": "25 Nov 2026",
-      "published_iso": "2026-11-25T15:15+09:00",
-      "umur_jam": 36.3,
-      "link": "https://www.transmigrasi.go.id/empat-bulan-mengabdi-tim-ekspedisi-patriot-undip-hadirkan-inovasi-air-bersih-hingga-olahan-kakao-di-keerom-papua/",
-      "rekomendasi_format": {
-        "kode": "story",
-        "label": "IG Story (Cepat)",
-        "editor_mode": "story",
-        "catatan": "Sesuai SOP Bagian 3: berita portal luar cukup diolah ringkas untuk IG Story + kredit sumber."
-      },
-      "tagar_topik": "#infobintuni",
-      "kredit_foto_saran": "Dok. Kementerian Transmigrasi Republik Indonesia",
-      "caption_seo": "Ketua PIC Tim Ekspedisi Patriot (TEP) Undip, Prof. Dr.-Ing. Wiwandari Handayani, menjelaskan pada 2026 Undip menerjunkan 20 tim yang terdiri atas 100 anggota dan 20 ketua tim di kawasan Towe Hitam, Senggi, dan Yaffi. Program ini merupakan kelanjutan dari pelaksanaan Tim Ekspedisi Patriot pada 2025 untuk memperkuat pengembangan kawasan transmigrasi.\n\nJl. TMP Kalibata No.17, Jakarta Selatan 12750Kementerian Transmigrasi Siapkan Anggaran 2027 Berdampak Langsung ke Masyarakat.\n\nIa berharap berbagai capaian tersebut dapat menjadi pijakan kuat untuk membangun tidak hanya kawasan transmigrasi, tetapi juga Kabupaten Keerom secara menyeluruh demi meningkatkan kesejahteraan masyarakat.\n\n📍 Lokasi: Tanah Papua\n📰 Sumber: JPNN.com (+2 media) (25 Nov 2026)\n📷 Foto: Dok. Kementerian Transmigrasi Republik Indonesia\n💬 Kabar pilihan dari Tanah Papua. Simpan dan bagikan info ini agar makin banyak warga tahu.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #infobintuni",
-      "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
-    },
-    {
-      "id": "kb-fd1b116386",
-      "wilayah": "papua",
-      "wilayah_label": "Papua Umum",
-      "score": 76,
+      "score": 90,
       "cat_idx": 4,
       "cat_label": "EVENT & WARGA",
-      "title": "Melangkah dari Pedalaman Papua, Iwan Tabuni Raih Mimpi Lewat Beasiswa YBM PLN",
-      "card_headline": "Melangkah dari Pedalaman *Papua*, Iwan Tabuni Raih Mimpi Lewat Beasiswa YBM PLN",
-      "subline": "Kesempatan tersebut tidak diraih dengan mudah.",
+      "title": "Cerita Iwan Tabuni Wujudkan Mimpi Lewat Beasiswa YBM PLN",
+      "card_headline": "*Cerita Iwan* Tabuni Wujudkan Mimpi Lewat Beasiswa YBM PLN",
+      "subline": "Kabar pilihan Tanah Papua yang relevan dan inspiratif untuk warga Bintuni.",
       "poin_resume": [
-        "Kesempatan tersebut tidak diraih dengan mudah. Iwan harus melewati sejumlah tahapan seleksi, mulai dari pemeriksaan administrasi, ujian tertulis hingga wawancara bersama para ustadz penguji.",
-        "Ketika kabar kelulusan diterima, rasa haru dan syukur menyelimuti dirinya. Dengan penuh kebahagiaan, ia segera menyampaikan kabar tersebut kepada kedua orang tuanya.",
-        "Bagi Iwan, kelulusan itu bukan sekadar kesempatan melanjutkan pendidikan ke luar daerah. Lebih dari itu, menjadi awal perjalanan untuk meraih cita-cita yang selama ini hanya bisa ia panjatkan melalui doa."
+        "Cerita Iwan Tabuni Wujudkan Mimpi Lewat Beasiswa YBM PLN.",
+        "Kabar pilihan Tanah Papua yang relevan dan inspiratif untuk warga Bintuni."
       ],
-      "resume_dari_artikel": true,
+      "resume_dari_artikel": false,
       "lokasi": "Tanah Papua",
-      "sumber_utama": "Fajar Papua",
+      "sumber_utama": "KabarPapua.co",
       "sumber_display": "Fajar Papua (+2 media)",
       "sumber_count": 3,
       "sumber_list": [
@@ -1503,24 +1345,24 @@
           "tanggal_wit": "26 Nov 2026"
         },
         {
-          "nama": "topikpapua.com",
-          "tier": 3,
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcTRtTER6MFdzTXduTmo4TFNPMDE0ODQwRmo3dDdVV25mbjhVZ0RUb0lBRTVJb0FabUZ0akVGQzRheDZXOU5iVEkzeHYyWW9NdU5RV3lkS2lsNi0xbnBlQWVBbGczNnQtazZ4SW1qMFN1eDhzTjVORGFOS0ozX1pMVlJtV1VLdExXMVdlNElaMmkyanFXeXN4RDZUQjVnTE1IWHRZbk9MeEhoTHM0RGxZ?oc=5",
-          "tanggal_wit": "26 Nov 2026"
-        },
-        {
           "nama": "Paraparatv.id",
           "tier": 3,
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZ1N4R0NmRVhhUTJlVVdZLXdkMFAzbnlZaGNWSDJxMG5NMmROTW1oYWFubm1TVFJqbGlEaFZ3MmZLaDJVNExtUnpVLWpOVjNFbU1pLThXYzJOZjZWT0J0bFIwWVZBdm9FN2hZUWFxa2sxTTlRNlhMdGdycmZ5UWRaS2U0X3NwZDdGSi1vLXZQbGtzNDJfcGptWEZBZ1Q?oc=5",
           "tanggal_wit": "26 Nov 2026"
+        },
+        {
+          "nama": "KabarPapua.co",
+          "tier": 2,
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcGI2OHJXYXZ1RktMY3lScmJxc0ZaNGN2RFJXaGxablRxSGVlNWx3dVlGMnJJQ2tfRmtMTW16OVA0UXRBcmxkVGRXZ1ZOOVFIcEtYVFlxdG92eEF0endnSHZyUDZuN1ZtdHRfQ1M1WmRCUTFzV3NuR1hwNV9oZ3JqbVN2MFJzQQ?oc=5",
+          "tanggal_wit": "26 Nov 2026"
         }
       ],
-      "tier": 3,
+      "tier": 2,
       "verifikasi_label": "Terverifikasi Multi-Sumber",
       "tanggal_wit": "26 Nov 2026",
       "published_iso": "2026-11-26T22:39+09:00",
-      "umur_jam": 4.9,
-      "link": "https://fajarpapua.com/2026/11/26/melangkah-dari-pedalaman-papua-iwan-tabuni-raih-mimpi-lewat-beasiswa-ybm-pln/",
+      "umur_jam": 13.8,
+      "link": "https://kabarpapua.co/cerita-iwan-tabuni-wujudkan-mimpi-lewat-beasiswa-ybm-pln/",
       "rekomendasi_format": {
         "kode": "story",
         "label": "IG Story (Cepat)",
@@ -1529,11 +1371,158 @@
       },
       "tagar_topik": "#eventbintuni",
       "kredit_foto_saran": "Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)",
-      "caption_seo": "Kesempatan tersebut tidak diraih dengan mudah. Iwan harus melewati sejumlah tahapan seleksi, mulai dari pemeriksaan administrasi, ujian tertulis hingga wawancara bersama para ustadz penguji.\n\nKetika kabar kelulusan diterima, rasa haru dan syukur menyelimuti dirinya. Dengan penuh kebahagiaan, ia segera menyampaikan kabar tersebut kepada kedua orang tuanya.\n\nBagi Iwan, kelulusan itu bukan sekadar kesempatan melanjutkan pendidikan ke luar daerah. Lebih dari itu, menjadi awal perjalanan untuk meraih cita-cita yang selama ini hanya bisa ia panjatkan melalui doa.\n\n📍 Lokasi: Tanah Papua\n📰 Sumber: Fajar Papua (+2 media) (26 Nov 2026)\n📷 Foto: Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)\n💬 Kabar pilihan dari Tanah Papua. Simpan dan bagikan info ini agar makin banyak warga tahu.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #eventbintuni",
+      "caption_seo": "Cerita Iwan Tabuni Wujudkan Mimpi Lewat Beasiswa YBM PLN.\n\nKabar pilihan Tanah Papua yang relevan dan inspiratif untuk warga Bintuni.\n\n📍 Lokasi: Tanah Papua\n📰 Sumber: Fajar Papua (+2 media) (26 Nov 2026)\n📷 Foto: Ilustrasi: Kabar Bintuni (atau ganti kredit resmi/izin)\n💬 Kabar pilihan dari Tanah Papua. Simpan dan bagikan info ini agar makin banyak warga tahu.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #eventbintuni",
+      "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
+    },
+    {
+      "id": "kb-ae0004a443",
+      "wilayah": "papua",
+      "wilayah_label": "Papua Umum",
+      "score": 82,
+      "cat_idx": 1,
+      "cat_label": "BREAKING NEWS",
+      "title": "Peringatan Dini BMKG: Papua Berpotensi Hujan Lebat Disertai Petir Pagi Ini, Mulai Pukul 06.00 WIB",
+      "card_headline": "Peringatan Dini *BMKG*: Papua Berpotensi Hujan Lebat Disertai Petir Pagi Ini, Mulai Pukul 06.00 WIB",
+      "subline": "KATADATA INSIGHT CENTER Hubungi KIC untuk permintaan data, riset, dan analisis.",
+      "poin_resume": [
+        "KATADATA INSIGHT CENTER Hubungi KIC untuk permintaan data, riset, dan analisis. Hubungi sekarang ».",
+        "Warga Papua perlu mewaspadai cuaca buruk pagi ini. Badan Meteorologi, Klimatologi, dan Geofisika (BMKG) menerbitkan peringatan dini hujan lebat disertai petir pada Jumat, 27 November 2026, berlaku pukul 06.00 hingga 08.00 WIB. BMKG menetapkan tingkat keparahan kategori sedang.",
+        "Peringatan dini bersifat sementara (nowcast) dan dapat berubah sewaktu-waktu mengikuti perkembangan atmosfer. Pantau pembaruan peringatan dini cuaca BMKG di Databoks."
+      ],
+      "resume_dari_artikel": true,
+      "lokasi": "Tanah Papua",
+      "sumber_utama": "Databoks",
+      "sumber_display": "Databoks",
+      "sumber_count": 1,
+      "sumber_list": [
+        {
+          "nama": "Databoks",
+          "tier": 1,
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVURXZ3pUQkJTTjB5Ym0xbjZVOWo2NzlfRE9MU3NHUEdUSHpMazNmWmk3cXVkc21IZ25mcDl4VW9tdGJtLUFrSkI4and0bkxZYURxTlEwRV9kZlRrLUR6ZVlzM2I4dnI5UVMyS1FNMjdXaF9Ic0lUZW5rbWdMVWVub01fczljR2FzQndRajV5cm5aQ19LSjBwRnBYWWN6aTRCODdOTXBpUGZaSno4NW0zR0UtV2tlR3gzUk5KWTFrMVItLVBiNG5BMkdWM253bm4wZzhWaUJBejd0cElMLVBaQkNYWTM?oc=5",
+          "tanggal_wit": "27 Nov 2026"
+        }
+      ],
+      "tier": 1,
+      "verifikasi_label": "Sumber Resmi / Primer",
+      "tanggal_wit": "27 Nov 2026",
+      "published_iso": "2026-11-27T01:03+09:00",
+      "umur_jam": 11.4,
+      "link": "https://databoks.katadata.co.id/datapublish/2026/11/26/peringatan-dini-bmkg-papua-berpotensi-hujan-lebat-disertai-petir-pagi-ini-mulai-pukul-06-00-wib",
+      "rekomendasi_format": {
+        "kode": "feed_reels",
+        "label": "Story + Video Cepat 9:16",
+        "editor_mode": "story",
+        "catatan": "Info cepat & penting — prioritaskan IG Story segera + Video Cepat 9:16."
+      },
+      "tagar_topik": "#cuacabintuni",
+      "kredit_foto_saran": "Dok. Databoks",
+      "caption_seo": "KATADATA INSIGHT CENTER Hubungi KIC untuk permintaan data, riset, dan analisis. Hubungi sekarang ».\n\nWarga Papua perlu mewaspadai cuaca buruk pagi ini. Badan Meteorologi, Klimatologi, dan Geofisika (BMKG) menerbitkan peringatan dini hujan lebat disertai petir pada Jumat, 27 November 2026, berlaku pukul 06.00 hingga 08.00 WIB. BMKG menetapkan tingkat keparahan kategori sedang.\n\nPeringatan dini bersifat sementara (nowcast) dan dapat berubah sewaktu-waktu mengikuti perkembangan atmosfer. Pantau pembaruan peringatan dini cuaca BMKG di Databoks.\n\n📍 Lokasi: Tanah Papua\n📰 Sumber: Databoks (27 Nov 2026)\n📷 Foto: Dok. Databoks\n💬 Kabar pilihan dari Tanah Papua. Simpan dan bagikan info ini agar makin banyak warga tahu.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #cuacabintuni",
+      "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
+    },
+    {
+      "id": "kb-a84c084aaf",
+      "wilayah": "papua",
+      "wilayah_label": "Papua Umum",
+      "score": 80,
+      "cat_idx": 2,
+      "cat_label": "KULINER & UMKM",
+      "title": "Pemprov Papua libatkan 82 UMKM pada kegiatan Harmoni Natal 2026",
+      "card_headline": "Pemprov Papua libatkan 82 *UMKM* pada kegiatan Harmoni Natal 2026",
+      "subline": "Penjabat Sekretaris Daerah (Sekda) Papua Christian Sohilait di Jayapura, Kamis, mengatakan pelibatan UMKM…",
+      "poin_resume": [
+        "Penjabat Sekretaris Daerah (Sekda) Papua Christian Sohilait di Jayapura, Kamis, mengatakan pelibatan UMKM tersebut dilakukan melalui kegiatan Christus Market yang menyediakan tempat bagi mama-mama Papua untuk menjual berbagai produk serta komoditi tani kepada masyarakat.",
+        "\"Selain Christus Market kami juga menghadirkan 18 jenis perlombaan serta melibatkan sekitar 52 denominasi gereja dalam rangkaian kegiatan keagamaan dan kebersamaan,\"katanya lagi.",
+        "\"Hingga saat ini sudah terdaftar 82 UMKM dan kemungkinan jumlahnya masih akan bertambah,\" katanya pada kegiatan Harmoni Natal bertempat halaman Kantor Gubernur Papua, Kota Jayapura."
+      ],
+      "resume_dari_artikel": true,
+      "lokasi": "Tanah Papua",
+      "sumber_utama": "ANTARA News Papua",
+      "sumber_display": "ANTARA News Papua (+1 media)",
+      "sumber_count": 2,
+      "sumber_list": [
+        {
+          "nama": "ANTARA News Papua",
+          "tier": 1,
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPa2stY0pENGhYb24ycTZ5bk9vWGhqV1U3WHpCNV8tWXl5SzNKTXBHUGJadmlZQUR4d1pUSzlmRVVOUGdieUIxYXA1bDNCc21hVU9fcUVFRXk0OEVDMzQtQ19fU29RRDVmOHBxS0VhSXR5d3FVVGtZUmhoT25QVUhScVhVQ1Y2cDNuZVFIcHF1NlBsby1ldFp3TFVJdklhVUR1dF91cGxhRVEyZw?oc=5",
+          "tanggal_wit": "27 Nov 2026"
+        },
+        {
+          "nama": "pantau.com",
+          "tier": 3,
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbHRFZGRIaFVqUEt4d3h6RFN6R2FjME9USFdHMWR6bGI3M19ma3Jwb1E4cndjbnNPSkkzd3FWUGFHamk1UHdTX0ZNLTJNeHpRQ1hrMFZxUkZYT1pLTE1mQ01Mck9MUEh4OVBtN1M5Y0dTWk45aHZRV21kdE9zTkktQThUT0p1a0FfWmhKN2s0MzkycGRKbW5aT1B6REtlRy0zUVBEOU1TUFVjcHI4MC0xenBYdjZQMlpuNS01cElOQ3dfRFVM?oc=5",
+          "tanggal_wit": "26 Nov 2026"
+        }
+      ],
+      "tier": 1,
+      "verifikasi_label": "Terverifikasi Multi-Sumber",
+      "tanggal_wit": "27 Nov 2026",
+      "published_iso": "2026-11-27T06:50+09:00",
+      "umur_jam": 5.7,
+      "link": "https://papua.antaranews.com/berita/771791/pemprov-papua-libatkan-82-umkm-pada-kegiatan-harmoni-natal-2026",
+      "rekomendasi_format": {
+        "kode": "story",
+        "label": "IG Story (Cepat)",
+        "editor_mode": "story",
+        "catatan": "Sesuai SOP Bagian 3: berita portal luar cukup diolah ringkas untuk IG Story + kredit sumber."
+      },
+      "tagar_topik": "#umkmbintuni",
+      "kredit_foto_saran": "Dok. ANTARA News Papua",
+      "caption_seo": "Penjabat Sekretaris Daerah (Sekda) Papua Christian Sohilait di Jayapura, Kamis, mengatakan pelibatan UMKM tersebut dilakukan melalui kegiatan Christus Market yang menyediakan tempat bagi mama-mama Papua untuk menjual berbagai produk serta komoditi tani kepada masyarakat.\n\n\"Selain Christus Market kami juga menghadirkan 18 jenis perlombaan serta melibatkan sekitar 52 denominasi gereja dalam rangkaian kegiatan keagamaan dan kebersamaan,\"katanya lagi.\n\n\"Hingga saat ini sudah terdaftar 82 UMKM dan kemungkinan jumlahnya masih akan bertambah,\" katanya pada kegiatan Harmoni Natal bertempat halaman Kantor Gubernur Papua, Kota Jayapura.\n\n📍 Lokasi: Tanah Papua\n📰 Sumber: ANTARA News Papua (+1 media) (27 Nov 2026)\n📷 Foto: Dok. ANTARA News Papua\n💬 Kabar pilihan dari Tanah Papua. Simpan dan bagikan info ini agar makin banyak warga tahu.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #umkmbintuni",
+      "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
+    },
+    {
+      "id": "kb-4079257226",
+      "wilayah": "papua",
+      "wilayah_label": "Papua Umum",
+      "score": 75,
+      "cat_idx": 4,
+      "cat_label": "EVENT & WARGA",
+      "title": "Juara OMI 2026 dari Aceh hingga Papua, Menag: Prestasi Tidak Hanya dari Kota Besar",
+      "card_headline": "Juara OMI 2026 dari Aceh hingga *Papua*, Menag: Prestasi Tidak Hanya dari Kota Besar",
+      "subline": "Menag saat Konpress, usai menutup rangkaian OMI 2026, Kamis (26/11/2026).",
+      "poin_resume": [
+        "Menag saat Konpress, usai menutup rangkaian OMI 2026, Kamis (26/11/2026). - Untuk mengakses berbagai layanan Kementerian Agama, silakan kunjungi https://kemenag.go.id/layanan. Melalui portal ini, Anda dapat memperoleh informasi terkini mengenai, regulasi, pendidikan keagamaan, agenda nasional, publikasi digital, serta berita Kemenag dari pusat dan daerah. Ikuti juga saluran Kementerian Agama di WhatsApp: https://whatsapp.com/channel/0029Vb9xP10Fy72KZA2gk81S."
+      ],
+      "resume_dari_artikel": true,
+      "lokasi": "Tanah Papua",
+      "sumber_utama": "Kementerian Agama Republik Indonesia",
+      "sumber_display": "Kementerian Agama Republik Indonesia",
+      "sumber_count": 1,
+      "sumber_list": [
+        {
+          "nama": "Kementerian Agama Republik Indonesia",
+          "tier": 1,
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeVRzOWUyaDJnNVZIY2xESm9aeG0zTDFzRHJ3WVA0ZktjOVdpc3RjZFBzN2Q5ZGNLTmU0MXd1ZWt1MnFQNFR2R0FxRTFuNGpMb1FYWTN4SUEwbmNXQ2FYVFV0MUNabGMwMVNwOVNTYWhiZWhzSEFOU3ZWcXN5ZGltYnh2TnZNOXBTb3NlTVpybUMzam91dllvd0E2Z1pOZGdVd1VJTlhzWFlBMTd5VmE4V3lSQVp2c1RQ?oc=5",
+          "tanggal_wit": "27 Nov 2026"
+        }
+      ],
+      "tier": 1,
+      "verifikasi_label": "Sumber Resmi / Primer",
+      "tanggal_wit": "27 Nov 2026",
+      "published_iso": "2026-11-27T01:31+09:00",
+      "umur_jam": 11.0,
+      "link": "https://kemenag.go.id/nasional/juara-omi-2026-dari-aceh-hingga-papua-menag-prestasi-tidak-hanya-dari-kota-besar-BWr8a",
+      "rekomendasi_format": {
+        "kode": "story",
+        "label": "IG Story (Cepat)",
+        "editor_mode": "story",
+        "catatan": "Sesuai SOP Bagian 3: berita portal luar cukup diolah ringkas untuk IG Story + kredit sumber."
+      },
+      "tagar_topik": "#eventbintuni",
+      "kredit_foto_saran": "Dok. Kementerian Agama Republik Indonesia",
+      "caption_seo": "Menag saat Konpress, usai menutup rangkaian OMI 2026, Kamis (26/11/2026). - Untuk mengakses berbagai layanan Kementerian Agama, silakan kunjungi https://kemenag.go.id/layanan. Melalui portal ini, Anda dapat memperoleh informasi terkini mengenai, regulasi, pendidikan keagamaan, agenda nasional, publikasi digital, serta berita Kemenag dari pusat dan daerah. Ikuti juga saluran Kementerian Agama di WhatsApp: https://whatsapp.com/channel/0029Vb9xP10Fy72KZA2gk81S.\n\n📍 Lokasi: Tanah Papua\n📰 Sumber: Kementerian Agama Republik Indonesia (27 Nov 2026)\n📷 Foto: Dok. Kementerian Agama Republik Indonesia\n💬 Kabar pilihan dari Tanah Papua. Simpan dan bagikan info ini agar makin banyak warga tahu.\n\n#kabarbintuni #telukbintuni #bintuni #papuabarat #eventbintuni",
       "peringatan_visual": "Utamakan Mode Grafis Kaka Kabar, foto rilis instansi resmi, atau dokumentasi sendiri. Jangan pakai foto ber-watermark media lain tanpa izin."
     }
   ],
   "blocked_audit": [
+    {
+      "title": "Polda PBD Lakukan Rekonstruksi Pembunuhan 2 Anggota TNI AL di Maybrat",
+      "source": "RRI.co.id",
+      "wilayah": "papua_barat",
+      "tanggal_wit": "27 Nov 2026",
+      "alasan_blokir": "Kekerasan Grafis / Kriminalitas Berat / Korban",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQazd1ZldrSktNZWU3OG9oeDZIdXpCTG1RQlNubEg5YzRBb2o1OUF2YXd4NTlSWl83X1ZNdGxzcE1mR012OGJuRGN6eThZVzE3d1lDcjlvZTRNVUFnVW1RUXpnUHJ3eURHb1FCRF82eTk1LUp2aWNJbnNoRUZVemVjMFNtVk1kNkJ3eVpMenA1cHZCRGJ2QlpPMS1RcW9JN0JuS1lOMEduRmJodlpYSTBPWDFTUXU?oc=5"
+    },
     {
       "title": "DPRP Papua Barat Daya Dalami Kasus Dugaan Penembakan Tiga Warga Maybrat",
       "source": "RRI.co.id",
@@ -1551,12 +1540,12 @@
       "link": "https://mediaprorakyat.com/2026/11/25/kapolsek-babo-ajak-pelajar-jauhi-narkoba-hormati-guru-dan-fokus-meraih-masa-depan/"
     },
     {
-      "title": "Kapolda PBD Soroti Miras dan Narkoba sebagai Pemicu Gangguan Kamtibmas",
-      "source": "RRI.co.id",
-      "wilayah": "papua_barat",
-      "tanggal_wit": "24 Nov 2026",
-      "alasan_blokir": "Kekerasan Grafis / Kriminalitas Berat / Korban",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMDh5U3VMdUhIQ0R4bkFDcFFfRGRHVTdiMzNSWElHdERuVVdQa1MzUFJxZ2l2N1JpNThuRnQ0RmhHSWhtSTVYbXVVSDB6WUw1SFZINDF2TkMzeXdwZXBtM2RnSlJtU1I3TmhENTRtazJCTFBfUF9uOXNINE5tM21OVTZGV044NlNkOTRfNFR2YXZoajRCUkJ1dHFZd0RxbTV1SUp1WXlTbDZEa1pGaUlIaEpR?oc=5"
+      "title": "Wabup Teluk Bintuni Lepas PPP Setelah 23 Tahun Berjuang, Pindah ke Hanura - GenPI.co",
+      "source": "GenPI.co",
+      "wilayah": "bintuni",
+      "tanggal_wit": "16 Nov 2026",
+      "alasan_blokir": "Politik Partisan / Partai / Konflik Pejabat",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTUxzYmdlaTNxMG1RNEd3WENNZWVRR2lCV3o3YmRONEd1UnlQR3R5MnlvbGN0SzNXMkppN3VzY0dRTWMwYXVwWEd6bkltU2J5eE1Lb3AwY1ZsWXd4SUlsclB3d2R2bHdGeXhjV1VRWnRYbVhwVDJBSVI1Z3gxdWdNNlRrR2VrVXQzV3FFQXVEMV9XZ29RaDRvWWIyX1g5OU1xVUY4ZnRZVFhoWENJbnfSAbMBQVVfeXFMUFZ4NkhIOGZEbkVCYndZR3FneEdoT0tIYVlmZU9DWEgtSkNIOWZfbExGX3lJZDZVclF5dXBWZDFHZGRpSWhSUFVDSnh5X3JLOWhMWVR0VV9udUxTVTBUNXplUkxhRWsxMjFvTk1NZDVIYVlpMm81ZWpqUnYxZ0FDWlkwTDZ2UGpET3pTdi13bFJmQ054VjBsTERKVHlYSzV3cjMwREZ4QjNsazlBQmlJNmZDa0k?oc=5"
     },
     {
       "title": "Peduli Lingkungan, Kader PDIP Teluk Bintuni Turun Langsung Bersihkan Sampah di Pasar Sentral",
@@ -1565,14 +1554,6 @@
       "tanggal_wit": "16 Nov 2026",
       "alasan_blokir": "Politik Partisan / Partai / Konflik Pejabat",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQUtLS25FZkwtOE5rWmdFZjZ0UGVCYXZJT3ZybDh0WnptUXJuZnFxWThPalpHbWRPb1pkVVlTVlZIMlVabndUcElnX2dtSHFvTFpkVFo1QW9sSHZDVkROVkJhb3VFelR0MGFhWFFRemdoZFQyZkdiRFc1a3psQk40eVR0SmZJR196WGZvLTdyQ0ZodnpxVUY2VmRjWVJVUWttNkRuZjl1bUZtX0FSTzdGNGlLZXVOOFV6U3U1bTZWNFhjVk9EbVZ0TlRSRlY?oc=5"
-    },
-    {
-      "title": "Wabup Teluk Bintuni Lepas PPP Setelah 23 Tahun Berjuang, Pindah ke Hanura - GenPI.co",
-      "source": "GenPI.co",
-      "wilayah": "bintuni",
-      "tanggal_wit": "16 Nov 2026",
-      "alasan_blokir": "Politik Partisan / Partai / Konflik Pejabat",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTUxzYmdlaTNxMG1RNEd3WENNZWVRR2lCV3o3YmRONEd1UnlQR3R5MnlvbGN0SzNXMkppN3VzY0dRTWMwYXVwWEd6bkltU2J5eE1Lb3AwY1ZsWXd4SUlsclB3d2R2bHdGeXhjV1VRWnRYbVhwVDJBSVI1Z3gxdWdNNlRrR2VrVXQzV3FFQXVEMV9XZ29RaDRvWWIyX1g5OU1xVUY4ZnRZVFhoWENJbnfSAbMBQVVfeXFMUFZ4NkhIOGZEbkVCYndZR3FneEdoT0tIYVlmZU9DWEgtSkNIOWZfbExGX3lJZDZVclF5dXBWZDFHZGRpSWhSUFVDSnh5X3JLOWhMWVR0VV9udUxTVTBUNXplUkxhRWsxMjFvTk1NZDVIYVlpMm81ZWpqUnYxZ0FDWlkwTDZ2UGpET3pTdi13bFJmQ054VjBsTERKVHlYSzV3cjMwREZ4QjNsazlBQmlJNmZDa0k?oc=5"
     },
     {
       "title": "Wakil Bupati Teluk Bintuni Gabung Hanura",
@@ -1597,14 +1578,6 @@
       "tanggal_wit": "15 Nov 2026",
       "alasan_blokir": "Politik Partisan / Partai / Konflik Pejabat",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSzFRczFzUlNrWlBnUDJfdDR3c0VmRjNkZ2Q1WTdKMG5YeDFFcWdCR3FXM0h5OXpNUFpsTGRHdFUwTTJKMXVMYTZZOEFCOF9RNWI5Tkpfc3dBODM1cGpJSVVvbTl0UGdCZTVNRGNyRHVSbE9yV1FTTGt3Y3JzXzFqRVFUSTkyU2NvRkowbWl3ZVhNTGdMcElxLUVSR09Pa2RwX0JMWFpTcTJxWE9iblpoSi1lUndqR2VWeV9Ed001R29IY0xmYWFIVk16Z9IB0AFBVV95cUxOMTlhR0JjZVQ4TEltSzFJWGJwb3l1cjVaeHhqbnhQTE94X25QcWNCSGo1Ymk1b3hlTTFDeDBvU1RnU29MbXBPbENZU2FwUHp5S0ktTFhTOW9uRnBLM2ZnU20zaXlUUlZLcjZjemsxQUNpNTVBRV9uVjMyWDRIdWxQQ24ySmZ6eC0xZ0ZaNjFpOVFvczA4UGcwQzdDallIclVmVDRqUVZEcjRVY3VXRGtvN2k1Z29mLVNpcExBUHRfYVFHTGwtVjhXTHRKZzgzTVFX?oc=5"
-    },
-    {
-      "title": "Disambut Konvoi, Joko Lingara Bawa Misi Besarkan Hanura di Teluk Bintuni",
-      "source": "RRI.co.id",
-      "wilayah": "bintuni",
-      "tanggal_wit": "15 Nov 2026",
-      "alasan_blokir": "Politik Partisan / Partai / Konflik Pejabat",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRGQwalhjNnRfODdZUWtuamFTQkFOMmxwRFpoTml5bndLbjR3Ulo2c253TEt6RGowOEU4TXNLWmVCLW5WQ2xiMG9rb0g4UGE4UzFVSWhFbmRNOFNJQ2lmZm0yU2stUThFMUJnbmNRdnRibHBldDJydHItbFJlMjVYSjhiZzBGclNldmtWYm9uck1hTEFBdW9MX2lNU3RKd09Vazk4bmVXN2tEblZISVRiSGJsSWFfRFVULUpB?oc=5"
     },
     {
       "title": "Cerita Wabup Teluk Bintuni yang Kini Gabung ke Hanura Setelah 23 Berjuang di PPP",
